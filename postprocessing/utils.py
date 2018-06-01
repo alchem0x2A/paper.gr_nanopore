@@ -65,30 +65,35 @@ def add_graphene(ax, R_p=20, t_gr=0.67, t_helm=0.3):
               rect3, rect4, wedge3, wedge4]:
         ax.add_artist(a)
 
-def plot_data(ax, X, Y, D):
+def plot_data(ax, X, Y, D, vmin=None, vmax=None):
+    ax.set_aspect('equal')
     XX, YY, DD = reflex_data(X, Y, D)
     return ax.pcolormesh(XX, YY, DD,
+                         vmin=vmin, vmax=vmax,
                   rasterized=True,
-                  cmap="jet")
+                         cmap="jet")
 
 
-data = get_data(os.path.join("../result/concentration", file_template.format(0.01)))
-X = data[:, 0].reshape(*pixels); Y = data[:, 1].reshape(*pixels)
-D = -data[:, 2 + 5 * 0+ 4].reshape(*pixels)
+if __name__ == "__main__":
+    data = get_data(os.path.join("../result/concentration", file_template.format(0.01)))
+    X = data[:, 0].reshape(*pixels); Y = data[:, 1].reshape(*pixels)
+    D = -data[:, 2 + 5 * 0+ 4].reshape(*pixels)
 
-fig = plt.figure(figsize=(3, 3))
-plt.style.use("science")
-ax = fig.add_subplot(111)
+    fig = plt.figure(figsize=(3, 3))
+    plt.style.use("science")
+    ax = fig.add_subplot(111)
 
-mesh = plot_data(ax, X, Y, D)
-print(mesh.get_clim())
-add_graphene(ax)
+    mesh = plot_data(ax, X, Y, D)
+    print(mesh.get_clim())
+    add_graphene(ax)
 
-# plt.xlim(-30, 30)
-# plt.ylim(-20, 20)
-ax.set_aspect('equal')
-plt.tight_layout()
-plt.savefig("../Test2.pdf")
+    # plt.xlim(-30, 30)
+    # plt.ylim(-20, 20)
+    ax.set_aspect('equal')
+
+    plt.colorbar(mesh, fraction=0.026, pad=0.04)
+    plt.tight_layout()
+    plt.savefig("../Test2.pdf")
 
 
 

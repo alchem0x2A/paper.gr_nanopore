@@ -1,0 +1,10 @@
+inkscape -T --file=fig1.svg --export-png=fig1.png --without-gui --export-dpi=600
+inkscape -T --file=fig2.svg --export-png=fig2.png --without-gui --export-dpi=600
+inkscape -T --file=fig3.svg --export-png=fig3.png --without-gui --export-dpi=600
+inkscape -T --file=fig4.svg --export-png=fig4.png --without-gui --export-dpi=600
+inkscape -T --file=fig5.svg --export-png=fig5.png --without-gui --export-dpi=600
+inkscape -T --file=fig6.svg --export-png=fig6.png --without-gui --export-dpi=600
+inkscape -T --file=SI-numerical-1.svg --export-png=SI-numerical-1.png --without-gui --export-dpi=600
+inkscape -T --file=SI-flux-larger.svg --export-png=SI-flux-larger.png --without-gui --export-dpi=600
+inkscape -T --file=SI-flux.svg --export-png=SI-flux.png --without-gui --export-dpi=600
+inkscape -T --file=SI-concentration.svg --export-png=SI-concentration.png --without-gui --export-dpi=600

@@ -56,8 +56,8 @@ for conc in [0.001]:
             v = numpy.nan_to_num(data[:, get_col_index(Vg, "V")])
             v0 = numpy.mean(v[y>19.0])
             mu = (k * T * numpy.log(c / (conc * ratio_conc)) + z * e * v) / electron_volt
-            mu = (z * e * v) / electron_volt
-            # mu = (k * T * numpy.log(c / (conc * ratio_conc))) / electron_volt
+            # mu = (z * e * v) / electron_volt
+            mu = (k * T * numpy.log(c / (conc * ratio_conc))) / electron_volt
             mu0 = numpy.mean(mu[y>19.5])
             mu = mu - mu0
             D = mu.reshape(*pixels)

@@ -61,7 +61,7 @@ for conc in concentrations:
     sigma_file = os.path.join(out_path, sigma_file_template.format(conc))
     sigma_data = numpy.genfromtxt(sigma_file, comments="%")
     V_ = sigma_data[:, 0]; sig_ = -sigma_data[:, 1]
-    Vg_true.append(V_ + delta_phi_gr(sig_))
+    Vg_true.append(V_)
 
 avg_tflux = numpy.array(avg_tflux)
 
@@ -79,17 +79,17 @@ plt.xlim(0, 1.25)
 plt.ylabel("Average total flux (mol/(m$^{-2}$*s))")
 plt.legend()
 
-plt.savefig(os.path.join(plot_path, "rect_Vg.pdf"))
+plt.savefig(os.path.join(plot_path, "rect_Vg_no_correction.svg"))
 
 
-d_debye = Debye_length(numpy.array(concentrations)) / 1e-9
-rect = 1 - avg_tflux[:, 7] / avg_tflux[:, 0]
+# d_debye = Debye_length(numpy.array(concentrations)) / 1e-9
+# rect = 1 - avg_tflux[:, 7] / avg_tflux[:, 0]
 
-plt.figure(figsize=(4, 4))
-plt.plot(d_debye, rect, "-s", markersize=5)
-plt.xlabel("Debye Length (nm)")
-plt.ylabel("Rectification ratio")
-plt.savefig(os.path.join(plot_path, "rect_debye.pdf"))
+# plt.figure(figsize=(4, 4))
+# plt.plot(d_debye, rect, "-s", markersize=5)
+# plt.xlabel("Debye Length (nm)")
+# plt.ylabel("Rectification ratio")
+# plt.savefig(os.path.join(plot_path, "rect_debye_.pdf"))
 
     
     

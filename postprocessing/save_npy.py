@@ -5,8 +5,8 @@ import os, os.path
 # file_root = ["0001", "0005","001", "005",
              # "01", "05", "1" ]
 
-result_path = "../result/salt/"
-file_root = ["NaCl", "LiCl", "MgSO4", "CaCl2", "K2SO4", "K3FeCN"]
+# result_path = "../result/salt/"
+# file_root = ["NaCl", "LiCl", "MgSO4", "CaCl2", "K2SO4", "K3FeCN"]
 for fr in file_root:
     filename = os.path.join(result_path,
                             "{}_out_1Ddata.txt".format(fr))

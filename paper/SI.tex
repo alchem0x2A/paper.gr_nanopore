@@ -1,0 +1,409 @@
+\documentclass[manuscript=suppinfo,email=true, hyperref=true, keywords=false]{achemso}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage{todonotes}
+\newcommand{\Fig}{Fig.}
+\renewcommand{\thesection}{S\arabic{section}}
+\SectionNumbersOn
+% \usepackage{lineno}
+% \linenumbers
+
+\author{Roman M. Wyss} \affiliation{Institute of Soft Materials
+  Department of Material Sciences, Eidgenössische Technische
+  Hochschule (ETH) Zürich, Vladimir-Prelog-Weg 1-5, Zürich CH-8093,
+  Switzerland.  }
+\altaffiliation{R. M. S. and T. T. contributed equally to this work}
+\author{Tian Tian} \affiliation{Institute for
+  Chemical and Bioengineering Department of Chemistry and Applied
+  Biosciences, Eidgenössische Technische Hochschule (ETH) Zürich,
+  Vladimir-Prelog-Weg 1-5, Zürich CH-8093, Switzerland.}
+\altaffiliation{R. M. S. and T. T. contributed equally to this work}
+
+\author{Khadija Yazda} \affiliation{Nanoscience for Energy Technology and Sustainability,
+Department of Mechanical and Process Engineering,
+Eidgenössische Technische Hochschule (ETH) Zürich,
+Tannenstrasse 3, Zürich CH-8092, Switzerland.}
+
+\author{Hyung Gyu Park} \affiliation{Nanoscience for Energy Technology and Sustainability,
+Department of Mechanical and Process Engineering,
+Eidgenössische Technische Hochschule (ETH) Zürich,
+Tannenstrasse 3, Zürich CH-8092, Switzerland.}
+
+\author{Chih-Jen Shih}  \affiliation{Institute for
+  Chemical and Bioengineering Department of Chemistry and Applied
+  Biosciences, Eidgenössische Technische Hochschule (ETH) Zürich,
+  Vladimir-Prelog-Weg 1-5, Zürich CH-8093, Switzerland.}
+\email{chih-jen.shih@chem.ethz.ch}
+
+\title{Macroscopic Salt Rejection through Electrostatically Gated Monolayer Porous Graphene}
+
+%%%%%%%%%%%%%%%%%%%%
+%Main
+%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\section{Supplementary Section 1.	Graphene membrane manufacturing and 
+results.}
+\label{sec:exp}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.95\linewidth]{img/SI-1.png}
+  \caption{\textbf{a}. Schematic of manufacturing process for
+    patterning of double layer graphene. Graphene is synthesized and
+    transferred to a substrate (glass slide) to yield a double
+    layer. BCP is spun and annealed in vacuum to undergo microphase
+    separation, followed by plasma etch and wet etching yielding a
+    porous polystyrene (PS) mask. Anisotropic etching of the mask
+    leads to patterning the underlying graphene, PS is removed by
+    thermal annealing. The porous graphene is then transferred to a
+    substrate (e.g. PCTE). \textbf{b}. Raman spectra of graphene
+    before (unpatterned, orange curve) and after (patterned, blue
+    curve). An increase of the D-peak at 1350 cm$^{-1}$ indicates the
+    formation of defects and edges. The spectra have been normalized
+    to the G-peak intensity and offset for better
+    clarity. \textbf{c}. SEM graph of patterned graphene on PCTE at
+    lower (top) and higher (bottom) magnifications. Note that tears in
+    graphene appear bright white with a black center.}
+  \label{fig:exp}
+\end{figure}
+
+\section{Supplementary Section 2.	Ion diffusion measurement and calculation}
+\label{sec:measure}
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{lc}
+    \hline
+    Salt & $D$ (10$^{9}$ m$^{2}\cdot$s$^{-1}$) \\
+    \hline
+    K$^{+}$	& 1.95 \\
+    Na$^{+}$	& 1.33 \\
+    Li$^{+}$	& 1.03 \\
+    SO$_{4}^{2-}$	& 1.06 \\
+    Ca$^{2+}$	& 0.79\\
+    Mg$^{2+}$ &	0.7\\
+    Fe(CN)$_{6}^{3-}$	& 0.90\\
+    Cl$^{-}$ &	2.03 \\
+               \hline
+  \end{tabular}
+  \caption{Different diffusivities for the anions and cations of the
+    salts used in this work \todo[inline]{do you need any
+      reference?}. The theoretical diffusion through PCTE can be
+    calculated using Eq. 1 in the main text and the diffusivities of
+    the respective anion and cation.}
+  \label{tab:diff}
+\end{table}
+
+The ion diffusion through b-PCTE has been performed using a sample
+sandwiched between two layers of Aluminum tape where the edges have
+been sealed using water-resistant epoxy (ACS Marine Epoxy) to avoid
+interlayer leakage pathways \cite{Choi_2018}.  The sample was inserted in
+the fixture following the same wetting procedure described in the main
+text and was kept wet for the entire series of experiments.
+
+The conductivity increases $s$ (mS$\cdot$cm$^{-1}\cdot$d$^{-1}$) is
+converted into ion permeation rates $\boldsymbol{J}_{\mathrm{PCTE}}$
+(mol$\cdot$m$^{-2}\cdot$s$^{-1}$) by use of a calibration factor
+$c_{\mathrm{f}}$, the volume of LCR ($V_{\mathrm{LCR}}$) , the area of
+the membrane $A$ and the time $t$ as:
+\begin{equation}
+  \label{eq:JPCTE}
+  \boldsymbol{J}_{\mathrm{PCTE}} = \frac{s V_{\mathrm{LCR}}}{c_{\mathrm{f}} A t}
+\end{equation}
+The calibration factors for all salts have been obtained by a linear
+fit of conductivity versus concentration for 4 solutions with
+concentrations from 10$^{-4}$ M to 10$^{-2}$ M and extracting the
+resulting slope. The rest of the factors are $V_{\mathrm{LCR}}$ = 7.33
+mL, $A$ = 9$\times$10$^{-6}$ m$^{-2}$. Table \ref{tab:exp-2} shows the
+averaged conductivity increase s, the extracted calibration factors
+$c_{\mathrm{f}}$ and the resulting ion permeation rates using
+Eq. \ref{eq:JPCTE}. The values from this table are shown in main text \Fig 2b
+(blue bars).
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{lccc}
+    \hline
+    Salt & $s$ (mS$\cdot$cm$^{-1}$d$^{-1}$) & $c_{\mathrm{f}}$ (mS$\cdot$cm$^{-1}\cdot$mol$^{-1}\cdot$ml) &
+                                                                                                            $\boldsymbol{J}_{\mathrm{PCTE}}$ (10$^{6}$ mol$\cdot$m$^{-2}\cdot$s$^{-1}$)\\
+    \hline
+    KCl	& 0.0151 $\pm$ 0.00265	& 106	& 1.34 $\pm$ 0.235\\
+    NaCl	& 0.0099 $\pm$ 0.000173	& 91	& 1.02 $\pm$ 0.0179\\
+    LiCl	& 0.00603 $\pm$ 0.000802	& 83	& 0.679 $\pm$ 0.0903\\
+    CaCl$_{2}$	& 0.0125 $\pm$ 0.001	& 149	& 0.789 $\pm$ 0.0631\\
+    MgSO$_{4}$	& 0.0088 $\pm$ 0.0012	& 130	& 0.633 $\pm$ 0.084\\
+    K$_{3}$Fe(CN)$_{6}$	& 0.024 $\pm$ 0.00275	& 395	& 0.575 $\pm$ 0.0633\\
+    K$_{2}$SO4$_{4}$	& 0.0198 $\pm$ 0.00199	& 258	& 0.722 $\pm$ 0.0726\\
+    \hline
+  \end{tabular}
+  \caption{Extracted slope $s$ as an averaged result from 3 consecutive
+    measurements, the calibration factors $c_{\mathrm{f}}$ and the resulting ion
+    permeation $\boldsymbol{J}_{\mathrm{PCTE}}$ through b-PCTE membranes for all salts.}
+  \label{tab:exp-2}
+\end{table}
+
+\section{Control experiment with copper tape}
+\label{sec:copper}
+We make sure that the applied voltage is effectively applied via the
+graphene membrane and not through leakage directly coupling the
+coppertape to the ionic solution. For this, we use a device as in
+\Fig 1c \todo[inline]{which figure?}, omitting the graphene and
+measuring the current through the membrane with the Autolab
+electrochemical workstation using the membrane as working electrode
+and a platinum wire as counter/reference electrode 3.5 cm apart in 0.1
+mM KCl. When no graphene is inserted in the device, a current in the
+baseline range ($\sim$ 0.1 nA) is observed, indicating no current
+passing from the membrane. However, if graphene is inserted, a current
+in the range of $\sim$ 10 - 100 nA is measured. If the copper tape is
+in contact with the solution when omitting the Kapton tape, the
+current increases to $\sim$ 1 - 10 $\mathrm{\mu}$A, independent of the
+exposed area of the copper tape to the solution.
+
+\section{KCl Debye length and conductivity}
+\label{sec:debye}
+Table \ref{tab:debye} gives an overview about the measured
+conductivities and their calculated Debye lengths for KCl. The
+information is used to plot the rectification versus concentration.
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{lccc}
+    \hline
+    $c_{0}$ (mM) & Conductivity (mS$\cdot$cm$^{-1}$) & $\lambda_{\mathrm{D}}$ (nm)\\
+    \hline
+    0.1&	0.01903&	30.4\\
+    0.33&	0.0541&	16\\
+    1	&0.1329	&10\\
+    3.3KCl&	0.513&	6\\
+    10KCl&	1.08	&3.3\\
+    \hline
+  \end{tabular}
+  \caption{Conductivity and calculated Debye lengths of various KCl
+    concentrations in order to obtain rectification versus
+    concentration curves. }
+  \label{tab:debye}
+\end{table}
+
+\section{Further details of the numerical simulation }
+\label{sec:numer}
+
+The numerical simulations were carried out using COMSOL Multiphysics
+5.3a. The simulation domain is shown in \Fig \ref{fig:scheme}. To
+simplify the geometry, we use axial symmetric coordinate system. The
+radius \textit{L} and height \textit{H} of both HCR and LCR are set to
+20 $R_{\mathrm{G}}$, the radius of the nanopore. The potential at the
+bottom of the LCR and the center of the graphene domains are set to be
+0 and $\psi_{\mathrm{G}}$, respectively. The potential at the end of
+HCR is not set explicitly, but rather determined through the Poisson
+equation with no flux boundary condition
+$\boldsymbol{D}^{\mathrm{norm}}=0$. The relative permittivity in the
+HCR and LCR is set as $\varepsilon_{\mathrm{}}=78$. The relative
+permittivity of the Stern layer is set to
+$\varepsilon_{\mathrm{H}}=20$\cite{Conway_1951} and for the graphene
+domain we set the relative permittivity as a large number
+(e.g. $10^{5}$) for a better convergence of the solver.  For the
+transport of diluted ionic species, we use the PNP equations to
+describe the diffusion and drift of the ions, which can be further
+unified by the gradient of electrochemical potential, as described in
+the main text. The initial values of the electrolyte is set to $c_{0}$
+in HCR and 0.1 $c_{0}$ in LCR. At the ends of the cells in the
+z-direction, we use the inlet boundaries conditions for the
+concentration of electrolytes, that the concentration on these
+boundaries remains the same with the initial value, due to the
+effective mixing in the experimental setup.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-numerical-1.png}
+  \caption{Scheme of the simulation domain used. Left: geometry of the
+    whole simulation domain. Right: configuration near the graphene
+    nanopore, corresponding to the red rectangle on the left side.}
+  \label{fig:scheme}
+\end{figure}
+
+The transport of ionic species is described by the steady-state
+Nernst-Planck equation:
+\begin{eqnarray}
+  \label{eq:pnp}
+  \nabla \cdot \boldsymbol{J}_{i} = -\nabla \cdot \left( \frac{D_{i}}{k_{\mathrm{B}}T} c_{i} N_{\mathrm{A}} \nabla \mu_{i}\right)
+  = -\nabla \cdot \left( \frac{D_{i}}{k_{\mathrm{B}} T} c_{i} N_{\mathrm{A}}
+  [k_{\mathrm{B}}T \nabla \ln x_{i} + z_{i} e \nabla \psi]\right) = 0\\
+  x_{i} = \frac{c_{i}}{\sum_{i} c_{i} + c_{\mathrm{H_{2}O}}}
+\end{eqnarray}
+The potential distribution within the whole simulation domain is
+described by the Poisson equation:
+\begin{equation}
+  \label{eq:poisson}
+  \nabla \cdot (\varepsilon_{\mathrm{m}} \varepsilon_{0} \nabla \psi) = -N_{\mathrm{A}} e \sum_{i} c_{i}z_{i}
+\end{equation}
+Where $\varepsilon_{\mathrm{m}}$ is the relative permittivity of
+domain m. The contribution of mobile charges is only valid in the
+solution domain. The use of a large $\varepsilon_{\mathrm{G}}$ ensures
+that the potential in the whole simulation domain can be solved
+continuously.
+
+To simulate the applied external bias $V_{\mathrm{G}}$, we set the
+value of $\psi_{\mathrm{G}}$ explicitly and extract the charge
+$\sigma_{\mathrm{G}}$ by:
+\begin{equation}
+  \label{eq:sigma-G}
+  \sigma_{\mathrm{G}} = - {\displaystyle \frac{\int_{\mathrm{\Omega}} z_{i} c_{i} N_{\mathrm{A}} e \mathrm{d}^{3} \Omega}{S_{\mathrm{G}}}}
+\end{equation}
+and $V_{\mathrm{G}}$ is then calculated by:
+\begin{eqnarray}
+  \label{eq:VG}
+  V_{\mathrm{G}} = \Delta \phi_{\mathrm{G}} + \psi_{\mathrm{G}}\\
+  \sigma_{\mathrm{G}} = \int_{0}^{\Delta \phi_{\mathrm{G}}} \frac{1}{C_{\mathrm{Q}}(\phi_{\mathrm{G}})} \mathrm{d} \phi_{\mathrm{G}}
+\end{eqnarray}
+where the quantum capacitance
+$C_{\mathrm{Q}}=\partial \sigma_{\mathrm{G}}/\partial
+\phi_{\mathrm{G}}$ is calculated by Eq. 8 in main text.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/SI-trap.png}
+  \caption{Schematic illustration of the origin of the asymmetric
+    rectification with respect to $V_{\mathrm{G}}$. Due to the
+    existence of surface charge traps at negative $V_{\mathrm{G}}$,
+    the graphene is less charged compared to the positive
+    $V_{\mathrm{G}}$.}
+  \label{fig:trap}
+\end{figure}
+
+Note that due
+to the existence of electron traps on graphene due to fabrication
+process, the induced charge traps on graphene effectively reduce the
+charge density on graphene and greatly attenuate the surface potential
+on graphene, as illustrated in \Fig. \ref{fig:trap}. This effect is
+universally observed in CVD-graphene-based field effect transistors in
+air, while the mechanism is fully understood yet. In view of this, we
+only simulate the situation where $V_{\mathrm{G}}>$ 0 for the salt
+rejection mechanism. The trend that $\xi$ is almost independent of
+$V_{\mathrm{G}}$ when $V_{\mathrm{G}}<$ 0 can be qualitatively
+explained by the existence of surface charge traps as stated above.
+
+\section{Further numerical simulation results}
+\label{sec:simu-res}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-concentration.png}
+  \caption{Cation concentration $c_{+}$ (\textbf{a}.) and anion
+    concentration $c_{-}$ (\textbf{b}.) near the graphene nanopore for
+    KCl solution at 0.1 mM. Depletion of cation and accumulation of
+    anion can be observed near the graphene surface.}
+  \label{fig:conc}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-electrochemical-decomposite.pdf}
+  \caption{Decomposition of electrochemical potential near a nanopore
+    corresponding to \Fig 4 in main text. \textbf{a}. The electrostatic
+    (drift) contribution to the electrochemical potential for cation
+    (left) and anion (right) and \textbf{b}. The concentration (diffusion)
+    contribution to the electrochemical potential for cation (left)
+    and anion (right). The relative small order of magnitude for anion
+    electrochemical potential is caused by the balance between the
+    diffusion and drift for anion.}
+  \label{fig:potential}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-flux.png}
+  \caption{z-component flux $\boldsymbol{J}_{z}$ of cation
+    (\textbf{a}.)  and anion (\textbf{b}.) near the graphene nanopore
+    corresponding to Figure 4b in main text. The pathways for the
+    different ions can be spatially distinguished: the flux of cation
+    passes mostly through the center of the graphene nanopore while
+    the anion passes mainly through the edge. The analysis is in
+    consistent with the gradient of chemical potential as shown in the
+    main text \Fig 4b.}
+  \label{fig:flux}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/SI-rect-reverse.pdf}
+  \caption{Average total flux $\boldsymbol{J}_{z}$ in the nanopore as
+    a function of $\psi_{\mathrm{G}}$ at different concentrations. The
+    range of $\psi_{\mathrm{G}}$ is larger than the experimentally
+    achievable value. The rectification of flux becomes weaker after a
+    certain level of $\psi_{\mathrm{G}}$ is reached. Further
+    increasing the surface potential of graphene may even enhance the
+    transportation of ions, which is similar to the cases of ionic
+    transistors.}
+  \label{fig:reverse}
+\end{figure}
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-flux-larger.png}
+  \caption{Spatial distribution of $\boldsymbol{J}_{z}$ as a function
+    of $r$ in a 20 nm nanopore at different levels of
+    $\psi_{\mathrm{G}}$ (larger than experimentally achievable values)
+    for cation (\textbf{a}.) and anion (\textbf{b}.). The cation flux
+    becomes nearly saturated with increasing $\psi_{\mathrm{G}}$,
+    while the flow of anion near the pore edge becomes much
+    larger. The drastic increase of pore-bounded anion flux is caused
+    by the accumulation of anions near the graphene surface, and in
+    turn causes the increasing of total flux as seen in \Fig
+    \ref{fig:reverse}.}
+  \label{fig:large-V}
+\end{figure}
+\clearpage{}
+
+\section{Conductivities and Debye length for all salts}
+\label{sec:salts}
+In Table \ref{tab:debye}, the conductivities and calculated Debye
+lengths for 6 salts are shown. At the same concentration, the higher
+ionic strength of the multivalent salts leads to a reduction of the
+respective Debye lengths.
+
+\begin{table}[htbp]
+  \centering
+  \begin{tabular}{lcc}
+    \hline
+    Solution & Conductivity (mS$\cdot$cm$^{-1}$) & $\lambda_{\mathrm{D}}$ (nm) \\
+    \hline
+    0.1 mM NaCl	&0.018	&30.4\\
+    0.1 mM LiCl	&0.0158	&30.4\\
+    0.1 mM CaCl$_{2}$&	0.02187	&17.2\\
+    0.1 mM MgSO$_{4}$	&0.0327	&15.2\\
+    0.1 mM K$_{2}$SO$_{4}$	&0.0416	&17.2\\
+    0.1 mM K$_{3}$(Fe(CN)$_{6}$)&	0.0595	&9.6\\
+    \hline
+  \end{tabular}
+  \caption{conductivity}
+  \label{tab:conductivity}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section*{}
+\label{sec:ref}
+\bibliography{ref}
+
+\end{document}

@@ -1149,16 +1149,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="446.61652"
-     inkscape:cy="75.945932"
+     inkscape:zoom="1"
+     inkscape:cx="406.26122"
+     inkscape:cy="295.08932"
      inkscape:document-units="mm"
-     inkscape:current-layer="axes_1-4"
+     inkscape:current-layer="axes_1-2"
      showgrid="false"
      inkscape:window-width="1838"
      inkscape:window-height="1026"
      inkscape:window-x="530"
-     inkscape:window-y="367"
+     inkscape:window-y="323"
      inkscape:window-maximized="0"
      inkscape:measure-start="453.321,114.299"
      inkscape:measure-end="456.4,102.805"
@@ -4780,16 +4780,16 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.19886684px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.61491501px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-121.39129"
+           x="-95.564941"
            y="14.822771"
            id="text34017"
            transform="rotate(-90)"><tspan
              sodipodi:role="line"
              id="tspan34015"
              style="font-size:9.83864021px;stroke-width:0.61491501px;stroke-linecap:butt;stroke-linejoin:round"
-             x="-121.39129"
-             y="14.822771">Rectification <tspan
-   style="-inkscape-font-specification:'Arial Italic';font-family:Arial;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+             x="-95.564941"
+             y="14.822771"> <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
    id="tspan12418">ξ</tspan></tspan></text>
         <text
            xml:space="preserve"
@@ -5984,16 +5984,16 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.33944941px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55045873px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-108.45628"
+           x="-88.639839"
            y="11.43106"
            id="text34017-2"
            transform="rotate(-90)"><tspan
              sodipodi:role="line"
              id="tspan34015-9"
              style="font-size:8.80733967px;stroke-width:0.55045873px;stroke-linecap:butt;stroke-linejoin:round"
-             x="-108.45628"
-             y="11.43106">Rectification <tspan
-   style="-inkscape-font-specification:'Arial Italic';font-family:Arial;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+             x="-88.639839"
+             y="11.43106"> <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
    id="tspan12420">ξ</tspan></tspan></text>
         <text
            xml:space="preserve"
@@ -7004,17 +7004,52 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.10729408px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.53304708px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-100.12516"
+           x="-89.464226"
            y="11.940331"
            id="text34017-7"
            transform="rotate(-90)"><tspan
              sodipodi:role="line"
              id="tspan34015-93"
-             style="font-size:8.52875328px;stroke-width:0.53304708px;stroke-linecap:butt;stroke-linejoin:round"
-             x="-100.12516"
-             y="11.940331"><tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan12416">ξ</tspan>(1.25 V)</tspan></text>
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.52875328px;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.53304708px;stroke-linecap:butt;stroke-linejoin:round"
+             x="-89.464226"
+             y="11.940331">ξ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan32402">max</tspan></tspan></text>
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 38.423077,52.583828 c 0,-16.25794 0,-16.25794 0,-16.25794"
+           id="path37264"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path37266"
+           d="m 57.807692,68.699035 c 0,-15.315637 0,-15.315637 0,-15.315637"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 77.192308,95.351374 c 0,-6.45798 0,-6.45798 0,-6.45798"
+           id="path37286"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path37288"
+           d="m 96.576923,103.88011 c 0,-5.704122 0,-5.704122 0,-5.704122"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.46197414;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 115.96153,93.219182 c 0,-8.342582 0,-8.342582 0,-8.342582"
+           id="path37290"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path37292"
+           d="m 135.34615,114.10499 c 0,-7.96564 0,-7.96564 0,-7.96564"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.67094362;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 154.73077,143.32557 c 0,-5.51566 0,-5.51566 0,-5.51566"
+           id="path37294"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
   </g>
@@ -8117,17 +8152,17 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.59493637px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56962025px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-97.525238"
+           x="-86.132797"
            y="0.85353851"
            id="text34017-7-7"
            transform="rotate(-90)"><tspan
              sodipodi:role="line"
              id="tspan34015-93-1"
-             style="font-size:9.11392403px;stroke-width:0.56962025px;stroke-linecap:butt;stroke-linejoin:round"
-             x="-97.525238"
-             y="0.85353851"><tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.56962025px;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan12416-3">ξ</tspan>(1.25 V)</tspan></text>
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.11392403px;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.56962025px;stroke-linecap:butt;stroke-linejoin:round"
+             x="-86.132797"
+             y="0.85353851">ξ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan32405">max</tspan></tspan></text>
       </g>
     </g>
   </g>

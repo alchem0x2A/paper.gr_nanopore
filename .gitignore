@@ -63,3 +63,7 @@ acs-*.bib
 
 
 
+/paper/data/diffuse-pcte-salt.csv
+/paper/data/diffusion-slope.csv
+/paper/img/0.0001-0.15-V.svg
+/paper/img/0.0001-0.15-c_n.svg

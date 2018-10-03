@@ -43,12 +43,12 @@
      id="namedview14420"
      showgrid="false"
      inkscape:zoom="1.6735547"
-     inkscape:cx="276.80031"
+     inkscape:cx="312.05461"
      inkscape:cy="140.57823"
      inkscape:window-x="338"
-     inkscape:window-y="110"
+     inkscape:window-y="88"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer6"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -3622,7 +3622,7 @@
            style="stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
            x="-239.2236"
            y="14.057581"><tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';stroke-width:0.75000000000000000px;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan48341">J</tspan><tspan
    style="font-size:6.5px;baseline-shift:sub;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan48343">z</tspan> (mol∙m<tspan
@@ -4865,7 +4865,9 @@
                x="-16.46129"
                y="175.0733"><tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';baseline-shift:baseline;stroke-width:0.92607802px;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan48341-6">|J</tspan><tspan
+   id="tspan48341-6">|<tspan
+   style="-inkscape-font-specification:'Arial Bold Italic';font-family:Arial;font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
+   id="tspan23079">J</tspan></tspan><tspan
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan55995">z</tspan>| (mol∙m<tspan
    style="font-size:8.02600956px;baseline-shift:super;stroke-width:0.92607802px;stroke-linecap:butt;stroke-linejoin:round"

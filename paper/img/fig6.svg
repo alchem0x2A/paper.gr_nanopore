@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="205.9325mm"
-   height="172.46844mm"
-   viewBox="0 0 205.93249 172.46844"
+   width="206.88171mm"
+   height="174.09479mm"
+   viewBox="0 0 206.88171 174.09479"
    version="1.1"
    id="svg19464"
-   inkscape:version="0.92.3 (68fc966a96, 2018-08-01)"
+   inkscape:version="0.92.3 (cdafc079a9, 2018-06-25)"
    sodipodi:docname="fig6.svg">
   <defs
      id="defs19458"
@@ -1149,16 +1149,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="406.26122"
-     inkscape:cy="295.08932"
+     inkscape:zoom="1.9648438"
+     inkscape:cx="193.89638"
+     inkscape:cy="51.913835"
      inkscape:document-units="mm"
-     inkscape:current-layer="axes_1-2"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1838"
-     inkscape:window-height="1026"
-     inkscape:window-x="530"
-     inkscape:window-y="323"
+     inkscape:window-width="1280"
+     inkscape:window-height="687"
+     inkscape:window-x="122"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      inkscape:measure-start="453.321,114.299"
      inkscape:measure-end="456.4,102.805"
@@ -1175,7 +1175,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1184,7 +1184,7 @@
      id="layer5"
      inkscape:label="base"
      style="display:none;stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(0.17562224,-1.6518087)"
+     transform="translate(0.00544902,-0.3214641)"
      sodipodi:insensitive="true">
     <rect
        style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.59600004;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ca4c4c;fill-opacity:0.26724141;fill-rule:evenodd;stroke:#e02da7;stroke-width:0.35124448;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.50196078;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
@@ -1199,7 +1199,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(0.17825467,5.1221139)">
+     transform="translate(0.00808145,6.4524585)">
     <g
        id="g5065"
        style="stroke-linecap:butt;stroke-linejoin:round">
@@ -1285,13 +1285,13 @@
          xml:space="preserve"><tspan
            y="59.066074"
            x="82.313416"
-           style="stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
+           style="baseline-shift:baseline;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
            id="tspan20917"
            sodipodi:role="line">K<tspan
-   id="tspan20921"
-   style="font-size:2.75166631px;baseline-shift:sub;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round">3</tspan>Fe(CN)<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan34011">6</tspan></tspan></text>
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan8963">3</tspan>[Fe(CN)<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan8965">6</tspan>]</tspan></text>
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"
          transform="matrix(0.43027626,0,0,0.43027626,-0.00263243,-6.4524585)"
@@ -4802,9 +4802,9 @@
              style="font-size:9.83864021px;stroke-width:0.61491501px;stroke-linecap:butt;stroke-linejoin:round"
              x="95.994736"
              y="186.74225"><tspan
-   style="-inkscape-font-specification:'Arial Italic';font-family:Arial;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
    id="tspan34023">V</tspan><tspan
-   style="font-size:65%;baseline-shift:sub"
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan34025">G</tspan> (V)</tspan></text>
       </g>
       <path
@@ -5973,13 +5973,13 @@
              id="text20919-7"><tspan
                sodipodi:role="line"
                id="tspan20917-3"
-               style="stroke-width:0.55045867px;stroke-linecap:butt;stroke-linejoin:round"
+               style="baseline-shift:baseline;stroke-width:0.55045867px;stroke-linecap:butt;stroke-linejoin:round"
                x="177.16812"
                y="130.14592">K<tspan
-   style="font-size:5.72476959px;baseline-shift:sub;stroke-width:0.55045867px;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan20921-1">3</tspan>Fe(CN)<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan5930">6</tspan></tspan></text>
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan8967">3</tspan>[Fe(CN)<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan8969">6</tspan>]</tspan></text>
         </g>
         <text
            xml:space="preserve"
@@ -6849,9 +6849,11 @@
             </defs>
           </g>
           <g
-             id="g34131">
+             id="g34131"
+             style="stroke-linecap:butt;stroke-linejoin:round">
             <g
-               id="g34119">
+               id="g34119"
+               style="stroke-linecap:butt;stroke-linejoin:round">
               <g
                  id="patch_21"
                  style="stroke:none;stroke-linecap:butt;stroke-linejoin:round"
@@ -6875,7 +6877,8 @@
                    y="29.237577">Experiment</tspan></text>
             </g>
             <g
-               id="g34113">
+               id="g34113"
+               style="stroke-linecap:butt;stroke-linejoin:round">
               <g
                  id="patch_22"
                  style="stroke:none;stroke-linecap:butt;stroke-linejoin:round"
@@ -6993,13 +6996,13 @@
              id="text20919-9"><tspan
                sodipodi:role="line"
                id="tspan20917-2"
-               style="stroke-width:0.49008769px;stroke-linecap:butt;stroke-linejoin:round"
+               style="baseline-shift:baseline;stroke-width:0.49008769px;stroke-linecap:butt;stroke-linejoin:round"
                x="217.65369"
                y="0.32702157">K<tspan
-   style="font-size:5.09691191px;baseline-shift:sub;stroke-width:0.49008769px;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan20921-3">3</tspan>Fe(CN)<tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan34009">6</tspan></tspan></text>
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan8971">3</tspan>[Fe(CN)<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan8973">6</tspan>]</tspan></text>
         </g>
         <text
            xml:space="preserve"
@@ -7016,7 +7019,7 @@
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan32402">max</tspan></tspan></text>
         <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 38.423077,52.583828 c 0,-16.25794 0,-16.25794 0,-16.25794"
            id="path37264"
            inkscape:connector-curvature="0" />
@@ -7024,7 +7027,7 @@
            inkscape:connector-curvature="0"
            id="path37266"
            d="m 57.807692,68.699035 c 0,-15.315637 0,-15.315637 0,-15.315637"
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <path
            style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60412002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 77.192308,95.351374 c 0,-6.45798 0,-6.45798 0,-6.45798"
@@ -7058,7 +7061,7 @@
      id="layer2"
      inkscape:label="Layer 2"
      style="stroke-linecap:butt;stroke-linejoin:round"
-     transform="translate(0.17825467,5.1221139)">
+     transform="translate(0.00808145,6.4524585)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -7992,7 +7995,7 @@
            style="stroke-linecap:butt;stroke-linejoin:round">
           <path
              id="path28715"
-             style="fill:none;stroke:#ff800e;stroke-width:1.13924051;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:7.50558431,3.21667899;stroke-dashoffset:0;stroke-opacity:0.80000001;stroke-miterlimit:4"
+             style="fill:none;stroke:#ff800e;stroke-width:1.1392405;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:7.50558431, 3.21667899;stroke-dashoffset:0;stroke-opacity:0.8"
              d="m 19.539107,169.20132 3.259884,-3.40627 3.259883,-3.40628 3.259883,-3.40627 3.259884,-3.40627 3.259883,-3.40628 3.259883,-3.40627 3.259884,-3.40628 3.259883,-3.40627 3.259884,-3.40627 3.259883,-3.40628 3.259883,-3.40627 3.259884,-3.40628 3.259883,-3.40627 3.259883,-3.40627 3.259884,-3.40628 3.259883,-3.40627 3.259884,-3.40628 3.259883,-3.40627 3.259883,-3.40627 3.259884,-3.40628 3.259883,-3.406271 3.259884,-3.406274 3.259883,-3.406274 3.259883,-3.406274 3.259882,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25988,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25988,-3.406274 3.25988,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25988,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25988,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25988,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25988,-3.406274 3.25989,-3.406274 3.25988,-3.406274 3.25988,-3.406274"
              clip-path="url(#p41ee9f61d5)"
              inkscape:connector-curvature="0" />
@@ -8043,9 +8046,11 @@
              id="line2d_18-0"
              style="stroke-linecap:butt;stroke-linejoin:round" />
           <g
-             id="g34219">
+             id="g34219"
+             style="stroke-linecap:butt;stroke-linejoin:round">
             <g
-               id="g34194">
+               id="g34194"
+               style="stroke-linecap:butt;stroke-linejoin:round">
               <g
                  id="line2d_17-2"
                  style="stroke-linecap:butt;stroke-linejoin:round"
@@ -8076,9 +8081,11 @@
                    y="20.719402">Experiment</tspan></text>
             </g>
             <g
-               id="g34203">
+               id="g34203"
+               style="stroke-linecap:butt;stroke-linejoin:round">
               <g
-                 id="g34173">
+                 id="g34173"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
                 <g
                    transform="translate(3.2757785)"
                    style="stroke-linecap:butt;stroke-linejoin:round"
@@ -8117,7 +8124,8 @@
           </g>
         </g>
         <g
-           id="g34249">
+           id="g34249"
+           style="stroke-linecap:butt;stroke-linejoin:round">
           <text
              id="text34223"
              y="52.077991"

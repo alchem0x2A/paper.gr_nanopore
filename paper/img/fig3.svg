@@ -15,7 +15,7 @@
    viewBox="0 0 203.28081 78.250988"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (68fc966a96, 2018-08-01)"
+   inkscape:version="0.92.3 (cdafc079a9, 2018-06-25)"
    sodipodi:docname="fig3.svg">
   <defs
      id="defs2"
@@ -2169,16 +2169,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.99999999"
-     inkscape:cx="512.94351"
-     inkscape:cy="54.140642"
+     inkscape:zoom="1.9726562"
+     inkscape:cx="202.44846"
+     inkscape:cy="155.52678"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2070"
-     inkscape:window-height="1193"
+     inkscape:window-width="1280"
+     inkscape:window-height="687"
      inkscape:window-x="331"
-     inkscape:window-y="189"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -2192,7 +2192,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2495,6 +2495,7 @@
 <tspan
    id="tspan9542"
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
+
  (V)</tspan>
               </text>
             </g>
@@ -5998,14 +5999,18 @@
             <text
                id="text872"
                y="28.766247"
-               x="-21.810726"
+               x="-22.869061"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  style="stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
                  y="28.766247"
-                 x="-21.810726"
+                 x="-22.869061"
                  id="tspan870"
-                 sodipodi:role="line">V</tspan></text>
+                 sodipodi:role="line"><tspan
+                   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan8585">V</tspan><tspan
+                   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan8587">G</tspan></tspan></text>
           </g>
           <path
              style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"

@@ -5,9 +5,16 @@
 \usepackage{amsmath}
 \usepackage{times}
 \usepackage{todonotes}
+\DeclareCaptionLabelSeparator{bar}{  \textbar\quad}
+\usepackage[labelsep=bar, labelfont=bf]{caption}
 \newcommand{\Fig}{Fig.}
 % \usepackage{lineno}
 % \linenumbers
+
+% \makeatletter
+% \renewcommand*{\fnum@figure}{{\normalfont\bfseries \figurename~\thefigure}}
+% \renewcommand*{\@caption@fignum@sep}{\textbf{ \textbar }}
+% \makeatother
 
 \author{Roman M. Wyss} \affiliation{Institute of Soft Materials
   Department of Material Sciences, Eidgenössische Technische
@@ -649,13 +656,13 @@ simulations. All authors contributed to writing and discussion.
   \caption{\textbf{Experimental setup and nanopore characterization}.
     \textbf{a}. 3D schematic diagram showing the experimental
     setup. Inset: photograph of the PG-PCTE membrane supported by
-    Kapton and copper tapes, scale bar: 1 cm. \textbf{b}. 3D schematic
+    Kapton and copper tapes. (Scale bar: 1 cm.) \textbf{b}. 3D schematic
     of the nanoscale cross-sectional structure of the PG-PCTE
-    membrane. \textbf{c}. SEM image of the PG-PCTE membrane, showing
+    membrane. \textbf{c}. SEM image of the PG-PCTE membrane, showingan
     excellent coverage of graphene over the PCTE substrate, scale bar:
     20 $\mathrm{\mu}$m.  Upper right inset: high-resolution SEM image
     of individual nanopores on PG fabricated by the patterning
-    technique, scale bar: 500 nm. Bottom right inset: histogram of the
+    technique. (Scale bar: 500 nm.) Bottom right inset: histogram of the
     pore diameter distribution revealed by the SEM
     image. \textbf{d}. Schematic of the nanoscale ionic transport
     through a gated graphene nanopore.}
@@ -666,18 +673,19 @@ simulations. All authors contributed to writing and discussion.
   \centering
   \includegraphics[width=0.95\linewidth]{img/fig2.pdf}
   \caption{\textbf{The experimental evidence of salt rejection.}
-    \textbf{a}. Measured conductivity of LCR as a function of
-    time. The slope of conductivity-time curve when $V_{\mathrm{G}}>0$
-    is added, is smaller than that without gating. \textbf{b}. Molar
-    diffusive flux through bare PCTE (blue bars: experimental; red
-    bars: theoretical values) and PG+PCTE (green bars) membranes for
-    different salts. \textbf{c}. Experimentally measured salt
-    rejection factor $\xi$ as a function of $V_{\mathrm{G}}$ for 0.1
-    mM KCl solution in HCR, showing an asymmetric response, with a
-    higher degree of salt rejection for
+    \textbf{a}.An example of measured conductivity in LCR as a
+    function of time. The slope of conductivity-time curve when
+    $V_{\mathrm{G}}>0$ is interpolated, is smaller than that without
+    gating. \textbf{b}. Molar diffusive flux through bare PCTE (blue
+    bars: experimental; red bars: model values) and PG+PCTE (green
+    bars) membranes for different salts. \textbf{c}. Experimentally
+    measured salt rejection factor $\xi$ as a function of
+    $V_{\mathrm{G}}$ for 0.1 mM KCl solution in HCR, showing an
+    asymmetric response, with a higher degree of salt rejection for
     $V_{\mathrm{G}}>0$. \textbf{d}. $\xi_{\mathrm{max}}$ as a function
-    of KCL concentration, fitted by a power law relation, suggesting
-    the effect of Debye length on the observed salt rejection. }
+    of KCl concentration, fitted by a power law relation, suggesting
+    the effect of Debye length on the observed salt rejection, since
+    $\lambda_{\mathrm{D}} \propto c_{0}^{-\frac{1}{2}}$.}
   \label{fig:2} 
 \end{figure}
 
@@ -685,7 +693,7 @@ simulations. All authors contributed to writing and discussion.
   \centering
   \includegraphics[width=0.95\linewidth]{img/fig3.pdf}
   \caption{\textbf{Interplay between graphene quantum capacitance and
-      EDL.} \textbf{a}. Schematic diagram of the electrostatic
+      EDL.} \textbf{a}. Schematic diagram of the electric
     potential at the graphene-electrolyte interface considering the
     quantum capacitance of graphene. The interfacial potential of the
     electrolyte solution, $\psi_{0}$, is smaller than the bias
@@ -701,15 +709,15 @@ simulations. All authors contributed to writing and discussion.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.95\linewidth]{img/fig4.pdf}
-  \caption{\textbf{Self-consistent theoretical
-      calculations}. \textbf{a}. Calculated cross-sectional contour
-    plot of electrostatic potential $\psi$ near the center of the
-    graphene nanopore at $V_{\mathrm{G}}$ = 0.75 V. \textbf{b}. The
+  \caption{\textbf{Calculations using the proposed self-consistent
+      theory}. \textbf{a}. Calculated cross-sectional contour plot of
+    electric potential $\psi$ near the center of the graphene
+    nanopore at $V_{\mathrm{G}}$ = 0.75 V. \textbf{b}. The
     corresponding electrochemical potential change for cation
     $\Delta \mu_{+}$ (left) and anion $\Delta \mu_{-}$ (right). The
     reference of electrochemical potential is set in the HCR far from
     the graphene layer. The diffusive pathways for both ions are
-    indicated by arrows. \textbf{c}. Calculated z-component of
+    indicated by the arrows. \textbf{c}. Calculated z-component of
     diffusive fluxes $\boldsymbol{J}_{z}$ for cation (left) and anion
     (right) through the pore as functions of the relative position
     inside the pore, considering different levels of $V_{\mathrm{G}}$
@@ -722,34 +730,36 @@ simulations. All authors contributed to writing and discussion.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.95\linewidth]{img/fig5.pdf}
-  \caption{\textbf{The Debye length effect}. \textbf{a}. Contour plot
-    of the surface potential of graphene $\psi_{\mathrm{G}}$ as a
-    function of $\lambda_{\mathrm{D}}/R_{\mathrm{G}}$ and
-    $V_{\mathrm{G}}$. When the Debye length reduces, a higher
-    $V_{\mathrm{G}}$ is required to maintain the same surface
-    $\psi_{\mathrm{G}}$ level. \textbf{b}. 2D contour plot of
-    theoretically predicted $\xi$ as a function of
+  \caption{\textbf{The Debye length effect on the degree of salt
+      rejection}. \textbf{a}. Calculated contour plot of the surface
+    potential of graphene $\psi_{\mathrm{G}}$ as a function of
+    $\lambda_{\mathrm{D}}/R_{\mathrm{G}}$ and $V_{\mathrm{G}}$. When
+    the Debye length reduces, a higher $V_{\mathrm{G}}$ is required to
+    maintain the same surface $\psi_{\mathrm{G}}$
+    level. \textbf{b}. Calculated 2D contour plot of theoretically
+    predicted $\xi$ as a function of
     $\lambda_{\mathrm{D}}/R_{\mathrm{G}}$ and
     $V_{\mathrm{G}}$. Clearly, a higher degree of salt rejection can
     be achieved by having a higher $V_{\mathrm{G}}$ and
-    $\lambda_{\mathrm{D}}/R_{\mathrm{G}}$ ratio.}
+    $\lambda_{\mathrm{D}}/R_{\mathrm{G}}$}
   \label{fig:5}
 \end{figure}
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.95\linewidth]{img/fig6.pdf}
-  \caption{\textbf{Comparison between experiments and simulations
-      considering different salt species}. \textbf{a}. Experimentally
-    measured $\xi$ as a function of $V_{\mathrm{G}}$ for various salts
-    at 0.1 mM. The error bar indicates the standard
-    error. \textbf{b}. Simulated $\xi-V_{\mathrm{G}}$ relations for
-    the salt species considered here. \textbf{c}. Comparison between
-    the experimental and calculated $\xi_{\mathrm{max}}$ values for
-    different salt species, decreasing with the salt
+  \caption{\textbf{Comparison between experimental and theoretical
+      salt rejection considering different salt
+      species}. \textbf{a}. Experimentally measured $\xi$ as a
+    function of $V_{\mathrm{G}}$ for various salts at 0.1 mM. The
+    error bar represents the standard error. \textbf{b}. Theoretically
+    calculated $\xi-V_{\mathrm{G}}$ relations for the salt species
+    considered here. \textbf{c}. Comparison between the experimental
+    and calculated $\xi_{\mathrm{max}}$ values for different salt
+    species, decreasing with the salt
     valence. \textbf{d}. $\xi_{\mathrm{max}}$ as a function of
     $\lambda_{\mathrm{D}}$ for the experimental (circle) and model
-    (diamond) values, with a linear correlation.}
+    (diamonds) values, showing a linear correlation.}
   \label{fig:6}
 \end{figure}
 

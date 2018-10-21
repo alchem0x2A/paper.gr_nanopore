@@ -665,16 +665,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.964431"
-     inkscape:cx="516.97173"
-     inkscape:cy="264.26439"
+     inkscape:zoom="1.3700714"
+     inkscape:cx="350.5736"
+     inkscape:cy="320.50279"
      inkscape:document-units="mm"
-     inkscape:current-layer="g12461"
+     inkscape:current-layer="layer5"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="687"
-     inkscape:window-x="91"
-     inkscape:window-y="23"
+     inkscape:window-x="114"
+     inkscape:window-y="91"
      inkscape:window-maximized="0"
      fit-margin-top="-2.5"
      fit-margin-left="0"
@@ -1487,7 +1487,13 @@
                id="text14246"
                y="142.97711"
                x="109.12836"
-               style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">KCl concentration (mol/L)</text>
+               style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">KCl concentration <tspan
+   style="-inkscape-font-specification:'Helvetica Oblique';font-family:Helvetica;font-weight:normal;font-style:oblique;font-stretch:normal;font-variant:normal"
+   id="tspan4662">c</tspan>
+<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4664">0</tspan>
+(mol/L)</text>
           </g>
         </g>
         <g
@@ -3505,16 +3511,18 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.91012383px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.65203702px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="111.73025"
+           x="101.29765"
            y="159.62794"
            id="text10845"><tspan
              sodipodi:role="line"
              id="tspan10843"
              style="font-size:8.69382763px;stroke-width:0.65203702px;stroke-linecap:butt;stroke-linejoin:round"
-             x="111.73025"
+             x="101.29765"
              y="159.62794"><tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan10847">t</tspan> (h)</tspan></text>
+   id="tspan10847"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan4656">Time</tspan> t</tspan> (h)</tspan></text>
         <path
            style="fill:none;fill-rule:evenodd;stroke:#ff6600;stroke-width:1.63882065;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="M 92.019725,84.993621 143.78197,57.171975"
@@ -4785,10 +4793,10 @@
                    style="font-size:7.03693914px;stroke-width:0.65971309px;stroke-linecap:butt;stroke-linejoin:round"
                    id="tspan12223"
                    sodipodi:role="line"><tspan
-   style="-inkscape-font-specification:'Arial Bold Italic';font-family:Arial;font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';stroke-linecap:butt;stroke-linejoin:round"
    id="tspan43234">J</tspan><tspan
-   style="font-size:65%;baseline-shift:sub"
-   id="tspan43236">PCTE</tspan> Model</tspan></text>
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan43236">PCTE</tspan> (Eq. (1))</tspan></text>
             </g>
             <g
                style="stroke-linecap:butt;stroke-linejoin:round"

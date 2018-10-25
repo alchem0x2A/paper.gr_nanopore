@@ -31,6 +31,10 @@ Tannenstrasse 3, Zürich CH-8092, Switzerland.}
 Department of Mechanical and Process Engineering,
 Eidgenössische Technische Hochschule (ETH) Zürich,
 Tannenstrasse 3, Zürich CH-8092, Switzerland.}
+\affiliation{Mechanical Engineering, Pohang University of Science and
+  Technology (POSTECH), 77 Cheongam-ro, Nam-gu, Pohang, Gyeongbuk,
+  Republic of Korea.}
+\email{iduserpark@gmail.com}
 
 \author{Chih-Jen Shih}  \affiliation{Institute for
   Chemical and Bioengineering Department of Chemistry and Applied
@@ -290,14 +294,15 @@ mechanism. The trend that $\xi$ is almost independent of
 $V_{\mathrm{G}}$ when $V_{\mathrm{G}}<$ 0 can be qualitatively
 explained by the existence of surface charge traps as stated above.
 We have also tested the mesh-independency of our solutions. As show in
-in \Fig \ref{fig:mesh}a, we use two parameters to control the
-refinement of the mesh entities: (i) the smallest triangle mesh size
+in \Fig{} \ref{fig:mesh}a, we use two parameters to control the
+refinement of the mesh entities: (i) trangle mesh division
+$N_{\mathrm{div}}$, giving the smallest triangle mesh size
 $\delta_{\mathrm{G}} / N_{\mathrm{div}}$, where $\delta_{\mathrm{G}}$
-is the thickness of graphene, and (ii) division of mesh on the
-boundary $0<r<R_{\mathrm{G}};z=0$ $N_{\mathrm{b}}$. The solution
-convergence is evaluated by the mean absolute error (MAE) of anion
-flux $\boldsymbol{J}_{z}$ on the boundary
-$\delta_{\mathrm{G}} / N_{\mathrm{div}}$, as shown in \Fig
+is the thickness of graphene, and (ii) division of mesh
+$N_{\mathrm{b}}$, on the boundary $0<r<R_{\mathrm{G}};z=0$. The
+solution convergence is evaluated by the mean absolute error (MAE) of
+anion flux $\boldsymbol{J}_{z}$ on the boundary
+$0<r<R_{\mathrm{G}};z=0$, as shown in \Fig{}
 \ref{fig:mesh}b. The solution of the PNP model is sensitive to the
 value $N_{\mathrm{b}}$, and can be regarded numerically converged when
 $N_{\mathrm{b}}>100$. Combining the calculation effort and numerical

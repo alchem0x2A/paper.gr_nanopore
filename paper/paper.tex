@@ -11,11 +11,6 @@
 % \usepackage{lineno}
 % \linenumbers
 
-% \makeatletter
-% \renewcommand*{\fnum@figure}{{\normalfont\bfseries \figurename~\thefigure}}
-% \renewcommand*{\@caption@fignum@sep}{\textbf{ \textbar }}
-% \makeatother
-
 \author{Roman M. Wyss} \affiliation{Institute of Soft Materials
   Department of Material Sciences, Eidgenössische Technische
   Hochschule (ETH) Zürich, Vladimir-Prelog-Weg 1-5, Zürich CH-8093,
@@ -32,10 +27,14 @@ Department of Mechanical and Process Engineering,
 Eidgenössische Technische Hochschule (ETH) Zürich,
 Tannenstrasse 3, Zürich CH-8092, Switzerland.}
 
-\author{Hyung Gyu Park} \affiliation{Nanoscience for Energy Technology and Sustainability,
-Department of Mechanical and Process Engineering,
-Eidgenössische Technische Hochschule (ETH) Zürich,
-Tannenstrasse 3, Zürich CH-8092, Switzerland.}
+\author{Hyung Gyu Park} \affiliation{Nanoscience for Energy Technology
+  and Sustainability, Department of Mechanical and Process
+  Engineering, Eidgenössische Technische Hochschule (ETH) Zürich,
+  Tannenstrasse 3, Zürich CH-8092, Switzerland.}
+\affiliation{Mechanical Engineering, Pohang University of Science and
+  Technology (POSTECH), 77 Cheongam-ro, Nam-gu, Pohang, Gyeongbuk,
+  Republic of Korea.}
+\email{iduserpark@gmail.com}
 
 \author{Chih-Jen Shih}  \affiliation{Institute for
   Chemical and Bioengineering Department of Chemistry and Applied
@@ -51,28 +50,28 @@ Tannenstrasse 3, Zürich CH-8092, Switzerland.}
 \begin{document}
 \clearpage{}
 \begin{abstract}
-  {\normalsize
-  Atomically thin graphene nanopores is emerging as one of the most
-  promising candidates for next-generation membrane technology owing
-  to the ultrahigh permeability. However, the size-exclusive mechanism
-  of selectivity limits its scalability as it remains technically
-  challenging to drill subnanometer pores over a large area. Here we
-  report macroscopic salt rejection through atomically-thin porous
-  graphene with the pore sizes of 20$\pm$10 nanometers, overcoming the
-  pore size limitation set by the hydrated radii. By electrostatically
-  gating a sheet of porous graphene, we report a considerable
-  reduction of salt flux by up to 55\% and 85\% with the gate voltage,
-  based on our experiments and theoretical predictions,
-  respectively. We systematically investigate the effects of salt
-  concentration and species, including developing a theory to model
-  the electrolyte diffusion through a nanopore in a sheet of gated
-  graphene. The interplay between graphene quantum capacitance and
-  electrical double layer is identified to be the main mechanism
-  responsible for the observed salt rejection, when the pore size is
-  comparable to the Debye screening length. Our findings reveal a new
-  degree of freedom controlling the membrane potential and electrolyte
-  permeation through porous two-dimensional materials.
-  }
+  {\normalsize Atomically thin graphene nanopores is emerging as one
+    of the most promising candidates for next-generation membrane
+    technology owing to the ultrahigh permeability. However, the
+    size-exclusive mechanism of selectivity limits its scalability as
+    it remains technically challenging to drill subnanometer pores
+    over a large area. Here we report macroscopic salt rejection
+    through atomically-thin porous graphene with the pore sizes of
+    20$\pm$10 nanometers, and a pore density of 1.25$\times$10$^{10}$
+    cm$^{-2}$, overcoming the pore size limitation set by the hydrated
+    radii. By electrostatically gating a sheet of porous graphene, we
+    report a considerable reduction of salt flux by up to 55\% and
+    85\% with the gate voltage, based on our experiments and
+    theoretical predictions, respectively. We systematically
+    investigate the effects of salt concentration and species,
+    including developing a theory to model the electrolyte diffusion
+    through a nanopore in a sheet of gated graphene. The interplay
+    between graphene quantum capacitance and electrical double layer
+    is identified to be the main mechanism responsible for the
+    observed salt rejection, when the pore size is comparable to the
+    Debye length. Our findings reveal a new degree of
+    freedom controlling the membrane potential and electrolyte
+    permeation through porous two-dimensional materials.  }
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,41 +85,40 @@ A central objective in the emerging field of nanofluidics is to
 manipulate transport phenomena at nanometer scale to enable new
 technological opportunities. The reduction of characteristic
 dimensions in nanofluidics gives rise to substantially different
-transport properties compared to their bulk counterparts
+transport properties in comparison to their bulk counterparts
 \cite{Schoch_2008}. In nanopores, for example, the effect of
 surface-mediated transport becomes dominant when the pore size is
-comparable to the solute diffusion length, enabling new applications,
-including ionic diodes \cite{Karnik_2007}, field-effect transistors
-\cite{Nam_2009}, desalination \cite{Heiranian_2015}, and
+comparable to the characteristic length of diffusion, enabling new
+applications such as ionic diodes \cite{Karnik_2007}, field-effect
+transistors \cite{Nam_2009}, desalination \cite{Heiranian_2015}, and
 nanopore-based DNA sequencing \cite{Heerema_2016,Garaj_2013}, Porous,
 atomically thin two-dimensional (2D) materials, such as graphene, are
-emerging as ideal membrane materials due to their ultimate
-permeability
+emerging as ideal membrane materials due to their ultimate permeation
 \cite{Suk_2010,Jiang_2009,Celebi_2014,Koenig_2012,Drahushuk_2012}. Early
 research has suggested that using nanoporous graphene as the
 desalination membrane enables excellent salt rejection by preventing
 the permeation of hydrated ions with a high water permeability
 simultaneous
-\cite{Cohen_Tanugi_2012,Suk_2014,Cohen_Tanugi_2014,Cohen_Tanugi_2015,O_Hern_2015,Surwade_2015}. Nevertheless,
+\cite{Cohen_Tanugi_2012,Suk_2014,Cohen_Tanugi_2014,Cohen_Tanugi_2015,O_Hern_2014,O_Hern_2015,Surwade_2015,Walker_2017,Ghosh_2018}. Nevertheless,
 the fabrication of subnanometer porous 2D membranes over a large area
 with atomic precision remains technically challenging
 \cite{Suk_2014,Rollings_2016,O_Hern_2012,Wang_2017}. Moreover, a small
-portion of large pores can significantly diminish salt rejection.
-Very recently, a number of reports have explored the effect of surface
-charges on the selectivity of ion transport through graphene
-nanopores, as a consequence of the electrostatic interactions between
-solvated ions and the charged functional groups attached on graphene
-\cite{Rollings_2016,Surwade_2014}. However, it remains controversial
-that if the surface charges can result in a degree of salt rejection,
-as the membrane charge and potential cannot be precisely quantified
-and are sensitive to the surroundings and chemical treatment
-\cite{Li_2008}. The difficulty in turn hinders fundamental
-understanding of the interactions between the atomically thin 2D
-membrane and electrolyte solution. Here, we demonstrate macroscopic
-salt rejection through a sheet of large-area porous graphene using
-electrostatic gating, thereby deepening the understanding of
-ion-graphene interaction and its implications on nanoporous
-graphene-based desalination applications.
+portion of excessively large pores can significantly diminish salt
+rejection.  Very recently, a number of reports have explored the
+effect of surface charges on the selectivity of ion transport through
+graphene nanopores, as a consequence of the electrostatic interactions
+between solvated ions and the charged functional groups attached on
+graphene \cite{Rollings_2016,Surwade_2014}. However, it remains
+controversial that if the surface charges can result in a degree of
+salt rejection, as the membrane charge and potential cannot be
+precisely quantified and are sensitive to the surroundings and
+chemical treatment \cite{Li_2008}. The difficulty in turn hinders a
+fundamental understanding of the interactions between the atomically
+thin 2D membrane and the electrolyte solution. Here, we demonstrate
+macroscopic salt rejection through a sheet of large-area porous
+graphene using electrostatic gating, thereby deepening the
+understanding of ion-graphene interaction and its implications on
+nanoporous graphene-based desalination applications.
 
 \section{Results and discussions}
 \label{sec:res}
@@ -144,30 +142,30 @@ inset). We fabricated the PCTE-supported PG using the protocol
 developed by our group \cite{Choi_2018}, as schematically shown in
 \Fig{} \ref{fig:1}b. The normally distributed, circular pores with
 pore diameters of 20$\pm$10 nm (\Fig{} \ref{fig:1}c inset) over a
-large area were drilled on graphene.  By optimizing the subsequent
-transfer process, a high surface coverage ($>$ 98\%) of graphene on
-PCTE was reached (\Fig{} \ref{fig:1}c), allowing to reliably
-characterize the ion transport behavior (details see Supplementary
-Information Section S1).  The system presented here allows us to
-systematically investigate the diffusive flux across a sheet of porous
-graphene, $\boldsymbol{J}$, driven by the gradient of electrochemical
-potential in the electrolyte medium.
+large area were perforated on graphene.  By optimizing the subsequent
+transfer process, a high surface coverage ($>$ 98\%) of PG on PCTE was
+obtained (\Fig{} \ref{fig:1}c), allowing reliable characterization of
+the ion transport behavior (details see Supplementary Information
+Section S1).  The system presented here allows us to systematically
+investigate the diffusive flux of ions across a sheet of PG,
+$\boldsymbol{J}$, driven by the gradient of electrochemical potential
+in the electrolyte medium.
 
 First, the control experiments were carried out by measuring the ionic
 diffusion of seven salt species, including KCl, NaCl, LiCl,
 K$_{2}$SO$_{4}$, MgSO4$_{4}$, CaCl$_{2}$ and K$_{3}$[Fe(CN)$_{6}$],
 through the bare PCTE membrane at $c_{0}$ = 0.1 mM. As the diffusive
-flux is comparably small, the conductivity versus time profile
-(e.g. \Fig{} \ref{fig:2}a) remains linear within the measurement
-duration (1 h), suggesting the concentration gradient across the
-membrane remains constant. The diffusive fluxes
-correspond to different salts were obtained by converting the
-conductivity-time profiles with the calibration curves (blue bars in
-\Fig{} \ref{fig:2}b and Supplementary \Fig{} S2). For comparison
-purposes, based on the assumption that the membrane consists
-cylindrical pores with uniform diameter and a low tortuosity $\tau$ of
-$\sim{}$1.2 \cite{O_Hern_2012}, the molar diffusive flux through the
-bare PCTE membrane, $\boldsymbol{J}_{\mathrm{PCTE}}$, follows:
+flux is comparably small, the conductivity varies linearly with time
+(e.g. \Fig{} \ref{fig:2}a) within the measurement duration (1 h),
+suggesting the concentration gradient across the membrane remains
+constant. The diffusive fluxes of different salts were
+obtained by converting the conductivity-time profiles with the
+calibration curves (blue bars in \Fig{} \ref{fig:2}b and Supplementary
+\Fig{} S2). For comparison purposes, based on the assumption that the
+membrane consists cylindrical pores with uniform diameter and a low
+tortuosity $\tau$ of $\sim{}$1.2 \cite{O_Hern_2012}, the molar
+diffusive flux through the bare PCTE membrane,
+$\boldsymbol{J}_{\mathrm{PCTE}}$, follows:
   \begin{equation}
     \label{eq:j-pcte}
     \boldsymbol{J}_{\mathrm{PCTE}} = \frac{\pi a^{2} N_{\mathrm{p}} D \Delta c}{\delta \tau}
@@ -176,7 +174,7 @@ where $a$ is the PCTE pore radius, $N_{\mathrm{p}}$ is numbers of pore
 per area, $D$ is the salt diffusivity, and $\Delta c$ is the bulk
 concentration difference between two reservoirs, i.e.,
 $\Delta c \sim c_{0}$, $\delta$ is the thickness of the PCTE membrane,
-and $\tau$ is the tortuosity. By using the salt diffusivity values
+and $\tau$ is the tortuosity of the PCTE membrane. By using the salt diffusivity values
 provided by the PTCE vendor (Supplementary Table S1), the
 calculated diffusive fluxes (red bars in \Fig{} \ref{fig:2}b) show
 reasonable agreement with the experimental values.
@@ -185,7 +183,7 @@ Next, we carried out the same experiments using the PG-covered PCTE
 membrane (PG-PCTE), without electrostatic gating. The measured
 diffusive flux values, $\boldsymbol{J}_{\mathrm{PG0}}$ (green bars in
 \Fig{} \ref{fig:2}b), remain at the same order of magnitude compared
-to those of bare PCTE membrane, suggesting that the mass transfer
+with those of bare PCTE membrane, suggesting that the mass transfer
 resistance of PG is not significant, as the permeability is high. We
 observed a more pronounced decrease of diffusive flux in KCl,
 K$_{2}$SO$_{4}$ and K$_{3}$[Fe(CN)$_{6}$] systems but not for the rest
@@ -198,23 +196,24 @@ along the surface-mediated transport pathway \cite{Sun_2014}.
 
 We next discuss the effects of electrostatic gating on graphene. In
 order to avoid any interference from the conductivity probe to the
-membrane potential, the “three-interval” method, which had been used
+membrane potential, the “three-interval” method, which has been used
 in controlling the membrane potential in mesoporous carbon membranes
-\cite{Surwade_2014}, is adopted here. \Fig{} \ref{fig:2}a presents the
-representative data of the measured conductivity with respect to
+\cite{Surwade_2014}, is adopted here. \Fig{} \ref{fig:2}a
+illustratively represents how the measured conductivity evolves with
 time. Specifically, in the first interval, the gate voltage source is
 turned off and the conductivity probe is on, allowing us to obtain the
-conductivity-time profile corresponding to the diffusive flux through
-the PG-PCTE membrane, giving the average slope $s_{1}$. In the second
-interval, a voltage $V_{\mathrm{G}}$ is applied to the membrane after
-turning off the conductivity probe, followed by the third interval, in
-which the conductivity probe is turned on again to give the
-corresponding slope, $s_{3}$. The slope corresponding to the second
-interval, $s_{2}$, as the conductivity probe is off, is determined by
-linearly interpolating the conductivities from the endpoint of
-interval 1 to the starting point of interval 3. Accordingly, we define
-the salt rejection factor, $\xi$, which is effectively equivalent to
-the relative degree of diffusive flux decrease as follows:
+conductivity-time profile with an average slope $s_{1}$ that
+corresponds to the diffusive flux across the PG-PCTE membrane, . In
+the second interval, a voltage $V_{\mathrm{G}}$ is applied to the
+membrane after turning off the conductivity probe, followed by the
+third interval $s_{3}$, in which the conductivity probe is turned on
+again to give the corresponding slope. The slope corresponding to the
+second interval $s_{2}$, as the conductivity probe is off, is
+determined by linear interpolation of the conductivities from the
+endpoint of interval 1 to the starting point of interval
+3. Accordingly, we define the salt rejection factor, $\xi$, which is
+effectively equivalent to the relative degree of diffusive flux
+decrease as follows:
 \begin{equation}
   \label{eq:rejection}
   \xi = \frac{\bar{s} - s_{2}}{\bar{s}} = \frac{\boldsymbol{J}_{\mathrm{PG0}}
@@ -238,21 +237,21 @@ electrochemical reactions (\Fig{} \ref{fig:2}c). We observe an
 asymmetric dependence of $\xi$ with respect to $V_{\mathrm{G}}$, with
 a higher degree of salt rejection for $V_{\mathrm{G}}>0$. where
 positive carriers (holes) are induced in graphene. We notice that an
-increase $\xi$, or a decrease of $\boldsymbol{J}_{\mathrm{PG}}$ with
-$V_{\mathrm{G}}$, showing an inverse trend compared to those observed
-in ionic field effect transistors (IFETs), in which the diffusive flux
-increases with the gate voltage \cite{Nam_2009,Cheng_2018}. A further
-increase of the KCl concentration $c_{0}$ influences the attainable
-degree of salt rejection. $\xi$ values measured at
-$V_{\mathrm{G}}$ = 1.25 V, $\xi_{\mathrm{max}}$, as a function of
-$c_{0}$ from 10$^{-4}$ to 10$^{-2}$ M KCl (see Supplementary Section
-S4) exhibit a power law dependency (\Fig{} \ref{fig:2}d). The
-$\xi_{\mathrm{max}}-c_{0}$ relation can be nicely fitted by a power
-law function following
-$\xi_{\mathrm{max}} c_{0}^{0.59} = \mathrm{Constant}$. As the Debye
-screening length in solution, $\lambda_{\mathrm{D}}$, is inversely
-proportional to $c^{0.5}$, we infer that the $V_{\mathrm{G}}$-induced
-salt rejection originates from the modulation of the electrical double
+increase of $\xi$, or a decrease of $\boldsymbol{J}_{\mathrm{PG}}$
+with $V_{\mathrm{G}}$, showing an inverse trend compared with those
+observed in ionic field effect transistors (IFETs) in which the
+diffusive flux increases with the gate voltage
+\cite{Nam_2009,Cheng_2018}. A further increase of the KCl
+concentration $c_{0}$ influences the attainable degree of salt
+rejection. $\xi$ values measured at $V_{\mathrm{G}}$ = 1.25 V,
+$\xi_{\mathrm{max}}$, as a function of $c_{0}$ from 10$^{-4}$ to
+10$^{-2}$ M KCl (see Supplementary Section S4) exhibit a power law
+dependency (\Fig{} \ref{fig:2}d). The $\xi_{\mathrm{max}}-c_{0}$
+relation can be nicely fitted by a power law function following
+$\xi_{\mathrm{max}} c_{0}^{0.59} = \mathrm{constant}$. As the Debye
+length in solution, $\lambda_{\mathrm{D}}$, is inversely proportional
+to $c^{0.5}$, we infer that the $V_{\mathrm{G}}$-induced salt
+rejection originates from the modulation of the electrical double
 layer (EDL), as will be discussed later.
 
 \subsection{Self-consistent ion transport theory}
@@ -354,7 +353,7 @@ solution at $c_{0}$ = 0.1 mM, and LCR at $c_{0}/10$ in axisymmetric
 coordinates (details see Supplementary Section S5). Indeed, the
 interplay between graphene quantum capacitance and the EDL
 significantly reduces the graphene surface potential
-$\psi_{\mathrm{G}}$ tp $\sim$0.3 V at $V_{\mathrm{G}}$ = 1.25 V,
+$\psi_{\mathrm{G}}$ to $\sim$0.3 V at $V_{\mathrm{G}}$ = 1.25 V,
 corresponding a surface charge density $\sigma_{\mathrm{G}}$ of
 $\sim$0.08 C$\cdot$m$^{-2}$. Note that as we mentioned earlier, an
 important merit of the system here is that the surface charge density
@@ -365,7 +364,7 @@ as a fitting parameter as in most of the 2D nanopore studies
 \subsection{Salt rejection mechanism}
 \label{sec:mechanism}
 The numerical procedure described above allows us to resolve the
-concentration and electric potential profiles near to a graphene
+concentration and electric potential profiles near a graphene
 nanopore for a given $V_{\mathrm{G}}$. Since the ionic flux is driven
 by both $\psi$ and $c$ fields (see Eq. \eqref{eq:pnp} and \eqref{eq:mu}),
 we focus on the electrochemical potential $\mu_{i}$, which represents
@@ -380,7 +379,7 @@ potentials is set at the bulk phase in the HCR. As expected, the
 electric potential reaches the maximum at the graphene surface (with
 $\psi_{\mathrm{G}}$ of $\sim$100 mV) and decays towards the bulk
 solution phase, forming an EDL surrounding the graphene surface. Since
-the Debye screening length $\lambda_{\mathrm{D}}$ is comparable to the
+the Debye length $\lambda_{\mathrm{D}}$ is comparable to the
 pore radius $R_{\mathrm{G}}$, the electric potential at the nanopore
 center remains at $\sim$25 mV, comparable to the thermal energy at
 room temperature ($k_{\mathrm{B}}T$ = 26 meV). Consequently, it is
@@ -485,7 +484,7 @@ in which we calculate $\xi$ as a function of $V_{\mathrm{g}}$ using
 the same simulation setups(\Fig{} \ref{fig:6}b). The calculated
 $\xi_{\mathrm{max}}$ values are quantitatively compared with
 experiments (\Fig{} \ref{fig:6}c), and the same trend is
-observed. Indeed, because the Debye screening length
+observed. Indeed, because the Debye length
 $\lambda_{\mathrm{D}}$ decreases with the salt valence, the graphene
 surface potential appears to decrease in the multivalent salt systems,
 thereby reducing $\xi$ (see \Fig{} \ref{fig:5}b). The calculated and
@@ -508,15 +507,15 @@ small quantum capacitance of atomically-thin graphene, the graphene
 surface potential is considerably lower than the applied gate
 voltage. As a result, the subtle redistribution of the electrochemical
 potentials create new pathways for ionic transport, which in turn lead
-to a considerably degree of salt rejection. We report a high degree of
+to a considerable degree of salt rejection. We report a high degree of
 salt rejection at $V_{\mathrm{G}}$ = 1.25 V of up to 55\% and 85\%,
 based on our experiments and theoretical predictions, respectively. We
 demonstrate that the observed salt rejection positively correlates
-with the Debye screening length that nonlinearly modulates the
-graphene surface potential and charge density. The experimental
-results and fundamental principles presented here open an avenue
-towards realization of atomically thin 2D porous membranes for
-advanced separation process in electrolyte solutions.
+with the Debye length that nonlinearly modulates the graphene surface
+potential and charge density. The experimental results and fundamental
+principles presented here open an avenue towards realization of
+atomically thin 2D porous membranes for advanced separation process in
+electrolyte solutions.
 
 \section{Methods}
 \label{sec:methods}
@@ -629,9 +628,10 @@ about the simulation setup please refer to Supplementary Section 5.
 
 
 \begin{acknowledgement}
-\todo[inline]{TBD} R.M.W. and H.G.P. acknowledge the support from
-XXX. T.T. and C.J.S. are grateful for the financial support from the
-ETH startup funding.
+  R.M.W. acknowledges support from the Binnig and Rohrer
+  Nanotechnology Center of ETH Zurich and IBM Zurich. T.T. and
+  C.J.S. are grateful for the financial support from the ETH startup
+  funding.
 \end{acknowledgement}
 
 \section{Author Contributions}

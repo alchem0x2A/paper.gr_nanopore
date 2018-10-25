@@ -22,12 +22,14 @@ compress:
 	gs $(GS_TAG) -sOutputFile="SI-compak.pdf" SI.pdf
 
 diff:
+	cp ./paper.tex ./paper.tex.bak
 	git checkout 4596239 ./paper.tex #old version
 	cp paper.tex paper_old.tex
+	cp ./SI.tex ./SI.tex.bak	
 	git checkout f68da99 ./SI.tex
 	cp SI.tex SI_old.tex
-	git checkout HEAD paper.tex #restore to current mode
-	git checkout HEAD SI.tex
+	cp ./paper.tex.bak paper.tex #restore to current mode
+	cp ./SI.tex.bak SI.tex
 	latexdiff $(DIFF_TAG) paper_old.tex paper.tex > paper_change.tex
 	latexdiff $(DIFF_TAG) SI_old.tex SI.tex > SI_change.tex
 	latexmk $(LATEXMK_TAG) paper_change.tex

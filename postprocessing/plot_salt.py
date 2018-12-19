@@ -31,7 +31,8 @@ ratio_conc = 10**3
 # out_path = "../result/salt/"
 out_path = "../result/salt/20/"
 plot_path = "../plot/salt"
-
+plt.style.use("science")
+"""
 # get the index of column in the new matrix
 def get_col_index(Vg, quantity):
     idx_V = Vg_all.index(Vg)
@@ -44,7 +45,6 @@ avg_tflux = []
 
 quant_flux = ("zflux_cp", "zflux_cn")
 
-plt.style.use("science")
 fig = plt.figure(figsize=(4, 4))
 for salt in salts:
     tflux = []
@@ -89,16 +89,16 @@ plt.ylabel("Rectification")
 plt.legend()
 
 plt.savefig(os.path.join(plot_path, "tflux_salt.svg"))
-
+"""
 
 d_debye = Debye_length(numpy.array(concentrations)) / 1e-9
-rect = {"KCl": ( 0.268, 0.623),
-        "NaCl": (0.563, 0.703),
-        "LiCl": (0.459, 0.73),
-        "CaCl2": (0.214, 0.268),
-        "K2SO4": (0.153, 0.089),
-        "MgSO4": (0.285, 0.207),
-        "K3FeCN": (-0.036, -0.056)}
+rect = {"KCl": ( 0.268, 0.055, 0.623),
+        "NaCl": (0.563, 0.110, 0.703),
+        "LiCl": (0.459, 0.096, 0.73),
+        "CaCl2": (0.214, 0.049, 0.268),
+        "K2SO4": (0.153, 0.052, 0.089),
+        "MgSO4": (0.285, 0.069, 0.207),
+        "K3FeCN": (-0.036, 0.040, -0.056)}
 
 # rect = 1 - avg_tflux[:, 6] / avg_tflux[:, 0]
 # salts = ["KCl"] + salts
@@ -107,8 +107,11 @@ rect = {"KCl": ( 0.268, 0.623),
 
 
 plt.figure(figsize=(2.5, 2.5))
-plt.bar(numpy.arange(len(salts))-0.125, height=[rect[k][0] for k in salts], width=0.25, alpha=0.5, label="Exp")
-plt.bar(numpy.arange(len(salts))+0.125, height=[rect[k][1] for k in salts], width=0.25, alpha=0.5, label="FEM")
+plt.bar(numpy.arange(len(salts))-0.125, height=[rect[k][0] for k in salts],
+        yerr=numpy.array(numpy.array([rect[k][1] for k in salts])),
+        width=0.25, alpha=0.5, label="Exp")
+plt.bar(numpy.arange(len(salts))+0.125, height=[rect[k][-1] for k in salts],
+        width=0.25, alpha=0.5, label="FEM")
 plt.gca().set_xticks(range(len(salts)))
 plt.gca().set_xticklabels(salts, rotation=-45, ha="left")
 plt.ylabel("Rectification")
@@ -132,15 +135,16 @@ k = regres.slope; b = regres.intercept; r = regres.rvalue
 print(k, b, r)
 
 plt.figure(figsize=(2.5, 2.5))
-plt.plot(LD, [rect[s][0] for s in salts], "o", label="Exp", alpha=0.8)
-plt.plot(LD, [rect[s][1] for s in salts], "D", label="FEM", alpha=0.8)
-xx = numpy.linspace(3, 35)
-yy = k * xx  + b
-plt.plot(xx, yy, "--")
+# plt.plot(LD, [rect[s][0] for s in salts], "o", label="Exp", alpha=0.8)
+plt.errorbar(LD, [rect[s][0] for s in salts],  yerr=[rect[s][1] for s in salts], fmt="o", alpha=0.8, label="Exp")
+plt.plot(LD, [rect[s][-1] for s in salts], "D", label="FEM", alpha=0.8)
+# xx = numpy.linspace(3, 35)
+# yy = k * xx  + b
+# plt.plot(xx, yy, "--")
 # plt.xscale("log")
 plt.xlabel("LD")
-plt.xlim(5, 33)
-plt.ylim(-0.2, 0.8)
+plt.xlim(10, 33)
+plt.ylim(-0.1, 0.8)
 plt.legend()
 plt.tight_layout()
 plt.savefig(os.path.join(plot_path, "rect_comparison.svg"))

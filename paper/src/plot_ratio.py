@@ -10,20 +10,26 @@ def read(name):
     data = numpy.genfromtxt(file_name,
                             skip_header=1,
                             delimiter=",")
+    data[:, 1] -= data[data[:, 0] == 0, 1]
     return data, err
 
-import sys
-try:
-    name = sys.argv[1]
-except IndexError:
-    name = "KCl"
+def main():
+    import sys
+    try:
+        name = sys.argv[1]
+    except IndexError:
+        name = "KCl"
 
-fig = plt.style.use("science")
-plt.figure(figsize=(2.8, 2.1), facecolor="w")
-plt.axvline(x=0, ls="--", color="#00ffee")
-data, err = read(name)
-plt.errorbar(data[:, 0], data[:, 1], yerr=err / 2, fmt="o")
-plt.xlim(-1.3, 1.3)
-plt.xlabel("$V_{\mathrm{G}}$ (V)")
-plt.ylabel("Rectification")
-plt.savefig("../img/rect_{}.svg".format(name))
+    fig = plt.style.use("science")
+    plt.figure(figsize=(2.8, 2.1), facecolor="w")
+    plt.axvline(x=0, ls="--", color="#00ffee")
+    plt.axhline(y=0, ls="--", color="#00ff00")
+    data, err = read(name)
+    plt.errorbar(data[:, 0], data[:, 1], yerr=err / 2, fmt="o")
+    plt.xlim(-1.3, 1.3)
+    plt.xlabel("$V_{\mathrm{G}}$ (V)")
+    plt.ylabel("Rectification")
+    plt.savefig("../img/rect_{}.svg".format(name))
+
+if __name__ == "__main__":
+    main()

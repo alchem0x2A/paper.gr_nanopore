@@ -10,6 +10,7 @@ def read(name):
     data = numpy.genfromtxt(file_name,
                             skip_header=1,
                             delimiter=",")
+    data[:, 1] -= data[data[:, 0] == 0, 1]
     return data, err
 
 fig = plt.style.use("science")

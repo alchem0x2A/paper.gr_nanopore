@@ -381,11 +381,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.97254803"
+     inkscape:zoom="1"
      inkscape:cx="251.7096"
-     inkscape:cy="104.73773"
+     inkscape:cy="64.737726"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="axes_1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="685"
@@ -1600,21 +1600,48 @@
              d="M 38.009687,10.7 H 213.90703"
              inkscape:connector-curvature="0" />
         </g>
+        <rect
+           style="opacity:1;fill:#ffffff;fill-opacity:0.51530612;fill-rule:nonzero;stroke:none;stroke-width:0.73296541;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1498"
+           width="120"
+           height="34.5"
+           x="64.196686"
+           y="11.691876"
+           ry="5.2943773" />
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.33878613px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.77117413px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="131.88162"
-           y="30.83334"
+           x="65.881622"
+           y="25.58334"
            id="text1349"><tspan
              sodipodi:role="line"
              id="tspan1347"
              style="stroke-width:0.77117413px;stroke-linecap:butt;stroke-linejoin:round"
-             x="131.88162"
-             y="30.83334"><tspan
+             x="65.881622"
+             y="25.58334"><tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.77117413px;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan1351">V</tspan><tspan
    style="font-size:8.02021027px;baseline-shift:sub;stroke-width:0.77117413px;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan1353">CNP</tspan>=2.2 V</tspan></text>
+   id="tspan1353">CNP</tspan>=2.8 V</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="66.425903"
+           y="42.118164"
+           id="text1488"><tspan
+             sodipodi:role="line"
+             id="tspan1486"
+             style="stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
+             x="66.425903"
+             y="42.118164">σ<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan1496">0</tspan> ≈1.4×10<tspan
+   style="font-size:64.99999762%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan1490">11</tspan> <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan1494">e</tspan>∙cm<tspan
+   style="font-size:64.99999762%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan1492">-2</tspan> </tspan></text>
       </g>
     </g>
   </g>

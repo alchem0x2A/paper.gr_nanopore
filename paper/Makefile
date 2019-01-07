@@ -23,10 +23,10 @@ compress:
 
 diff:
 	cp ./paper.tex ./paper.tex.bak
-	git checkout 4596239 ./paper.tex #old version
+	git checkout d7dffcf4 ./paper.tex #old version
 	cp paper.tex paper_old.tex
 	cp ./SI.tex ./SI.tex.bak	
-	git checkout f68da99 ./SI.tex
+	git checkout d7dffcf4 ./SI.tex
 	cp SI.tex SI_old.tex
 	git checkout HEAD ./paper.tex
 	git checkout HEAD ./SI.tex

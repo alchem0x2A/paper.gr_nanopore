@@ -24,6 +24,7 @@ plt.bar(x - w * 3 / 2 , data[:, 6], width=w,
 
 # Simulate
 plt.bar(x - w / 2, data[:, 3], width=w, color="red",
+        yerr=data[:, 5 : 3 : -1].T,
         label="simu")
 
 # Bare

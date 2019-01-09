@@ -50,25 +50,28 @@ Tannenstrasse 3, Zürich CH-8092, Switzerland.}
 \begin{document}
 \clearpage{}
 \begin{abstract}
-  {\normalsize Atomically thin porous graphene membranes are emerging as one
-    of the most promising candidates as next-generation membrane
-    technology owing to their unique transport physics and high permeation. Among the current challenges of 2D membranes
-    is the understanding of fundamental ion transport as well as its control towards applications in ion rectification, ionic transistors or desalination. 
-    Here we report the study of tailoring the ion transport 
-    through atomically-thin porous graphene with pore sizes of
-    20$\pm$10 nanometers, and a pore density of 1.25$\pm$0.25$\times$10$^{10}$
-    cm$^{-2}$. By electrostatically gating a sheet of porous graphene, we demonstrate
-    a considerable reduction of salt flux by up to 55\% and
-    85\% using a gate voltage, based on our experiments and
+  {\normalsize Atomically thin porous graphene membranes are emerging
+    as one of the most promising candidates as next-generation
+    membrane technology owing to their unique transport physics and
+    high permeation. Among the current challenges of 2D membranes is
+    the understanding of fundamental ion transport as well as its
+    control towards applications in ion rectification, ionic
+    transistors or desalination.  Here we report the study of
+    tailoring the ion transport through atomically-thin porous
+    graphene with pore sizes of 20$\pm$10 nanometers, and a pore
+    density of 1.25$\pm$0.25$\times$10$^{10}$ cm$^{-2}$. By
+    electrostatically gating a sheet of porous graphene, we
+    demonstrate a considerable reduction of salt flux by up to 55\%
+    and 85\% using a gate voltage, based on our experiments and
     theoretical predictions, respectively. We systematically
     investigate the effects of salt concentration and species,
-    including the development of a theory to model the electrolyte diffusion
-    through a nanopore in a sheet of gated graphene. The interplay
-    between graphene quantum capacitance and electrical double layer
-    is identified to be the main mechanism responsible for the
-    observed salt flux reduction, when the pore size is comparable to the
-    Debye length. Our findings reveal a new degree of
-    freedom controlling the membrane potential and electrolyte
+    including the development of a theory to model the electrolyte
+    diffusion through a nanopore in a sheet of gated graphene. The
+    interplay between graphene quantum capacitance and electrical
+    double layer is identified to be the main mechanism responsible
+    for the observed salt flux reduction, when the pore size is
+    comparable to the Debye length. Our findings reveal a new degree
+    of freedom controlling the membrane potential and electrolyte
     permeation through porous two-dimensional materials.  }
 \end{abstract}
 
@@ -80,10 +83,10 @@ Tannenstrasse 3, Zürich CH-8092, Switzerland.}
 \section{Introduction}
 \label{sec:intro}
 A central objective in the emerging field of nanofluidics is to
-control transport phenomena at nanometer scale to enable and study novel
-devices and systems. The reduction of characteristic
-dimensions in nanofluidics gives rise to substantially different
-transport properties in comparison to their bulk counterparts
+control transport phenomena at nanometer scale to enable and study
+novel devices and systems. The reduction of characteristic dimensions
+in nanofluidics gives rise to substantially different transport
+properties in comparison to their bulk counterparts
 \cite{Schoch_2008}. In nanopores, for example, the effect of
 surface-mediated transport becomes dominant when the pore size is
 comparable to the characteristic length of diffusion, enabling new
@@ -106,17 +109,19 @@ rejection.  Very recently, a number of reports have explored the
 effect of surface charges on the selectivity of ion transport through
 graphene nanopores, as a consequence of the electrostatic interactions
 between solvated ions and the charged functional groups attached on
-graphene, indicating that even large pores ($>$ 30nm) can be ion selective \cite{Rollings_2016,Surwade_2014}. However, it remains
-controversial if surface charges effectively allow controlled salt -transport 
-or -rejection, as the membrane charge and potential cannot be
-precisely quantified and are sensitive to the surroundings and
-chemical treatment \cite{Li_2008}. Therefore, there is a lack of 
+graphene, indicating that even large pores ($>$ 30nm) can be ion
+selective \cite{Rollings_2016,Surwade_2014}. However, it remains
+controversial if surface charges effectively allow controlled salt
+-transport or -rejection, as the membrane charge and potential cannot
+be precisely quantified and are sensitive to the surroundings and
+chemical treatment \cite{Li_2008}. Therefore, there is a lack of
 fundamental understanding of the interactions between the atomically
-thin 2D membrane, its surface charge and the electrolyte solution. Here, we study 
-macroscopic salt rectification through a sheet of large-area porous
-graphene using electrostatic gating, thereby deepening the
-understanding of ion-graphene interaction and sheding light on applications of
-nanoporous graphene for tailored ion transport.
+thin 2D membrane, its surface charge and the electrolyte
+solution. Here, we study macroscopic salt rectification through a
+sheet of large-area porous graphene using electrostatic gating,
+thereby deepening the understanding of ion-graphene interaction and
+sheding light on applications of nanoporous graphene for tailored ion
+transport.
 
 \section{Results and discussions}
 \label{sec:res}
@@ -215,33 +220,49 @@ illustratively represents how the measured conductivity evolves with
 time. Specifically, in the first interval, the gate voltage source is
 turned off and the conductivity probe is on, allowing us to obtain the
 conductivity-time profile with an average slope $s_{1}$ that
-corresponds to the diffusive flux across the PG-PCTE membrane. In
-the second interval, a voltage $V_{\mathrm{G}}$ is applied to the
-membrane after turning off the conductivity probe, followed by the
-third interval $s_{3}$, in which the conductivity probe is turned on
-again to give the corresponding slope. The slope corresponding to the
+corresponds to the diffusive flux across the PG-PCTE membrane. In the
+second interval, a voltage $V_{\mathrm{G}}$ is applied to the membrane
+after turning off the conductivity probe, followed by the third
+interval $s_{3}$, in which the conductivity probe is turned on again
+to give the corresponding slope. A control experiment was performed to
+ensure the copper tape was not in direct contact with the ionic
+solution (Supplementary Section 3). The slope corresponding to the
 second interval $s_{2}$, as the conductivity probe is off, is
 determined by linear interpolation of the conductivities from the
-endpoint of interval 1 to the starting point of interval
-3. Accordingly, we define the salt rejection factor, $\xi$, which is
-effectively equivalent to the relative degree of diffusive flux
-decrease as follows:
+endpoint of interval 1 to the starting point of interval 3. A decrease
+of slope observed in interval 2 indicates that the total flux through
+PCTE+PG is reduced upon gating (i.e. salt penetration through the PG
+pores is partially rejected). We define such experimentally measured
+reduction rate as $\eta$, which is equivalent to the decrease of total
+diffusive flux through PCTE+PG as follows:
 \begin{equation}
   \label{eq:rejection}
-  \xi = \frac{\bar{s} - s_{2}}{\bar{s}} = \frac{\boldsymbol{J}_{\mathrm{PG0}}
+  \eta = \frac{\bar{s} - s_{2}}{\bar{s}} = \frac{\boldsymbol{J}_{\mathrm{PG0}}
     - \boldsymbol{J}_{\mathrm{PG}}(V_{\mathrm{G}})}{\boldsymbol{J}_{\mathrm{PG0}}}
 \end{equation}
 where $\bar{s}$ is the average slope of $s_{1}$ and $s_{3}$, namely
 $(s_{1} + s_{3})/2$, and
 $\boldsymbol{J}_{\mathrm{PG}}(V_{\mathrm{G}})$ is the diffusive flux
 across the PTCE-supported PG double layer as a function of
-$V_{\mathrm{G}}$. Note that a positive $\xi$ between 0 and 1
-represents a decrease of the diffusive flux. The factor $\xi$ enables
-a reliable and stable measurement of salt rejection, as the salt
-species and initial conditions may induce a degree of measurement
-uncertainty between different samples. A control experiment was
-performed to ensure the copper tape was not in direct contact with the
-ionic solution (Supplementary Section 3).
+$V_{\mathrm{G}}$. PG and PCTE membranes effectively form a transport
+system with series resistance $R_{\mathrm{PG}}$ (tunable by
+$V_{\mathrm{G}}$) and $R_{\mathrm{PCTE}}$ (independent of
+$V_{\mathrm{G}}$), respectively. Due to the dominance of
+$R_{\mathrm{PCTE}}$ in the ionic transport, significant reduction of
+total ionic flux can only be achieved, when
+$R_{\mathrm{\mathrm{G}}}(V_{\mathrm{G}} \neq 0) \gg
+R_{\mathrm{\mathrm{G}}}^{0}$. Using the circuit analog model, we can
+extract the effective salt rejection ratio of PG $\xi$ from the
+observable flux reduction ratio $\eta$, as a function of
+$V_{\mathrm{G}}$ as (details see Supplementary Section S4):
+\begin{equation}
+\label{eq:xi-def}
+\xi = \frac{(\delta+1) \eta}{\delta \eta + 1}
+\end{equation}
+The factor $\xi$ enables a reliable and stable measurement of salt
+rejection through the PG membrane, as the salt species and initial
+conditions may induce a degree of measurement uncertainty between
+different samples.
 
 Using 0.1 mM KCl solution in HCR, we measured $\xi$ as a function of
 $V_{\mathrm{G}}$ within $\pm1.25$ V, before triggering the

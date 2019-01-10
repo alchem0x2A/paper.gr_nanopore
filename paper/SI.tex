@@ -174,8 +174,66 @@ omitting the Kapton tape, the current increases to $\sim$ 1 - 10
 $\mathrm{\mu}$A, independent of the exposed area of the copper tape to
 the solution.
 
-\section{Circuit analog model of transport through PG+PCTE}
+\section{Circuit analog model of transport through PG-PCTE}
 \label{sec:R-model}
+The ionic transport through the PG-PCTE membrane is the concerted
+effect the transport resistance through PG and PCTE membranes,
+respectively. As schematically shown in \Fig{} \ref{fig:R-model}, the
+overall transport resistance of the system is composed of the series
+resistance $R_{\mathrm{G}}$ and $R_{\mathrm{PCTE}}$, respectively. We
+further treat $R_{\mathrm{G}}$ as the effective resistance of $\gamma$
+parallel resistors with individual resistance $R_{\mathrm{g}}$, where
+$\gamma$ is the average numbers of PG pores per PCTE channel, and
+$R_{\mathrm{g}}$ is the average transport resistance per PG pore. 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-resistance-rectification.pdf}
+  \caption{Simple circuit analog model for the transport through
+    PG-PCTE membrane. \textbf{a}. Schematic of PG-PCTE membrane in
+    cross-section view. \textbf{b}. Model for transport resistance in
+    analogy to an electric circuit. This schematic depicts a cut
+    through a PG-PCTE membrane showing a single PCTE pore and multiple
+    graphene pores.}
+  \label{fig:R-model}
+\end{figure}
+We then estimate the value of $\gamma$ from geometric analysis of both
+membranes. Given the pore number density of PG
+($\sim$1.25$\times$10$^{14}$ m$^{-2}$), the pore number density of
+PCTE ($\sim$1.50$\times$10$^{12}$ m$^{-2}$), and the percentage of
+PCTE pores with PG on top ($\sim$0.13), $\gamma$ is determined to be
+$\sim$10.83.
+
+Next we seek the value between $R_{\mathrm{PCTE}}$ and
+$R_{\mathrm{G}}^{0}$ (ungated resistance of PG), $\delta$ (as defined
+in main text Section \ref{main-sec:res-1}). It is pointed out that the
+scaling law for $R_{\mathrm{PCTE}}$ and $R_{\mathrm{G}}^{0}$
+differs. For a long channel like PCTE, the resistance is derived from
+Fick's law as\cite{O_Hern_2014}:
+\begin{equation}
+\label{eq:R-PCTE}
+ R_{\mathrm{PCTE}} = \frac{1}{D} \frac{L}{\pi r_{\mathrm{PCTE}}^{2}}
+\end{equation}
+whereas $D$ is the diffusivity of the specie, $L$ is the length of
+channel ($\sim$24 $\mathrm{\mu}$m), and $r_{\mathrm{PCTE}}$ is the
+average radius of the PCTE channels ($\sim$400 nm). On the other hand,
+the transport through 2D pore with high radius/thickness ratio falls
+into the regime of the Sampson formula \cite{Roscoe_1949}, where the
+entrance resistance dominates over the bulk resistance, with the
+formula as \cite{Roscoe_1949,Celebi_2014}:
+\begin{equation}
+  \label{eq:sampson}
+  R_{\mathrm{g}}^{0} = \frac{1}{D} \frac{3 \pi}{r_{\mathrm{G}}}
+\end{equation}
+We therefore estimate the value of $\delta$ as:
+\begin{equation}
+  \label{eq:delta-resistance}
+  \delta = {\displaystyle
+    \frac{{\displaystyle \frac{L}
+        {\pi r_{\mathrm{PCTE}}^{2}}}}
+    {{\displaystyle \frac{3 \pi}{r_{\mathrm{G}}} \frac{1}{\gamma}}}}
+  \approx 2.20
+\end{equation}
+
 
 \section{KCl Debye length and conductivity}
 \label{sec:debye}

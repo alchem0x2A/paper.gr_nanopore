@@ -204,11 +204,10 @@ PCTE pores with PG on top ($\sim$0.13), $\gamma$ is determined to be
 $\sim$10.83.
 
 Next we seek the value between $R_{\mathrm{PCTE}}$ and
-$R_{\mathrm{G}}^{0}$ (ungated resistance of PG), $\delta$ (as defined
-in main text Section \ref{main-sec:res-1}). It is pointed out that the
-scaling law for $R_{\mathrm{PCTE}}$ and $R_{\mathrm{G}}^{0}$
-differs. For a long channel like PCTE, the resistance is derived from
-Fick's law as\cite{O_Hern_2014}:
+$R_{\mathrm{G}}^{0}$ (ungated resistance of PG), $\delta$. It is
+pointed out that the scaling laws for $R_{\mathrm{PCTE}}$ and
+$R_{\mathrm{G}}^{0}$ differ. For a long channel like PCTE, the
+resistance is derived from Fick's law as\cite{O_Hern_2014}:
 \begin{equation}
 \label{eq:R-PCTE}
  R_{\mathrm{PCTE}} = \frac{1}{D} \frac{L}{\pi r_{\mathrm{PCTE}}^{2}}
@@ -249,7 +248,7 @@ geometric model agrees well with the experimental results. As shown in
 within the margin of the majority of experimental data, which is
 exceptionally good given the simplicity of the model used.
 
-Next we show how the effective salt rejection ratio through PG, $\xi$,
+Finally we show how the effective salt rejection ratio through PG, $\xi$,
 is extracted from the experimental $\eta$ values. Using the circuit
 analog model, the definition of $\eta$ from main text
 Eq. \ref{main-eq:rejection} can be rewritted using transport
@@ -280,7 +279,8 @@ which is main text Eq. \ref{main-eq:xi-def}. When $0<\eta<1$ (salt
 rejection regime) and $\delta>0$, Eq. \ref{eq:xi-deriv} always
 guarantees $\xi>\eta$, since $\delta + 1$ is always larger than
 $\delta\eta + 1$. In other words, due to the existance of
-$R_{\mathrm{PCTE}}$, the effective salt rejection through PG upon gating, is always larger than that expperimentally observed.
+$R_{\mathrm{PCTE}}$, the effective salt rejection through PG upon
+gating, is always larger than that expperimentally observed.
 
 \section{KCl Debye length and conductivity}
 \label{sec:debye}
@@ -345,7 +345,7 @@ The numerical simulations were carried out using COMSOL Multiphysics
 5.3a. The simulation domain is shown in \Fig \ref{fig:scheme}. To
 simplify the geometry, we use axial symmetric coordinate system. The
 radius \textit{L} and height \textit{H} of both HCR and LCR are set to
-20 $R_{\mathrm{G}}$, the radius of the nanopore. The potential at the
+20 $r_{\mathrm{G}}$, the radius of the nanopore. The potential at the
 bottom of the LCR and the center of the graphene domains are set to be
 0 and $\psi_{\mathrm{G}}$, respectively. The potential at the end of
 HCR is not set explicitly, but rather determined through the Poisson
@@ -441,10 +441,10 @@ refinement of the mesh entities: (i) trangle mesh division
 $N_{\mathrm{div}}$, giving the smallest triangle mesh size
 $\delta_{\mathrm{G}} / N_{\mathrm{div}}$, where $\delta_{\mathrm{G}}$
 is the thickness of graphene, and (ii) division of mesh
-$N_{\mathrm{b}}$, on the boundary $0<r<R_{\mathrm{G}};z=0$. The
+$N_{\mathrm{b}}$, on the boundary $0<r<r_{\mathrm{G}};z=0$. The
 solution convergence is evaluated by the mean absolute error (MAE) of
 anion flux $\boldsymbol{J}_{z}$ on the boundary
-$0<r<R_{\mathrm{G}};z=0$, as shown in \Fig{}
+$0<r<r_{\mathrm{G}};z=0$, as shown in \Fig{}
 \ref{fig:mesh}b. The solution of the PNP model is sensitive to the
 value $N_{\mathrm{b}}$, and can be regarded numerically converged when
 $N_{\mathrm{b}}>100$. Combining the calculation effort and numerical
@@ -457,10 +457,10 @@ $N_{\mathrm{b}}=100$ in our simulations.
   \caption{Mesh independence of the solution. \textbf{a}. Scheme of
     the mesh refinement near the graphene pore. The values
     $N_{\mathrm{div}}$ and $N_{\mathrm{b}}$ controls the size of mesh
-    along the boundary $z=0, 0<r<R_{\mathrm{G}}$ (shown in
+    along the boundary $z=0, 0<r<r_{\mathrm{G}}$ (shown in
     red). \textbf{b}. Mean absolute error (MAE) of the anion flux
     $\boldsymbol{J}_{z}$ along the boundary $z=0,
-    0<r<R_{\mathrm{G}}$. The error is more sensitive to
+    0<r<r_{\mathrm{G}}$. The error is more sensitive to
     $N_{\mathrm{b}}$ than $N_{\mathrm{div}}$.}
   \label{fig:mesh}
 \end{figure}

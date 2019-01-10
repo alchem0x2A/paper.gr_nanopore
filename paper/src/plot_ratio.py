@@ -13,6 +13,9 @@ def read(name):
     data[:, 1] -= data[data[:, 0] == 0, 1]
     return data, err
 
+def eta_to_xi(eta, delta=2.20):
+    return (delta + 1) * eta / (delta * eta + 1)
+
 def main():
     import sys
     try:
@@ -25,8 +28,12 @@ def main():
     plt.axvline(x=0, ls="--", color="#00ffee")
     plt.axhline(y=0, ls="--", color="#00ff00")
     data, err = read(name)
-    plt.errorbar(data[:, 0], data[:, 1], yerr=err / 2, fmt="o")
+    xi = eta_to_xi(data[:, 1])
+    err_lo = xi - eta_to_xi(data[:, 1] - err / 2)
+    err_hi = eta_to_xi(data[:, 1] + err / 2) - xi
+    plt.errorbar(data[:, 0], eta_to_xi(data[:, 1]), yerr=(err_lo, err_hi), fmt="o")
     plt.xlim(-1.3, 1.3)
+    plt.ylim(-0.15, 0.6)
     plt.xlabel("$V_{\mathrm{G}}$ (V)")
     plt.ylabel("Rectification")
     plt.savefig("../img/rect_{}.svg".format(name))

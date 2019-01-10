@@ -77,3 +77,9 @@ acs-*.bib
 /paper/data/diffusion-slope.csv
 /paper/img/0.0001-0.15-V.svg
 /paper/img/0.0001-0.15-c_n.svg
+/correction/gr_sample.csv
+/mesh_compare/error/NB100.txt
+/mesh_compare/error/NB20.txt
+/mesh_compare/error/NB200.txt
+/mesh_compare/error/NB50.txt
+/mesh_compare/error/error.svg

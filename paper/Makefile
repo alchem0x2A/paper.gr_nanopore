@@ -7,17 +7,20 @@ TEX_FILE=paper.tex
 SI_FILE=SI.tex
 REMOTE = ~/Dropbox/Ion\ rectification/TeX/
 GS_TAG= -sDEVICE=pdfwrite -dQUIET -sBATCH -dNOPAUSE
+PDFLATEX_TAG=-interaction=nonstopmode -draftmode
 LATEXMK_TAG= -f -pdf -quiet -view=none -pdflatex='pdflatex -interaction=nonstopmode'
 DIFF_TAG= --exclude-textcmd="section,subsection" --config="PICTUREENV=(?:figure|section|DIFnomarkup)[*]*" --graphics-markup=0 --disable-citation-markup
 
 
 
-all: main SI diff
+all: main SI
 
-main: $(TEX_FILE) $(BIB_FILE)
+main:
+	pdflatex $(PDFLATEX_TAG) $(SI_FILE)
 	latexmk $(LATEXMK_TAG) $(TEX_FILE)
 
-SI: $(SI_FILE) $(BIB_FILE) 
+SI:
+	pdflatex $(PDFLATEX_TAG) $(TEX_FILE)
 	latexmk $(LATEXMK_TAG) $(SI_FILE)
 
 compress:

@@ -8,6 +8,9 @@
 \newcommand{\Fig}{Fig.}
 \renewcommand{\thesection}{S\arabic{section}}
 \SectionNumbersOn
+\usepackage{xr-hyper}
+\externaldocument[main-]{paper}
+
 % \usepackage{lineno}
 % \linenumbers
 
@@ -170,6 +173,9 @@ measured. If the copper tape is in contact with the solution when
 omitting the Kapton tape, the current increases to $\sim$ 1 - 10
 $\mathrm{\mu}$A, independent of the exposed area of the copper tape to
 the solution.
+
+\section{Circuit analog model of transport through PG+PCTE}
+\label{sec:R-model}
 
 \section{KCl Debye length and conductivity}
 \label{sec:debye}

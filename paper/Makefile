@@ -1,3 +1,6 @@
+DOCX_REF=my_reference.docx
+DOCX_NAME=paper.docx
+CSL_FILE=aps.csl
 IMG_PATH=img
 BIB_FILE=ref.bib
 TEX_FILE=paper.tex
@@ -20,6 +23,14 @@ SI: $(SI_FILE) $(BIB_FILE)
 compress:
 	gs $(GS_TAG) -sOutputFile="paper-compak.pdf" paper.pdf
 	gs $(GS_TAG) -sOutputFile="SI-compak.pdf" SI.pdf
+
+doc:
+	pandoc --from=latex --to=docx $(TEX_FILE) -o $(DOCX_NAME) \
+		--reference-doc=$(DOCX_REF) \
+		--bibliography=$(BIB_FILE) \
+		--csl=$(CSL_FILE) \
+		$(VERBOSE)
+
 
 diff:
 	cp ./paper.tex ./paper.tex.bak

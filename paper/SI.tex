@@ -227,13 +227,60 @@ formula as \cite{Roscoe_1949,Celebi_2014}:
 We therefore estimate the value of $\delta$ as:
 \begin{equation}
   \label{eq:delta-resistance}
-  \delta = {\displaystyle
+  \delta
+  = \frac{R_{\mathrm{PCTE}}}{R_{\mathrm{G}}^{0}}
+  = {\displaystyle
     \frac{{\displaystyle \frac{L}
         {\pi r_{\mathrm{PCTE}}^{2}}}}
     {{\displaystyle \frac{3 \pi}{r_{\mathrm{G}}} \frac{1}{\gamma}}}}
   \approx 2.20
 \end{equation}
+Alternatively, we may also estimate the range of $\delta$ from
+experimental data in main text \Fig{} \ref{main-fig:2}b using the
+relation:
+\begin{equation}
+  \label{eq:exp-delta}
+  \delta = \left(\frac{\boldsymbol{J}_{\mathrm{PCTE}}}{\boldsymbol{J}_{\mathrm{PG}}^{0}} -1 \right)^{-1}
+\end{equation}
+by assuming the validity of the circuit analog model for all salt
+systems. We find that the $\delta$ value estimated from the simple
+geometric model agrees well with the experimental results. As shown in
+\Fig{}, the theoretical estimated value of $\delta$ (organe line) lies
+within the margin of the majority of experimental data, which is
+exceptionally good given the simplicity of the model used.
 
+Next we show how the effective salt rejection ratio through PG, $\xi$,
+is extracted from the experimental $\eta$ values. Using the circuit
+analog model, the definition of $\eta$ from main text
+Eq. \ref{main-eq:rejection} can be rewritted using transport
+resistances as:
+\begin{equation}
+  \begin{aligned}[t]
+      \label{eq:eta-R}
+  \eta &= 1 - {\displaystyle
+    \frac{(R_{\mathrm{PCTE}} + R_{\mathrm{G}})^{-1}}
+    {(R_{\mathrm{PCTE}} + R_{\mathrm{G}}^{0})}} \\
+    &= 1 - \frac{\delta + 1}{\delta + R_{\mathrm{G}}/R_{\mathrm{G}}^{0}} \\
+    &= 1 - \frac{\delta + 1}{\delta + \chi}
+  \end{aligned}
+\end{equation}
+where we define $\chi = R_{\mathrm{G}}/R_{\mathrm{G}}^{0}$ which
+represents the change of the transport resistance through PG upon
+gating. Consequentially, the salt rejection ratio $\xi$, is associated
+with $\chi$ by $\xi = 1 - \chi^{-1}$. Reformatting Eq. \ref{eq:eta-R}
+gives:
+\begin{equation}
+  \label{eq:xi-deriv}
+  \begin{aligned}[t]
+    \xi &= 1 - \chi^{-1} \\
+    &= \frac{(\delta + 1) \eta}{\delta\eta + 1}
+  \end{aligned}
+\end{equation}
+which is main text Eq. \ref{main-eq:xi-def}. When $0<\eta<1$ (salt
+rejection regime) and $\delta>0$, Eq. \ref{eq:xi-deriv} always
+guarantees $\xi>\eta$, since $\delta + 1$ is always larger than
+$\delta\eta + 1$. In other words, due to the existance of
+$R_{\mathrm{PCTE}}$, the effective salt rejection through PG upon gating, is always larger than that expperimentally observed.
 
 \section{KCl Debye length and conductivity}
 \label{sec:debye}

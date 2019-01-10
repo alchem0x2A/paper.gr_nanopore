@@ -1,6 +1,12 @@
 # Generated pdf
 paper/img/*.pdf
-
+*_change*
+*.bak*
+*old*
+*.blg
+*/__pycache__/*
+*/auto/*
+paper.docx
 # Compiled class file
 *.class
 

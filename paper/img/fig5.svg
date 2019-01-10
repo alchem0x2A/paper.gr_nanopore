@@ -16,7 +16,7 @@
    version="1.1"
    id="svg57165"
    inkscape:version="0.92.3 (68fc966a96, 2018-08-01)"
-   sodipodi:docname="fig6.svg">
+   sodipodi:docname="fig5.svg">
   <defs
      id="defs57159"
      style="stroke-linecap:butt;stroke-linejoin:round">
@@ -3260,11 +3260,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="1139.5332"
-     inkscape:cy="93.99692"
+     inkscape:zoom="1.979899"
+     inkscape:cx="304.08901"
+     inkscape:cy="246.014"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -3608,6 +3608,7 @@
 <tspan
    id="tspan9542"
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
+
  (V)</tspan>
                 </text>
               </g>
@@ -8975,8 +8976,8 @@
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round">λ</tspan><tspan
    id="tspan22411"
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">D</tspan>/<tspan
-   id="tspan22413"
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round">R</tspan><tspan
+   style="-inkscape-font-specification:'arial Italic';font-family:arial;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+   id="tspan20694">r</tspan><tspan
    id="tspan22415"
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan></tspan></text>
         <text
@@ -9504,8 +9505,8 @@
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.50323027px;stroke-linecap:butt;stroke-linejoin:round">λ</tspan><tspan
    id="tspan22411-9"
    style="font-size:5.23359537px;baseline-shift:sub;stroke-width:0.50323027px;stroke-linecap:butt;stroke-linejoin:round">D</tspan>/<tspan
-   id="tspan22413-0"
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.50323027px;stroke-linecap:butt;stroke-linejoin:round">R</tspan><tspan
+   style="-inkscape-font-specification:'arial Italic';font-family:arial;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal"
+   id="tspan20692">r</tspan><tspan
    id="tspan22415-2"
    style="font-size:5.23359537px;baseline-shift:sub;stroke-width:0.50323027px;stroke-linecap:butt;stroke-linejoin:round">G</tspan></tspan></text>
         <text

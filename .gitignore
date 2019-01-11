@@ -1,5 +1,7 @@
 # Generated pdf
 paper/img/*.pdf
+paper/img/*.png
+paper/*.pdf
 *_change*
 *.bak*
 *old*

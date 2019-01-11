@@ -87,6 +87,13 @@ Tannenstrasse 3, Zürich CH-8092, Switzerland.}
 \section{Ion diffusion measurement and calculation}
 \label{sec:measure}
 
+The ion diffusion through b-PCTE has been performed using a sample
+sandwiched between two layers of Aluminum tape where the edges have
+been sealed using water-resistant epoxy (ACS Marine Epoxy) to avoid
+interlayer leakage pathways \cite{Choi_2018}.  The sample was inserted in
+the fixture following the same wetting procedure described in the main
+text Methods and was kept wet for the entire series of experiments.
+
 \begin{table}[htbp]
   \centering
   \begin{tabular}{lc}
@@ -110,14 +117,7 @@ Tannenstrasse 3, Zürich CH-8092, Switzerland.}
   \label{tab:diff}
 \end{table}
 
-The ion diffusion through b-PCTE has been performed using a sample
-sandwiched between two layers of Aluminum tape where the edges have
-been sealed using water-resistant epoxy (ACS Marine Epoxy) to avoid
-interlayer leakage pathways \cite{Choi_2018}.  The sample was inserted in
-the fixture following the same wetting procedure described in the main
-text Methods and was kept wet for the entire series of experiments.
-
-The conductivity increases $s$ (mS$\cdot$cm$^{-1}\cdot$d$^{-1}$) is
+The conductivity increase $s$ (mS$\cdot$cm$^{-1}\cdot$d$^{-1}$) is
 converted into ion permeation rates $\boldsymbol{J}_{\mathrm{PCTE}}$
 (mol$\cdot$m$^{-2}\cdot$s$^{-1}$) by use of a calibration factor
 $c_{\mathrm{f}}$, the volume of LCR ($V_{\mathrm{LCR}}$) , the area of
@@ -127,7 +127,7 @@ the membrane $A$ and the time $t$ as:
   \boldsymbol{J}_{\mathrm{PCTE}} = \frac{s V_{\mathrm{LCR}}}{c_{\mathrm{f}} A t}
 \end{equation}
 The calibration factors for all salts have been obtained by a linear
-fit of conductivity versus concentration for 4 solutions with
+fit of conductivity \textit{versus} concentration for 4 solutions with
 concentrations from 10$^{-4}$ M to 10$^{-2}$ M and extracting the
 resulting slope. The rest of the factors are $V_{\mathrm{LCR}}$ = 7.33
 mL, $A$ = 9$\times$10$^{-6}$ m$^{-2}$. Table \ref{tab:exp-2} shows the
@@ -165,7 +165,7 @@ Eq. \ref{main-eq:xi-def}.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.9\linewidth]{img/SI-eta-all.pdf}
+  \includegraphics[width=0.7\linewidth]{img/SI-eta-all.pdf}
   \caption{Measured $\eta$ values as function of $V_{\mathrm{G}}$ for
     different salts used in this work. The concentration in HCR is 0.1
     mM in all cases.}
@@ -228,9 +228,9 @@ resistance is derived from Fick's law as\cite{O_Hern_2014}:
 \label{eq:R-PCTE}
  R_{\mathrm{PCTE}} = \frac{1}{D} \frac{L}{\pi r_{\mathrm{PCTE}}^{2}}
 \end{equation}
-whereas $D$ is the diffusivity of the specie, $L$ is the length of
+whereas $D$ is the diffusivity of the species, $L$ is the length of
 channel ($\sim$24 $\mathrm{\mu}$m), and $r_{\mathrm{PCTE}}$ is the
-average radius of the PCTE channels ($\sim$400 nm). On the other hand,
+average radius of the PCTE channels ($\sim$200 nm). On the other hand,
 the transport through 2D pore with high radius/thickness ratio falls
 into the regime of the Sampson formula \cite{Roscoe_1949}, where the
 entrance resistance dominates over the bulk resistance, with the
@@ -260,9 +260,19 @@ relation:
 by assuming the validity of the circuit analog model for all salt
 systems. We find that the $\delta$ value estimated from the simple
 geometric model agrees well with the experimental results. As shown in
-\Fig{}, the theoretical estimated value of $\delta$ (organe line) lies
-within the margin of the majority of experimental data, which is
-exceptionally good given the simplicity of the model used.
+\Fig{} \ref{}, the theoretical estimated value of $\delta$ (orange
+line) lies within the margin of the majority of experimental data,
+which is exceptionally good given the simplicity of the model used.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\linewidth]{img/SI-delta-estimate.pdf}
+  \caption{Comparison between the $\delta$ value estimated from simple
+    geometric model (Eq. \ref{eq:delta-resistance}) and from
+    experimental value (Eq. \ref{eq:exp-delta}), showing good
+    agreement between the two methods.  }
+  \label{fig:delta-compare}
+\end{figure}
 
 Finally we show how the effective salt rejection ratio through PG, $\xi$,
 is extracted from the experimental $\eta$ values. Using the circuit
@@ -296,7 +306,7 @@ rejection regime) and $\delta>0$, Eq. \ref{eq:xi-deriv} always
 guarantees $\xi>\eta$, since $\delta + 1$ is always larger than
 $\delta\eta + 1$. In other words, due to the existance of
 $R_{\mathrm{PCTE}}$, the effective salt rejection through PG upon
-gating, is always larger than that expperimentally observed.
+gating, is always larger than that experimentally observed.
 
 \section{KCl Debye length and conductivity}
 \label{sec:debye}
@@ -354,6 +364,7 @@ PG sample is intrinsic without gating, is justified.
   \label{fig:charge-dens}
 \end{figure}
 
+\pagebreak
 \section{Further details of the numerical simulation }
 \label{sec:numer}
 

@@ -8,7 +8,7 @@ data.set('fullprec', 'off');
 %use grid location
 data.set('location', 'grid');
 data.set('gridx2', 'range(0, (R_p*2-0)/511, R_p*2)');
-data.set('gridy2', 'range(-R_p*1, (R_p * 2)/511, R_p*1)');
+data.set('gridy2', 'range(-R_p*2, (R_p * 4)/511, R_p*2)');
 
 %use
 expressions = {'V', 'c_p', 'c_n', 'tds.tflux_c_pz', 'tds.tflux_c_nz'};

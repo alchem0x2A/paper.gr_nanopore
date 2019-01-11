@@ -25,3 +25,15 @@ data.set('filename', txt_file);
 
 fprintf('Exporting for file %s ...\n', file);
 data.run();
+
+% Export sigma and export file
+int_surf = model.result.numerical.create('int2', 'IntSurface');
+int_surf.set('intvolume', 'on');
+int_surf.selection.set([1, 2]);
+int_surf.setIndex('expr', '(z_n * c_n + z_p * c_p) * N_A_const * e_const / (pi * L ^2)', 0);
+res = int_surf.computeResult(); cc = res(1); sigma = cc{1};
+
+% Vg = [0.001, 0.025, 0.05, 0.1, 0.15, 0.2, 0.25, 0.35, 0.45, 0.55, 0.65];
+Vg = [0.001, 0.025 : 0.025: 0.30];
+sigma_file = strcat(path, 'sigma_', file_root{1}, '.txt');
+dlmwrite(sigma_file, [Vg', sigma], 'delimiter',' ','precision',5)

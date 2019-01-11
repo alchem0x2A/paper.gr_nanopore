@@ -3,6 +3,7 @@ import numpy
 import matplotlib.pyplot as plt
 import os, os.path
 from scipy.constants import pi, hbar, e, N_A, k, epsilon_0
+from scipy.interpolate import interp1d
 
 vf = 1.1e6
 
@@ -21,10 +22,12 @@ Vg_all = [0.001] + list(numpy.arange(0.025, 0.301, 0.025))
 Vg_true = []
 
 file_template = "{0}.npy"
-sigma_file_template = "sigma_{0}.txt"
+sigma_file_template = "sigma_{0}_out.txt"
 
 salts = ["NaCl", "LiCl", "KCl", "CaCl2",
          "MgSO4", "K2SO4", "K3FeCN"]
+
+rates = [0.95, 1.0, 0.9, 0.35, 0.6, 0.55, 0.1]
 
 ratio_conc = 10**3
 
@@ -32,7 +35,7 @@ ratio_conc = 10**3
 out_path = "../result/salt/20/"
 plot_path = "../plot/salt"
 plt.style.use("science")
-"""
+
 # get the index of column in the new matrix
 def get_col_index(Vg, quantity):
     idx_V = Vg_all.index(Vg)
@@ -73,23 +76,29 @@ fig = plt.figure(figsize=(2.5, 2.5))
 plt.style.use("science")
 
 for i, salt in enumerate(salts):
-    if salt == "CaCl2":
-        rate = 0.4
-    else:
-        rate = 1.0
-    plt.plot(Vg_true[i, :], avg_tflux[i, :] * rate, "-",
+    # if salt == "CaCl2":
+        # rate = 0.4
+    # else:
+        # rate = 1.0
+    rate =  rates[i]
+    x = Vg_true[i, :]
+    y = avg_tflux[i, :]
+    print(salt, y[x<=1.25][-1] * rate)
+    xx = numpy.linspace(x.min(), 1.25, 128)
+    yy = interp1d(x, y, kind="cubic")(xx)
+    plt.plot(xx, yy * rate, "-",
              markersize=5,
              label="{}".format(salt))
 
 # plt.yscale("log")
 plt.xlabel("$V_{g}$ (V)")
 plt.xlim(0, 1.25)
-plt.ylim(-0.2, 0.8)
+# plt.ylim(-0.2, 1.0)
 plt.ylabel("Rectification")
 plt.legend()
 
 plt.savefig(os.path.join(plot_path, "tflux_salt.svg"))
-"""
+
 
 d_debye = Debye_length(numpy.array(concentrations)) / 1e-9
 rect = {"KCl": ( 0.268, 0.055, 0.623),

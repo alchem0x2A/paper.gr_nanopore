@@ -32,73 +32,15 @@ ratio_conc = 10**3
 out_path = "../result/salt/20/"
 plot_path = "../plot/salt"
 plt.style.use("science")
-"""
-# get the index of column in the new matrix
-def get_col_index(Vg, quantity):
-    idx_V = Vg_all.index(Vg)
-    idx_quant = quantities.index(quantity)
-    len_quant = len(quantities)
-    return 1 + len_quant * idx_V + idx_quant
-
-
-avg_tflux = []
-
-quant_flux = ("zflux_cp", "zflux_cn")
-
-fig = plt.figure(figsize=(4, 4))
-for salt in salts:
-    tflux = []
-    file_name = os.path.join(out_path, file_template.format(salt))
-    print(file_name)
-    data = numpy.load(file_name)
-    data[:, 0] /= 1e-9
-    r = data[:, 0]
-    for V in Vg_all:
-        avg = 0
-        idx = get_col_index(V, "zflux_cp")
-        avg += numpy.abs(numpy.mean(data[:, idx]))
-        idx = get_col_index(V, "zflux_cn")
-        avg += numpy.abs(numpy.mean(data[:, idx]))
-        tflux.append(avg)
-    avg_tflux.append(1 - tflux / tflux[0])  # averaged
-    sigma_file = os.path.join(out_path, sigma_file_template.format(salt))
-    sigma_data = numpy.genfromtxt(sigma_file, comments="%")
-    V_ = sigma_data[:, 0]; sig_ = -sigma_data[:, 1]
-    Vg_true.append(V_ + delta_phi_gr(sig_))
-    
-Vg_true = numpy.array(Vg_true)
-avg_tflux = numpy.array(avg_tflux)
-
-fig = plt.figure(figsize=(2.5, 2.5))
-plt.style.use("science")
-
-for i, salt in enumerate(salts):
-    if salt == "CaCl2":
-        rate = 0.4
-    else:
-        rate = 1.0
-    plt.plot(Vg_true[i, :], avg_tflux[i, :] * rate, "-",
-             markersize=5,
-             label="{}".format(salt))
-
-# plt.yscale("log")
-plt.xlabel("$V_{g}$ (V)")
-plt.xlim(0, 1.25)
-plt.ylim(-0.2, 0.8)
-plt.ylabel("Rectification")
-plt.legend()
-
-plt.savefig(os.path.join(plot_path, "tflux_salt.svg"))
-"""
 
 d_debye = Debye_length(numpy.array(concentrations)) / 1e-9
-rect = {"KCl": ( 0.268, 0.055, 0.623),
-        "NaCl": (0.563, 0.110, 0.703),
-        "LiCl": (0.459, 0.096, 0.73),
-        "CaCl2": (0.214, 0.049, 0.268),
-        "K2SO4": (0.153, 0.052, 0.089),
-        "MgSO4": (0.285, 0.069, 0.207),
-        "K3FeCN": (-0.036, 0.040, -0.056)}
+rect = {"KCl": ( 0.268, 0.055, 0.861),
+        "NaCl": (0.563, 0.110, 0.915),
+        "LiCl": (0.459, 0.096, 0.967),
+        "CaCl2": (0.214, 0.049, .341),
+        "K2SO4": (0.153, 0.052, 0.310),
+        "MgSO4": (0.285, 0.069, 0.503),
+        "K3FeCN": (-0.016, 0.040, 0.027)}
 
 # rect = 1 - avg_tflux[:, 6] / avg_tflux[:, 0]
 # salts = ["KCl"] + salts
@@ -110,7 +52,7 @@ def convert(delta, eta):
     return 1 - xi_inv
 
 plt.figure(figsize=(2.5, 2.5))
-delta = 0.8
+delta = 2.2
 plt.bar(numpy.arange(len(salts))-0.125,
         height=[convert(delta, rect[k][0]) for k in salts],
         yerr=numpy.array(numpy.array([rect[k][1] for k in salts])),
@@ -149,7 +91,7 @@ plt.plot(LD, [rect[s][-1] for s in salts], "D", label="FEM", alpha=0.8)
 # plt.xscale("log")
 plt.xlabel("LD")
 plt.xlim(10, 33)
-plt.ylim(-0.1, 0.8)
+plt.ylim(-0.1, 1.0)
 plt.legend()
 plt.tight_layout()
 plt.savefig(os.path.join(plot_path, "rect_comparison_gg.svg"))

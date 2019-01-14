@@ -274,27 +274,27 @@ where $\bar{s}$ is the average slope of $s_{1}$ and $s_{3}$, namely
 $(s_{1} + s_{3})/2$, and
 $\boldsymbol{J}_{\mathrm{PG}}(V_{\mathrm{G}})$ is the diffusive flux
 across the PTCE-supported PG double layer as a function of
-$V_{\mathrm{G}}$. PG and PCTE membranes effectively form a transport
+$V_{\mathrm{G}}$. Since PG and PCTE membranes effectively form a transport
 system with series resistance $R_{\mathrm{PG}}$ (tunable by
 $V_{\mathrm{G}}$) and $R_{\mathrm{PCTE}}$ (independent of
-$V_{\mathrm{G}}$), respectively. Due to the dominance of
-$R_{\mathrm{PCTE}}$ in the ionic transport, significant reduction of
-total ionic flux can only be achieved, when
-$R_{\mathrm{\mathrm{G}}}(V_{\mathrm{G}} \neq 0) \gg
-R_{\mathrm{\mathrm{G}}}^{0}$. Using the circuit analog model, we can
-extract the effective salt rejection ratio of PG $\xi$, (defined as
-$1 - R_{\mathrm{G}}^{0}/R_{\mathrm{G}}$) from the observable flux
-reduction ratio $\eta$ (see Supplementary \Fig{}
-\ref{SI-fig:eta-all}), as a function of $V_{\mathrm{G}}$ as (details
-see Supplementary Section \ref{SI-sec:R-model}):
+$V_{\mathrm{G}}$), respectively,
+% Due to the dominance of
+% $R_{\mathrm{PCTE}}$ in the ionic transport, significant reduction of
+% total ionic flux can only be achieved, when
+% $R_{\mathrm{\mathrm{G}}}(V_{\mathrm{G}} \neq 0) \gg
+% R_{\mathrm{\mathrm{G}}}^{0}$. Using the circuit analog model, we can
+% extract the
+the effective degree of salt rejection from bare PG $\xi$ as a
+function of $V_{\mathrm{G}}$ ( see Supplementary Section
+\ref{SI-sec:R-model}) is given by:
 \begin{equation}
 \label{eq:xi-def}
 \xi = \frac{(\delta+1) \eta}{\delta \eta + 1}
 \end{equation}
 The factor $\xi$ is a reliable and stable measure of salt rejection
-through the PG membrane upon gating, as the salt species and initial
-conditions may induce a degree of measurement uncertainty between
-different samples.
+through the PG membrane itself upon gating, as the salt species and
+initial conditions may induce a degree of measurement uncertainty
+between different samples.
 
 Using 0.1 mM KCl solution in HCR, we obtained $\xi$ as a function of
 $V_{\mathrm{G}}$ within $\pm1.25$ V, before triggering the
@@ -302,7 +302,7 @@ electrochemical reactions (\Fig{} \ref{fig:2}c). We observe an
 asymmetric dependence of $\xi$ with respect to $V_{\mathrm{G}}$, with
 a higher degree of salt rejection for $V_{\mathrm{G}}>0$. where
 positive carriers (holes) are induced in graphene. We notice that an
-increase of $\xi$, or a decrease of flux through PG with
+increase of $\xi$, or a decrease of diffusive flux through PG with
 $V_{\mathrm{G}}$, showing an inverse trend compared with those
 observed in ionic field effect transistors (IFETs) in which the
 diffusive flux increases with the gate voltage
@@ -449,6 +449,7 @@ gate-controlled ionic transport can also be achieved by replacing
 graphene with other types of conducting 2D materials, although the
 gate voltage required to achieve the same order of salt rejection may
 be higher than graphene due to larger quantum capacitances.
+\todo{higher or lower?}
 
 \subsection{Salt rejection mechanism}
 \label{sec:mechanism}
@@ -563,14 +564,26 @@ $\psi_{\mathrm{G}}$ and $\xi$ with respect to
 $\lambda_{\mathrm{D}}/r_{\mathrm{G}}$ and $V_{\mathrm{G}}$ are very
 similar. More importantly, based on our theoretical prediction, with
 $V_{\mathrm{G}}$ = 1.25 V and $\lambda_{\mathrm{D}} / r_{\mathrm{G}}$
-= 1.0, a high value of $\xi$ up to $\sim$0.95 can be achieved. Nevertheless
-the salt rejection of the gated graphene platform may be further
-improved after considering the following aspects: (i) the mean-field
-theory used here may be incorrect to be applied to pores smaller than
-5 nm, where individual particle properties of solvated ions can be
-important \cite{Jain_2015}, (ii) the specific ion-graphene adsorption
-may also be included to account for the pore selectivity between salt
-species \cite{Rollings_2016}.
+= 1.0, a high value of $\xi$ up to $\sim$0.95 can be achieved.  We
+notice that the above theoretical analysis suggests an upper limit of
+$\xi$ of ∼0.97 (please confirm), even when
+$\lambda_{\mathrm{D}}/r_{\mathrm{G}} \gg 1$, which appears to violate
+the small pore limit when the pore size is smaller than the hydrated
+radii. Indeed, our theory is derived from on the macroscopic transport
+equations by treating ions as zero-volume charges, which may not be
+valid when $R_{\mathrm{G}}$< 5 nm\cite{Jain_2015}. In addition, the
+specific ion-graphene interactions \cite{Rollings_2016} are not taken
+into account. Advanced theoretical frameworks that bridge continuum
+and molecular scales are required to resolve the predict the
+electrolyte transport when the pore size is sub-5 nanometers.
+% Nevertheless
+% the salt rejection of the gated graphene platform may be further
+% improved after considering the following aspects: (i) the mean-field
+% theory used here may be incorrect to be applied to pores smaller than
+% 5 nm, where individual particle properties of solvated ions can be
+% important \cite{Jain_2015}, (ii) the specific ion-graphene adsorption
+% may also be included to account for the pore selectivity between salt
+% species \cite{Rollings_2016}.
 
 \subsection{Effects of salt species}
 \label{sec:salts}
@@ -620,14 +633,14 @@ surface potential is considerably lower than the applied gate
 voltage. As a result, the subtle redistribution of the electrochemical
 potentials create new pathways for ionic transport, which in turn lead
 to a considerable degree of salt rejection. We report a high degree of
-salt rejection at $V_{\mathrm{G}}$ = 1.25 V of up to 80\% and 95\%,
-based on our experiments and theoretical predictions, respectively. We
-demonstrate that the observed salt rejection positively correlates
-with the Debye length that nonlinearly modulates the graphene surface
-potential and charge density. The experimental results and fundamental
-principles presented here open an avenue towards realization of
-atomically thin 2D porous membranes for advanced separation process in
-electrolyte solutions.
+salt rejection at $V_{\mathrm{G}}$ = 1.25 V by approximately one order
+of magnitude, based on our experiments and theoretical predictions,
+respectively. We demonstrate that the observed salt rejection
+positively correlates with the Debye length that nonlinearly modulates
+the graphene surface potential and charge density. The experimental
+results and fundamental principles presented here open an avenue
+towards realization of atomically thin 2D porous membranes for
+advanced separation process in electrolyte solutions.
 
 \section{Methods}
 \label{sec:methods}

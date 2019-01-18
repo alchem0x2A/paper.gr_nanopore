@@ -7,6 +7,7 @@
 \usepackage{todonotes}
 \newcommand{\Fig}{Fig.}
 \renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\theequation}{S\arabic{equation}}
 \SectionNumbersOn
 \usepackage{xr-hyper}
 \externaldocument[main-]{paper}
@@ -165,7 +166,7 @@ Eq. \ref{main-eq:xi-def}.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.7\linewidth]{img/SI-eta-all.pdf}
+  \includegraphics[width=0.5\linewidth]{img/SI-eta-all.pdf}
   \caption{Measured $\eta$ values as function of $V_{\mathrm{G}}$ for
     different salts used in this work. The concentration in HCR is 0.1
     mM in all cases.}
@@ -190,17 +191,11 @@ omitting the Kapton tape, the current increases to $\sim$ 1 - 10
 $\mathrm{\mu}$A, independent of the exposed area of the copper tape to
 the solution.
 
+% \pagebreak
+
 \section{Circuit analog model of transport through PG-PCTE}
 \label{sec:R-model}
-The ionic transport through the PG-PCTE membrane is the concerted
-effect the transport resistance through PG and PCTE membranes,
-respectively. As schematically shown in \Fig{} \ref{fig:R-model}, the
-overall transport resistance of the system is composed of the series
-resistance $R_{\mathrm{G}}$ and $R_{\mathrm{PCTE}}$, respectively. We
-further treat $R_{\mathrm{G}}$ as the effective resistance of $\gamma$
-parallel resistors with individual resistance $R_{\mathrm{g}}$, where
-$\gamma$ is the average numbers of PG pores per PCTE channel, and
-$R_{\mathrm{g}}$ is the average transport resistance per PG pore. 
+
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\linewidth]{img/SI-resistance-rectification.pdf}
@@ -212,73 +207,36 @@ $R_{\mathrm{g}}$ is the average transport resistance per PG pore.
     graphene pores.}
   \label{fig:R-model}
 \end{figure}
-We then estimate the value of $\gamma$ from geometric analysis of both
-membranes. Given the pore number density of PG
+The ionic transport through the PG-PCTE membrane is the concerted
+effect the transport resistance through PG and PCTE membranes,
+respectively. As schematically shown in \Fig{} \ref{fig:R-model}, the
+overall transport resistance of the system is composed of the series
+resistance $R_{\mathrm{G}}$ and $R_{\mathrm{PCTE}}$, respectively. For
+both PG and PCTE membranes, the resistance $R$ is defined as the ratio
+between the concentration between HCR and LCR $\Delta c$, and the total diffusive current $I$ as:
+\begin{equation}
+\label{eq:1}
+R_{i} = \Bigg|\frac{\Delta c}{I_{i}}\Bigg| =  \Bigg|\frac{\Delta c}{J_{i}A_{i}}\Bigg|
+\end{equation}
+where $i$ denotes the membrane type and $A_{i}$ is the area of the
+pore. We further treat $R_{\mathrm{G}}$ as the effective resistance of
+$\gamma$ parallel resistors with individual resistance
+$R_{\mathrm{g}}$, where $\gamma$ is the average number of PG pores per
+PCTE channel, and $R_{\mathrm{g}}$ is the average transport resistance
+per PG pore. The value of $\gamma$ is determined from geometric
+analysis of both membranes: given the pore number density of PG
 ($\sim$1.25$\times$10$^{14}$ m$^{-2}$), the pore number density of
 PCTE ($\sim$1.50$\times$10$^{12}$ m$^{-2}$), and the percentage of
 PCTE pores with PG on top ($\sim$0.13), $\gamma$ is determined to be
 $\sim$10.83.
 
-Next we seek the value between $R_{\mathrm{PCTE}}$ and
-$R_{\mathrm{G}}^{0}$ (ungated resistance of PG), $\delta$. It is
-pointed out that the scaling laws for $R_{\mathrm{PCTE}}$ and
-$R_{\mathrm{G}}^{0}$ differ. For a long channel like PCTE, the
-resistance is derived from Fick's law as\cite{O_Hern_2014}:
-\begin{equation}
-\label{eq:R-PCTE}
- R_{\mathrm{PCTE}} = \frac{1}{D} \frac{L}{\pi r_{\mathrm{PCTE}}^{2}}
-\end{equation}
-whereas $D$ is the diffusivity of the species, $L$ is the length of
-channel ($\sim$24 $\mathrm{\mu}$m), and $r_{\mathrm{PCTE}}$ is the
-average radius of the PCTE channels ($\sim$200 nm). On the other hand,
-the transport through 2D pore with high radius/thickness ratio falls
-into the regime of the Sampson formula \cite{Roscoe_1949}, where the
-entrance resistance dominates over the bulk resistance, with the
-formula as \cite{Roscoe_1949,Celebi_2014}:
-\begin{equation}
-  \label{eq:sampson}
-  R_{\mathrm{g}}^{0} = \frac{1}{D} \frac{3 \pi}{r_{\mathrm{G}}}
-\end{equation}
-We therefore estimate the value of $\delta$ as:
-\begin{equation}
-  \label{eq:delta-resistance}
-  \delta
-  = \frac{R_{\mathrm{PCTE}}}{R_{\mathrm{G}}^{0}}
-  = {\displaystyle
-    \frac{{\displaystyle \frac{L}
-        {\pi r_{\mathrm{PCTE}}^{2}}}}
-    {{\displaystyle \frac{3 \pi}{r_{\mathrm{G}}} \frac{1}{\gamma}}}}
-  \approx 2.20
-\end{equation}
-Alternatively, we may also estimate the range of $\delta$ from
-experimental data in main text \Fig{} \ref{main-fig:2}b using the
-relation:
-\begin{equation}
-  \label{eq:exp-delta}
-  \delta = \left(\frac{\boldsymbol{J}_{\mathrm{PCTE}}}{\boldsymbol{J}_{\mathrm{PG}}^{0}} -1 \right)^{-1}
-\end{equation}
-by assuming the validity of the circuit analog model for all salt
-systems. We find that the $\delta$ value estimated from the simple
-geometric model agrees well with the experimental results. As shown in
-\Fig{} \ref{fig:delta-compare}, the theoretical estimated value of $\delta$ (orange
-line) lies within the margin of the majority of experimental data,
-which is exceptionally good given the simplicity of the model used.
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.75\linewidth]{img/SI-delta-estimate.pdf}
-  \caption{Comparison between the $\delta$ value estimated from simple
-    geometric model (Eq. \ref{eq:delta-resistance}) and from
-    experimental value (Eq. \ref{eq:exp-delta}), showing good
-    agreement between the two methods.  }
-  \label{fig:delta-compare}
-\end{figure}
-
-Finally we show how the effective salt rejection ratio through PG, $\xi$,
-is extracted from the experimental $\eta$ values. Using the circuit
-analog model, the definition of $\eta$ from main text
-Eq. \ref{main-eq:rejection} can be rewritten using transport
-resistances as:
+The objective of the circuit analog model is to find effective salt
+rejection ratio through PG, $\xi$ extracted from the experimental
+$\eta$ values (defined in main text Eq. \ref{main-eq:rejection}). By
+defining $R_{\mathrm{G}}^{0}=R_{\mathrm{G}}(V_{\mathrm{G}}=0)$,
+$\delta = R_{\mathrm{PCTE}} / R_{\mathrm{G}}^{0}$,
+$\chi = R_{\mathrm{G}}/R_{\mathrm{G}}^{0}$, $\eta$ is rewritten using
+transport resistances as:
 \begin{equation}
   \begin{aligned}[t]
       \label{eq:eta-R}
@@ -289,11 +247,9 @@ resistances as:
     &= 1 - \frac{\delta + 1}{\delta + \chi}
   \end{aligned}
 \end{equation}
-where we define $\chi = R_{\mathrm{G}}/R_{\mathrm{G}}^{0}$ which
-represents the change of the transport resistance through PG upon
-gating. Consequentially, the salt rejection ratio $\xi$, is associated
-with $\chi$ by $\xi = 1 - \chi^{-1}$. Reformatting Eq. \ref{eq:eta-R}
-gives:
+Consequentially, the
+salt rejection ratio $\xi$, is associated with $\chi$ by
+$\xi = 1 - \chi^{-1}$ and is related with $\delta$ and $\eta$ via:
 \begin{equation}
   \label{eq:xi-deriv}
   \begin{aligned}[t]
@@ -307,6 +263,89 @@ guarantees $\xi>\eta$, since $\delta + 1$ is always larger than
 $\delta\eta + 1$. In other words, due to the existence of
 $R_{\mathrm{PCTE}}$, the effective salt rejection through PG upon
 gating, is always larger than that experimentally observed.
+
+Next we seek the value of $\delta$, the resistance ratio
+between the PCTE and PG membranes, without gating. The range
+of $\delta$ can be estimated from experimental data in main text
+\Fig{} \ref{main-fig:2}b using the relation:
+\begin{equation}
+  \label{eq:exp-delta}
+  \delta = \left(\frac{\boldsymbol{J}_{\mathrm{PCTE}}}{\boldsymbol{J}_{\mathrm{PG}}^{0}} -1 \right)^{-1}
+\end{equation}
+by assuming the validity of the circuit analog model for all salt
+systems. As shown in \Fig{} \ref{fig:delta-compare}, the
+experimentally estimated value of $\delta$ varies from 1 to 5,
+indicating that the resistance of the PG membrane is dominating in the
+PG-PCTE system.
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.55\linewidth]{img/SI-delta-estimate.pdf}
+  \caption{Comparison between the $\delta$ value estimated from simple
+    geometric model (Eq. \ref{eq:delta-resistance}) and from
+    experimental value (Eq. \ref{eq:exp-delta}), showing good
+    agreement between the two methods.  }
+  \label{fig:delta-compare}
+\end{figure}
+$\delta$ can also be estimated using geometric parameters of both
+membranes. For a long PCTE channel with length $L$ and
+$r_{\mathrm{PCTE}}$, $R_{\mathrm{PCTE}}$ has power law of
+$L/r_{\mathrm{PCTE}}^{2}$, while for a graphene pore
+with radius $r_{\mathrm{G}}$ and vanishing thickness, the resistance of individual pore $R_{\mathrm{g}}^{0}$
+has power law $1/r_{\mathrm{G}}$ \cite{O_Hern_2014}, which are expressed as:
+\begin{subequations}
+\begin{eqnarray}
+  \label{eq:R-both}
+  R_{\mathrm{PCTE}} &= &k_{\mathrm{PCTE}} \frac{L}{r_{\mathrm{PCTE}}^{2}} \\
+  R_{\mathrm{g}}^{0} &= &k_{\mathrm{g}} \frac{1}{r_{\mathrm{G}}}
+\end{eqnarray}
+\end{subequations}
+where $k_{\mathrm{PCTE}}$ and $k_{\mathrm{g}}$ are the coefficient
+associated with PCTE and PG membranes, respectively. The value of
+$\delta$ is then expressed as:
+\begin{equation}
+  \label{eq:delta-resistance}
+  \delta
+  = \frac{R_{\mathrm{PCTE}}}{R_{\mathrm{G}}^{0}}
+  = {\displaystyle
+    \frac{k_{\mathrm{PCTE}}}{k_{\mathrm{g}}}
+    \frac{L r_{\mathrm{G}} \gamma}
+        {r_{\mathrm{PCTE}}^{2}}}
+\end{equation}
+Here we take $L$=24 $\mu$m, $r_{\mathrm{G}}$=10 nm,
+$r_{\mathrm{PCTE}}$=200 nm. From simple Fick's law\cite{Beers_2006},
+the coefficient $k_{\mathrm{PCTE}}$ is determined as
+$1/(D_{\mathrm{\pm}} \pi)$. On the other hand $k_{\mathrm{G}}$ varies
+by the choice of model, ranging from $3 \pi / D_{\mathrm{\pm}}$ using
+the analog of the Sampson formula for
+fluid\cite{Roscoe_1949,Celebi_2014}, to $1/(2 D_{\mathrm{\pm}})$ from
+the Hill formula for disk absorption model
+\cite{Hill_1975,Grebenkov_2018}. As a result the theoretical value of
+$\delta$ has lower bound of $\sim$2.2 (Sampson formula, orange line in
+\Fig{} \ref{fig:delta-compare}) to $\sim$40.5 (Hill formula). We note
+our experimental values of $\delta$ is in good agreement estimated
+from the Sampson formula (which we use in the main text) while lower
+than the Hill formula. Having a higher estimated value of $\delta$
+could yield unreasonably high value of $\xi$ and the influence of
+concentration is deviated from our theoretical predictions. Further
+theoretical analysis taking nonidealities including surface adsorption
+and chemical nature of pore edge, is required to have better
+understanding of graphene's transport resistance.
+
+
+% On the other hand, the transport through
+% 2D pore with high radius/thickness ratio falls into the regime of the
+% Sampson formula \cite{Roscoe_1949}, where the entrance resistance
+% dominates over the bulk resistance, with the formula as
+% \cite{Roscoe_1949,Celebi_2014}:
+% \begin{equation}
+%   \label{eq:sampson}
+%   R_{\mathrm{g}}^{0} = \frac{1}{D} \frac{3 \pi}{r_{\mathrm{G}}}
+% \end{equation}
+% We therefore estimate the value of $\delta$ as:
+
+
+
+
 
 \section{KCl Debye length and conductivity}
 \label{sec:debye}

@@ -20,11 +20,11 @@ units = ("V", "mol/m$^{3}$", "mol/m$^{3}$", "mol/(m$^{2}$*s)", "mol/(m$^{2}$*s)"
 
 # Vg_all = [0.001, 0.025, 0.05, 0.1, 0.15, 0.2] + list(numpy.arange(0.25, 1.35, 0.1))
 
-Vg_all = Vg_all = [0.001, *numpy.arange(0.025, 0.251, 0.025)]
+Vg_all = [0.001, *numpy.arange(0.025, 0.251, 0.025)]
 Vg_true = []
 
 file_template = "{0}.npy"
-sigma_file_template = "sigma_{0}.txt"
+sigma_file_template = "sigma_{0}_out.txt"
 
 # concentrations = (0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1)
 concentrations = (0.0001, 0.0002, 0.0005,
@@ -33,7 +33,7 @@ concentrations = (0.0001, 0.0002, 0.0005,
 
 ratio_conc = 10**3
 
-out_path = "../result/radius/10/1D/"
+out_path = "../result/radius/10-other/1D/"
 plot_path = "../plot/concentration/1D/"
 
 # get the index of column in the new matrix
@@ -51,6 +51,7 @@ quant_flux = ("zflux_cp", "zflux_cn")
 res = []
 for conc in concentrations:
     tflux = []
+    # conc_cs = str(conc).split(".")[-1]
     file_name = os.path.join(out_path, file_template.format(conc))
     data = numpy.load(file_name)
     data[:, 0] /= 1e-9
@@ -75,6 +76,8 @@ res = numpy.array(res)
 v = res[:, 0]
 lambda_d = Debye_length(res[:, 1]) / 1e-9
 rec = res[:, 2]
+cond = numpy.where(rec > 0)[0]
+print(cond)
 
 res[:, 1] = lambda_d
 
@@ -82,7 +85,10 @@ v_uni = numpy.linspace(0.0, 1.25, 128)
 l_uni = numpy.linspace(min(lambda_d), 35, 128)
 vv, ll = numpy.meshgrid(v_uni, l_uni)
 z_uni = griddata(res[:, :2], rec,
-                 (vv, ll), method="cubic")
+                 (vv, ll), method="cubic", fill_value=0)
+# print(res[:, :2])
+# print(rec)
+# print(z_uni)
 
 r_p = 20
 

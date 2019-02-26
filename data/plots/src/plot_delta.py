@@ -1,14 +1,16 @@
 import numpy
 import matplotlib.pyplot as plt
+import os
+from os.path import dirname, join, exists
+curdir = dirname(__file__)
 
-# def get_time(string):
-    # string = string.decode("ascii")
-    # h, m, s = map(float, string.split(":"))
-    # return 3600 * h + 60 * m + 1 * s
+"""
+Plot estimated delta from experimental data
+"""
 
 salts = ["KCl", "NaCl", "LiCl", "CaCl2",
          "MgSO4", "K3FeCN6", "K2SO4"]
-data = numpy.genfromtxt("../data/diffuse-pcte-salt-delta.csv",
+data = numpy.genfromtxt(join(curdir, "../data/exp/diffuse-pcte-salt-delta.csv"),
                         skip_header=2,
                         delimiter=",")
 exclude = ["LiCl", "MgSO4"]
@@ -34,4 +36,4 @@ plt.xlim(-0.5, 5.5)
 # plt.xlabel("t (h)")
 plt.ylabel("$\\delta$")
 plt.ylim(0, 10)
-plt.savefig("../img/delta-estimate.svg")
+plt.savefig(join(curdir, "../img/delta-estimate.svg"))

@@ -1,7 +1,14 @@
 import numpy
 import matplotlib.pyplot as plt
+import os
+from os.path import dirname, join, exists
+curdir = dirname(__file__)
 
-file_templ = "../data/{}.csv"
+"""
+Plot experimental rectification for all salts
+"""
+
+file_templ = join(curdir, "../data/exp/{}.csv")
 def read(name):
     file_name = file_templ.format(name)
     err = None
@@ -48,4 +55,4 @@ if __name__ == "__main__":
     plt.xlabel("$V_{\\mathrm{G}}$ (V)")
     plt.ylabel("Rectification")
     plt.legend()
-    plt.savefig("../img/rect_all.svg".format(name))
+    plt.savefig(join(curdir, "../img/rect_all.svg".format(name)))

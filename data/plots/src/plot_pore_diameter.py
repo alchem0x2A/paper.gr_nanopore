@@ -1,7 +1,14 @@
 import numpy
 import matplotlib.pyplot as plt
+import os
+from os.path import dirname, join, exists
+curdir = dirname(__file__)
 
-file_name = "../data/pore-dist.csv"
+"""
+Plot experimental pore distribution
+"""
+
+file_name = join(curdir, "../data/exp/pore-dist.csv")
 data = numpy.genfromtxt(file_name, delimiter=",")
 
 fig = plt.style.use("science")
@@ -12,4 +19,4 @@ plt.hist(repeat, numpy.arange(5,66,5))
  # plt.yticks([0, 0.02, 0.04])
 plt.xlabel("Pore Radius (nm)")
 plt.ylabel("Frequencies")
-plt.savefig("../img/radius_dist.svg")
+plt.savefig(join(curdir, "../img/radius_dist.svg"))

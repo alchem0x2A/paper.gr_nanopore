@@ -4,8 +4,11 @@ import matplotlib.pyplot as plt
 from scipy.constants import epsilon_0
 from scipy.constants import elementary_charge as e
 from scipy.constants import hbar, pi
+import os
+from os.path import dirname, join, exists
+curdir = dirname(__file__)
 
-file_name = "../data/gr_sample.csv"
+file_name = join(curdir, "../data/exp/gr_sample.csv")
 data = numpy.genfromtxt(file_name, delimiter=",")
 # print(data)
 VG = data[:, 0]
@@ -27,7 +30,7 @@ plt.ylabel("$I_{\\rm{DS}}$ ($\\rm{\\mu}$)A")
 plt.axvline(x=v_min, ls="--")
 plt.xlim(-80, 80)
 plt.tight_layout()
-plt.savefig("../img/pg-transistor.svg")
+plt.savefig(join(curdir, "../img/pg-transistor.svg"))
 
 epsilon_sio2 = 2.8
 d = 300e-9

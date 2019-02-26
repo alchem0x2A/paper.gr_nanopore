@@ -1,7 +1,14 @@
 import numpy
 import matplotlib.pyplot as plt
+import os
+from os.path import dirname, join, exists
+curdir = dirname(__file__)
 
-file_templ = "../data/{}.csv"
+"""
+Plot KCl rectification
+"""
+
+file_templ = join(curdir, "../data/exp/{}.csv")
 def read(name):
     file_name = file_templ.format(name)
     err = None
@@ -36,7 +43,7 @@ def main():
     plt.ylim(-0.15, 0.6)
     plt.xlabel("$V_{\mathrm{G}}$ (V)")
     plt.ylabel("Rectification")
-    plt.savefig("../img/rect_{}.svg".format(name))
+    plt.savefig(join(curdir, "../img/rect_{}.svg".format(name)))
 
 if __name__ == "__main__":
     main()

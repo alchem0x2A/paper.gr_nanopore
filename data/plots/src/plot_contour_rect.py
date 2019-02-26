@@ -1,12 +1,21 @@
 from utils import *
 import numpy
 import matplotlib.pyplot as plt
-import os, os.path
+import os
+from os.path import dirname, join, exists
 from scipy.constants import pi, hbar, e
 import numpy
 from scipy.interpolate import griddata
 
+curdir = dirname(__file__)
+
+"""
+Plot contour plot of surface rectification
+"""
+
+
 vf = 1.1e6
+
 
 # Use C/m^2
 def delta_phi_gr(sigma):
@@ -24,7 +33,7 @@ Vg_all = [0.001, *numpy.arange(0.025, 0.251, 0.025)]
 Vg_true = []
 
 file_template = "{0}.npy"
-sigma_file_template = "sigma_{0}_out.txt"
+sigma_file_template = "sigma_{0}.txt"
 
 # concentrations = (0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1)
 concentrations = (0.0001, 0.0002, 0.0005,
@@ -33,8 +42,9 @@ concentrations = (0.0001, 0.0002, 0.0005,
 
 ratio_conc = 10**3
 
-out_path = "../result/radius/10-other/1D/"
-plot_path = "../plot/concentration/1D/"
+out_path = join(curdir, "../data/FEM/concentration/1D/")
+plot_path = join(curdir, "../img/")
+
 
 # get the index of column in the new matrix
 def get_col_index(Vg, quantity):
@@ -52,7 +62,7 @@ res = []
 for conc in concentrations:
     tflux = []
     # conc_cs = str(conc).split(".")[-1]
-    file_name = os.path.join(out_path, file_template.format(conc))
+    file_name = join(out_path, file_template.format(conc))
     data = numpy.load(file_name)
     data[:, 0] /= 1e-9
     r = data[:, 0]
@@ -65,7 +75,7 @@ for conc in concentrations:
         tflux.append(avg)
     rec_ = 1 - tflux / tflux[0]
     # correction for Vg
-    sigma_file = os.path.join(out_path, sigma_file_template.format(conc))
+    sigma_file = join(out_path, sigma_file_template.format(conc))
     sigma_data = numpy.genfromtxt(sigma_file, comments="%")
     V_ = sigma_data[:, 0]; sig_ = -sigma_data[:, 1]
     Vg_ = V_ + delta_phi_gr(sig_)
@@ -121,13 +131,13 @@ plt.xlabel("True $V_{g}$ (V)")
 plt.ylabel("Average total flux (mol/(m$^{-2}$*s))")
 plt.tight_layout()
 
-plt.savefig(os.path.join(plot_path, "rect_Vg_contour.svg"))
+plt.savefig(join(plot_path, "rect_Vg_contour.svg"))
 
-plt.cla()
+# plt.cla()
 
-numpy.save
-cond = numpy.where(vv == 1.25)
-plt.plot(l_uni * 1.25 / r_p, z_uni[:, -3])
-print(z_uni[:, -3].max())
-plt.xlim(0.1, 1.4)
-plt.show()
+# numpy.save
+# cond = numpy.where(vv == 1.25)
+# plt.plot(l_uni * 1.25 / r_p, z_uni[:, -3])
+# print(z_uni[:, -3].max())
+# plt.xlim(0.1, 1.4)
+# plt.show()

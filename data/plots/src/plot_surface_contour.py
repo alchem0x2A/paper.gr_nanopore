@@ -3,9 +3,16 @@ import matplotlib
 import numpy
 import matplotlib.pyplot as plt
 import os, os.path
+from os.path import dirname, join, exists
 from scipy.constants import pi, hbar, e
 from scipy.interpolate import griddata
 vf = 1.1e6
+
+curdir = dirname(__file__)
+
+"""
+Plot Vg surface contour
+"""
 
 # Use C/m^2
 def delta_phi_gr(sigma):
@@ -33,12 +40,12 @@ concentrations = (0.0001, 0.0002, 0.0005,
 
 ratio_conc = 10**3
 
-out_path = "../result/radius/10-other/1D/"
-plot_path = "../plot/concentration/1D/"
+out_path = join(curdir, "../data/FEM/concentration/1D/")
+plot_path = join(curdir, "../img/")
 
 res = []
 for i, conc in enumerate(concentrations):
-    sigma_file = os.path.join(out_path, sigma_file_template.format(conc))
+    sigma_file = join(out_path, sigma_file_template.format(conc))
     sigma_data = numpy.genfromtxt(sigma_file, comments="%")
     V_ = sigma_data[:, 0]; sig_ = -sigma_data[:, 1]
     Vg_ = V_ + delta_phi_gr(sig_)
@@ -95,4 +102,4 @@ for i, vg in enumerate(Vg_all[1: ]):
 # plt.xlim(0, 1.25)
 plt.legend()
 plt.tight_layout()
-plt.savefig(os.path.join(plot_path, "countour_VG.svg"))
+plt.savefig(join(plot_path, "countour_VG.svg"))

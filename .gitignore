@@ -9,7 +9,7 @@ paper/*.pdf
 *.bak*
 *old*
 *.blg
-*/__pycache__/*
+__pycache__/
 */auto/*
 paper.docx
 # Compiled class file

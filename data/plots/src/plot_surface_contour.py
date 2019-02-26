@@ -33,7 +33,7 @@ concentrations = (0.0001, 0.0002, 0.0005,
 
 ratio_conc = 10**3
 
-out_path = "../result/radius/10/1D/"
+out_path = "../result/radius/10-other/1D/"
 plot_path = "../plot/concentration/1D/"
 
 res = []

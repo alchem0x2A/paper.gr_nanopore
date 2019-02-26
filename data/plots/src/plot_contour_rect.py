@@ -99,10 +99,11 @@ plt.style.use("science")
             # c=rec, s=10, cmap="rainbow",
             # alpha=0.25)
 
-cs = plt.pcolor(vv * 1.085, ll / r_p * 1.085, z_uni,
+cs = plt.pcolor(vv * 1.085, ll * 1.0855 / r_p, z_uni,
                 rasterized=True,
-                  cmap="rainbow")
+                cmap="rainbow")
 plt.colorbar()
+
 
 
 
@@ -122,8 +123,11 @@ plt.tight_layout()
 
 plt.savefig(os.path.join(plot_path, "rect_Vg_contour.svg"))
 
-    
-    
-    
-    
-    
+plt.cla()
+
+numpy.save
+cond = numpy.where(vv == 1.25)
+plt.plot(l_uni * 1.25 / r_p, z_uni[:, -3])
+print(z_uni[:, -3].max())
+plt.xlim(0.1, 1.4)
+plt.show()

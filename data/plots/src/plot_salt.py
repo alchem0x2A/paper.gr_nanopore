@@ -86,6 +86,11 @@ for i, salt in enumerate(salts):
     print(salt, y[x<=1.25][-1] * rate)
     xx = numpy.linspace(x.min(), 1.25, 128)
     yy = interp1d(x, y, kind="cubic")(xx)
+    numpy.savetxt(fname="{}-FEM-curve.csv".format(salt),
+                  X=numpy.vstack([xx, yy * rate]).T,
+                  header="V_G (V), xi",
+                  delimiter=",",
+                  comments="#")
     plt.plot(xx, yy * rate, "-",
              markersize=5,
              label="{}".format(salt))

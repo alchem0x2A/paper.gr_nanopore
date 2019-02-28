@@ -32,8 +32,8 @@ rates = [0.95, 1.0, 0.9, 0.35, 0.6, 0.55, 0.1]
 ratio_conc = 10**3
 
 # out_path = "../result/salt/"
-out_path = "../result/salt/20/"
-plot_path = "../plot/salt"
+out_path = "../data/FEM/salt/20/"
+plot_path = "../img/"
 plt.style.use("science")
 
 # get the index of column in the new matrix

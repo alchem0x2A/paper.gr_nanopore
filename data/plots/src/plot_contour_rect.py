@@ -5,7 +5,8 @@ import os
 from os.path import dirname, join, exists
 from scipy.constants import pi, hbar, e
 import numpy
-from scipy.interpolate import griddata
+from scipy.interpolate import griddata, interp2d
+import pickle
 
 curdir = dirname(__file__)
 
@@ -95,12 +96,25 @@ v_uni = numpy.linspace(0.0, 1.25, 128)
 l_uni = numpy.linspace(min(lambda_d), 35, 128)
 vv, ll = numpy.meshgrid(v_uni, l_uni)
 z_uni = griddata(res[:, :2], rec,
-                 (vv, ll), method="cubic", fill_value=0)
+                 (vv, ll), method="cubic",
+                 fill_value=0)
+print(z_uni)
+
+r_p = 20
+func_rect_2d = interp2d(v_uni * 1.085,
+                        l_uni * 1.085 / r_p,
+                        z_uni,
+                        kind="cubic")
+with open(join(curdir,
+               "../data/FEM/concentration/1D",
+               "rect_2d_intep.pickle"), "wb") as f:
+    pickle.dump(func_rect_2d, f)
+
+
 # print(res[:, :2])
 # print(rec)
 # print(z_uni)
 
-r_p = 20
 
 fig = plt.figure(figsize=(2.8, 2.3))
 plt.style.use("science")
@@ -109,9 +123,14 @@ plt.style.use("science")
             # c=rec, s=10, cmap="rainbow",
             # alpha=0.25)
 
-cs = plt.pcolor(vv * 1.085, ll * 1.0855 / r_p, z_uni,
+cs = plt.pcolor(vv * 1.085, ll * 1.085 / r_p, z_uni,
                 rasterized=True,
                 cmap="rainbow")
+
+# cs = plt.pcolor(vv * 1.085, ll * 1.085 / r_p,
+                # func_rect_2d(v_uni * 1.085, l_uni * 1.085 / r_p),
+                # rasterized=True,
+                # cmap="rainbow")
 plt.colorbar()
 
 
@@ -133,11 +152,13 @@ plt.tight_layout()
 
 plt.savefig(join(plot_path, "rect_Vg_contour.svg"))
 
-# plt.cla()
+plt.cla()
 
 # numpy.save
 # cond = numpy.where(vv == 1.25)
-# plt.plot(l_uni * 1.25 / r_p, z_uni[:, -3])
+xi = func_rect_2d(v_uni, 1.3)
+print(xi)
+# plt.plot(l_uni / r_p, z_uni[:, -3])
 # print(z_uni[:, -3].max())
 # plt.xlim(0.1, 1.4)
 # plt.show()

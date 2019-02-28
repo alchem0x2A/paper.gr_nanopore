@@ -100,7 +100,7 @@ z_uni = griddata(res[:, :2], rec,
                  fill_value=0)
 print(z_uni)
 
-r_p = 20
+r_p = 10
 func_rect_2d = interp2d(v_uni * 1.085,
                         l_uni * 1.085 / r_p,
                         z_uni,
@@ -144,13 +144,13 @@ plt.colorbar()
     # plt.scatter(xx, yy ** -0.5, c=cc, cmap="rainbow")
 
 plt.xlim(0.1, 1.25)
-plt.ylim(0.1, 1.4)
+plt.ylim(0.2, 2.8)
 
 plt.xlabel("True $V_{g}$ (V)")
 plt.ylabel("Average total flux (mol/(m$^{-2}$*s))")
 plt.tight_layout()
 
-plt.savefig(join(plot_path, "rect_Vg_contour.svg"))
+plt.savefig(join(plot_path, "rect_xi_contour.svg"))
 
 plt.cla()
 

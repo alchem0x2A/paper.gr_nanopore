@@ -21,7 +21,7 @@ func_rec_interp = pickle.load(open(join(curdir,
 data_pore = numpy.genfromtxt(join(curdir, "../data/exp/pore-dist.csv"),
                        delimiter=",")
 r_exp = data_pore[:, 0]
-w_exp = data_pore[:, 1]
+w_exp = data_pore[:, 1] * r_exp ** 2
 w_exp = w_exp / numpy.sum(w_exp)            # Frequencies
 
 r_g = 20

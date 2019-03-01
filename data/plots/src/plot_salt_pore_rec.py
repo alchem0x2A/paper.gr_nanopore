@@ -127,6 +127,9 @@ def plot_salt_trend(salt):
     plt.axhline(y=0, ls="--", color="grey")
     cb = plt.colorbar(shrink=0.6)
     cb.ax.set_title("$r_{\\mathrm{G}}$ (nm)")
+    plt.title(salt)
+    plt.xlabel("$V_{\\mathrm{G}}$ (V)")
+    plt.ylabel("$\\xi$")
     plt.ylim(-0.10, 1)
     plt.xlim(0, 1.25)
     plt.savefig(join(curdir, "../img/test-salt-rect-{}.svg").format(salt))
@@ -136,7 +139,7 @@ def plot_rec_pore_dist():
     exp_data = numpy.genfromtxt(file_pore_dist,
                                 delimiter=",")
     rg = exp_data[:, 0] / 2 + 2.5
-    w = exp_data[:, 1]
+    w = exp_data[:, 1] * rg ** 2
     w = w / numpy.sum(w)
     fig = plt.figure(figsize=(2.8, 2.3))
     plt.style.use("science")

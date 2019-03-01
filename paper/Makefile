@@ -15,6 +15,8 @@ DIFF_TAG= --exclude-textcmd="section,subsection" --config="PICTUREENV=(?:figure|
 
 all: main SI
 
+convert:
+	python convert_svg.py
 main:
 	pdflatex $(PDFLATEX_TAG) $(SI_FILE)
 	latexmk $(LATEXMK_TAG) $(TEX_FILE)

@@ -15,7 +15,7 @@
    viewBox="0 0 183.18724 145.3494"
    version="1.1"
    id="svg6600"
-   inkscape:version="0.92.3 (cdafc079a9, 2018-06-25)"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="fig1.svg">
   <defs
      id="defs6594"
@@ -521,6 +521,18 @@
          y="-25.797148"
          transform="rotate(-0.99605797)" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3355">
+      <rect
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.41329483;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#8b5a04;fill-opacity:0.97647059;fill-rule:evenodd;stroke:#8b5a03;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97647059;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="rect3357"
+         width="82.894089"
+         height="67.10997"
+         x="170.77837"
+         y="50.731342"
+         transform="rotate(-0.59413801)" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -529,20 +541,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3808594"
-     inkscape:cx="337.44691"
-     inkscape:cy="484.43239"
+     inkscape:zoom="0.97641505"
+     inkscape:cx="661.14813"
+     inkscape:cy="263.49023"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1280"
-     inkscape:window-height="687"
-     inkscape:window-x="45"
-     inkscape:window-y="23"
+     inkscape:window-width="2152"
+     inkscape:window-height="1300"
+     inkscape:window-x="160"
+     inkscape:window-y="371"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata6597">
@@ -552,7 +564,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -562,39 +574,6 @@
      inkscape:label="img"
      style="stroke-linecap:butt;stroke-linejoin:round"
      transform="translate(6.1173019,-0.33689973)">
-    <image
-       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/pg-1.png"
-       xlink:href="pg-1.png"
-       width="85.032936"
-       height="70.48333"
-       preserveAspectRatio="none"
-       style="display:inline;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality;enable-background:new"
-       id="image1817"
-       x="1.1092987e-08"
-       y="74.756088" />
-    <image
-       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/device.png0019.png"
-       xlink:href="device.png0019.png"
-       transform="translate(-0.57161491,-0.26770444)"
-       y="0.61474425"
-       x="1.0533234"
-       id="image865"
-       style="display:inline;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality;enable-background:new"
-       preserveAspectRatio="none"
-       height="67.36927"
-       width="84.211586" />
-    <image
-       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/cu_foil.png"
-       xlink:href="cu_foil.png"
-       transform="matrix(0.42808549,0,0,0.42808549,39.346436,-6.2258705)"
-       clip-path="url(#clipPath6766)"
-       width="181.76875"
-       height="59.002083"
-       preserveAspectRatio="none"
-       style="display:inline;stroke:#000000;stroke-width:0.6180619;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;image-rendering:optimizeQuality;enable-background:new"
-       id="image6761"
-       x="19.379431"
-       y="13.208357" />
     <rect
        style="display:inline;opacity:0.96700003;fill:url(#linearGradient7683);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.25474945;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
        id="rect4799"
@@ -603,21 +582,6 @@
        x="94.329239"
        y="75.684357"
        ry="0" />
-    <g
-       transform="translate(-0.5716128,-35.827756)"
-       id="g7466"
-       style="stroke-linecap:butt;stroke-linejoin:round">
-      <image
-         sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/pg-2.png"
-         xlink:href="pg-2.png"
-         y="110.58385"
-         x="46.831818"
-         id="image1637"
-         style="display:inline;stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality;enable-background:new"
-         preserveAspectRatio="none"
-         height="32.683926"
-         width="38.243565" />
-    </g>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.05833328;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 5.3650162,139.55486 c 13.4499998,0 13.4499998,0 13.4499998,0"
@@ -629,17 +593,57 @@
        id="path1061"
        inkscape:connector-curvature="0" />
     <image
-       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/nano.png0002.png"
-       xlink:href="nano.png0002.png"
-       y="-31.297077"
-       x="172.9099"
-       id="image4841"
+       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/raster/device.png"
+       xlink:href="raster/device.png"
+       width="84.059288"
+       height="67.247437"
        preserveAspectRatio="none"
-       height="95.10128"
-       width="118.87663"
-       style="stroke-linecap:butt;stroke-linejoin:round"
-       transform="matrix(0.75125378,0.01260559,-0.01306148,0.72503251,-39.666946,18.988352)"
-       clip-path="url(#clipPath4846)" />
+       style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+       id="image3268"
+       x="-0.047458198"
+       y="0.34704003" />
+    <image
+       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/raster/membrane.png"
+       xlink:href="raster/membrane.png"
+       width="34.758831"
+       height="24.753809"
+       preserveAspectRatio="none"
+       style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+       id="image3190"
+       x="49.167255"
+       y="0.34703299" />
+    <image
+       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/raster/nano.png"
+       xlink:href="raster/nano.png"
+       clip-path="url(#clipPath3355)"
+       transform="rotate(0.59413801,4820.375,-7431.1623)"
+       width="84.504372"
+       height="68.363091"
+       preserveAspectRatio="none"
+       style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+       id="image3330"
+       x="171.26791"
+       y="48.081703" />
+    <image
+       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/raster/pore-SEM.png"
+       xlink:href="raster/pore-SEM.png"
+       width="84.828445"
+       height="70.296082"
+       preserveAspectRatio="none"
+       style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+       id="image3434"
+       x="1.1092979e-08"
+       y="75.285255" />
+    <image
+       sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/raster/pore-inset.png"
+       xlink:href="raster/pore-inset.png"
+       width="38.349991"
+       height="32.750214"
+       preserveAspectRatio="none"
+       style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+       id="image3512"
+       x="46.260204"
+       y="75.28524" />
   </g>
   <g
      inkscape:label="Layer 1"
@@ -649,7 +653,7 @@
      style="display:inline;stroke-linecap:butt;stroke-linejoin:round">
     <g
        id="g4797"
-       transform="matrix(0.95350285,0,0,0.95350285,-0.65255073,38.139582)"
+       transform="matrix(0.95350285,0,0,0.95350285,-0.65255073,39.197916)"
        style="display:inline;stroke-linecap:butt;stroke-linejoin:round;enable-background:new">
       <rect
          ry="1.7185539"
@@ -665,7 +669,7 @@
          transform="matrix(0.21988734,0,0,0.21988734,51.007014,74.070542)">
         <path
            inkscape:connector-curvature="0"
-           d="M 0,171.8418 H 179.43906 V 0 H 0 Z"
+           d="m 0,171.8418 h 179.43906 v -171.8418 h -179.43906 z"
            style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
            id="path3646" />
       </g>
@@ -678,7 +682,7 @@
            style="stroke-linecap:butt;stroke-linejoin:round">
           <path
              inkscape:connector-curvature="0"
-             d="M 42.739063,136.7 H 168.73906 V 10.7 H 42.739063 Z"
+             d="m 42.739063,136.7 h 125.999997 v -126 h -125.999997 z"
              style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
              id="path3649" />
         </g>
@@ -876,7 +880,7 @@
              id="patch_1-0">
             <path
                inkscape:connector-curvature="0"
-               d="M 0,180 H 180 V 0 H 0 Z"
+               d="m 0,180 h 180 v -180 h -180 z"
                style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
                id="path10573" />
           </g>
@@ -894,7 +898,7 @@
                 <path
                    id="path10576"
                    style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 36,144 H 162 V 18 H 36 Z"
+                   d="m 36,144 h 126 v -126 h -126 z"
                    inkscape:connector-curvature="0" />
               </g>
               <g
@@ -903,7 +907,7 @@
                 <path
                    id="path10579"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 36,144 H 46.5 V 120 H 36 Z"
+                   d="m 36,144 h 10.5 v -24 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -913,7 +917,7 @@
                 <path
                    id="path10582"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 46.5,144 H 57 V 57 H 46.5 Z"
+                   d="m 46.5,144 h 10.5 v -87 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -923,7 +927,7 @@
                 <path
                    id="path10585"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 57,144 H 67.5 V 36 H 57 Z"
+                   d="m 57,144 h 10.5 v -108 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -933,7 +937,7 @@
                 <path
                    id="path10588"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 67.5,144 H 78 V 18 H 67.5 Z"
+                   d="m 67.5,144 h 10.5 v -126 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -943,7 +947,7 @@
                 <path
                    id="path10591"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 78,144 H 88.5 V 30 H 78 Z"
+                   d="m 78,144 h 10.5 v -114 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -953,7 +957,7 @@
                 <path
                    id="path10594"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 88.5,144 H 99 V 39 H 88.5 Z"
+                   d="m 88.5,144 h 10.5 v -105 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -963,7 +967,7 @@
                 <path
                    id="path10597"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="m 99,144 h 10.5 V 78 H 99 Z"
+                   d="m 99,144 h 10.5 v -66 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -973,7 +977,7 @@
                 <path
                    id="path10600"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 109.5,144 H 120 v -30 h -10.5 z"
+                   d="m 109.5,144 h 10.5 v -30 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -983,7 +987,7 @@
                 <path
                    id="path10603"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="m 120,144 h 10.5 V 129 H 120 Z"
+                   d="m 120,144 h 10.5 v -15 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -993,7 +997,7 @@
                 <path
                    id="path10606"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 130.5,144 H 141 v -3 h -10.5 z"
+                   d="m 130.5,144 h 10.5 v -3 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -1003,7 +1007,7 @@
                 <path
                    id="path10609"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="m 141,144 h 10.5 v -3 H 141 Z"
+                   d="m 141,144 h 10.5 v -3 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -1013,7 +1017,7 @@
                 <path
                    id="path10612"
                    style="fill:#1f77b4;stroke-linecap:butt;stroke-linejoin:round"
-                   d="M 151.5,144 H 162 v -3 h -10.5 z"
+                   d="m 151.5,144 h 10.5 v -3 h -10.5 z"
                    clip-path="url(#pa1f8e58965)"
                    inkscape:connector-curvature="0" />
               </g>
@@ -1025,7 +1029,7 @@
                   <path
                      style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
                      id="path10905"
-                     d="M 0,0 V 3.5"
+                     d="m 0,0 v 3.5"
                      inkscape:connector-curvature="0" />
                 </defs>
                 <g
@@ -1081,7 +1085,7 @@
                   <path
                      style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
                      id="path10993"
-                     d="M 0,0 H -3.5"
+                     d="m 0,0 h -3.5"
                      inkscape:connector-curvature="0" />
                 </defs>
                 <g
@@ -1167,7 +1171,7 @@
                 <path
                    id="path10823"
                    style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-                   d="M 36,144 V 18"
+                   d="m 36,144 v -126"
                    inkscape:connector-curvature="0" />
               </g>
               <g
@@ -1176,7 +1180,7 @@
                 <path
                    id="path10826"
                    style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-                   d="M 162,144 V 18"
+                   d="m 162,144 v -126"
                    inkscape:connector-curvature="0" />
               </g>
               <g
@@ -1185,7 +1189,7 @@
                 <path
                    id="path10832"
                    style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-                   d="M 36,18 H 162"
+                   d="m 36,18 h 126"
                    inkscape:connector-curvature="0" />
               </g>
             </g>
@@ -1196,7 +1200,7 @@
               <path
                  id="path10829"
                  style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-                 d="M 36,144 H 162"
+                 d="m 36,144 h 126"
                  inkscape:connector-curvature="0" />
             </g>
           </g>
@@ -1224,7 +1228,7 @@
          id="tspan1559"
          x="38.827728"
          y="84.356293"
-         style="stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"> </tspan></text>
+         style="stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round" /></text>
     <text
        id="text1580"
        y="53.970852"
@@ -1402,6 +1406,16 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.05833328;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 5.3570024,140.74096 c 13.4500006,0 13.4500006,0 13.4500006,0"
+       id="path1057-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.05833328;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.251856,105.96414 c 7.560004,0 7.560004,0 7.560004,0"
+       id="path1061-2"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"

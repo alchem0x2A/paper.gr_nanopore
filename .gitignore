@@ -1,5 +1,7 @@
 #temp plot path
 data/plots/img/*.svg
+*.ps
+*/img/*.pdf
 
 # Generated pdf
 paper/img/*.pdf

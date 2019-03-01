@@ -2,7 +2,10 @@ from utils import *
 import numpy
 import matplotlib.pyplot as plt
 import os, os.path
+from os.path import join, dirname, exists
 from scipy.constants import pi, hbar, e, N_A, k, epsilon_0
+
+curdir = dirname(__file__)
 
 vf = 1.1e6
 
@@ -29,17 +32,17 @@ salts = ["NaCl", "LiCl", "KCl", "CaCl2",
 ratio_conc = 10**3
 
 # out_path = "../result/salt/"
-out_path = "../result/salt/20/"
-plot_path = "../plot/salt"
+out_path = join(curdir, "../data/FEM/salt/20/")
+plot_path = join(curdir, "../img")
 plt.style.use("science")
 
 d_debye = Debye_length(numpy.array(concentrations)) / 1e-9
-rect = {"KCl": ( 0.268, 0.055, 0.861),
-        "NaCl": (0.563, 0.110, 0.915),
-        "LiCl": (0.459, 0.096, 0.967),
-        "CaCl2": (0.214, 0.049, .341),
-        "K2SO4": (0.153, 0.052, 0.310),
-        "MgSO4": (0.285, 0.069, 0.503),
+rect = {"KCl": ( 0.268, 0.055, 0.832),
+        "NaCl": (0.563, 0.110, 0.865),
+        "LiCl": (0.459, 0.096, 0.885),
+        "CaCl2": (0.214, 0.049, 0.216),
+        "K2SO4": (0.153, 0.052, 0.284),
+        "MgSO4": (0.285, 0.069, 0.430),
         "K3FeCN": (-0.016, 0.040, 0.027)}
 
 # rect = 1 - avg_tflux[:, 6] / avg_tflux[:, 0]

@@ -144,7 +144,7 @@ plt.colorbar()
     # plt.scatter(xx, yy ** -0.5, c=cc, cmap="rainbow")
 
 plt.xlim(0.1, 1.25)
-plt.ylim(0.2, 2.8)
+plt.ylim(0.1, 2.8)
 
 plt.xlabel("True $V_{g}$ (V)")
 plt.ylabel("Average total flux (mol/(m$^{-2}$*s))")

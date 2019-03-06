@@ -73,8 +73,8 @@ def plot_data(ax, X, Y, D, vmin=None, vmax=None):
     ax.set_aspect('equal')
     XX, YY, DD = reflex_data(X, Y, D)
     return ax.pcolormesh(XX, YY, DD,
-                         vmin=vmin, vmax=vmax,
-                  rasterized=True,
+                         # vmin=vmin, vmax=vmax,
+                         rasterized=True,
                          cmap="jet")
 
 

@@ -2,6 +2,9 @@ from utils import *
 import numpy
 import matplotlib.pyplot as plt
 import os, os.path
+from os.path import join, dirname, exists
+
+curdir = dirname(__file__)
 
 pixels = (512, 512)
 

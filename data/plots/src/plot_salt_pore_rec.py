@@ -141,7 +141,7 @@ def plot_rec_pore_dist():
     rg = exp_data[:, 0] / 2 + 2.5
     w = exp_data[:, 1] * rg ** 2
     w = w / numpy.sum(w)
-    fig = plt.figure(figsize=(2.8, 2.3))
+    fig = plt.figure(figsize=(2.8, 2.8))
     plt.style.use("science")
     results = []
     for salt in salts:

@@ -2,6 +2,7 @@ from utils import *
 import numpy
 import matplotlib.pyplot as plt
 import os, os.path
+from os.path import join, dirname, abspath, exists
 
 
 pixels = (512, 512)
@@ -24,9 +25,9 @@ def get_col_index(Vg, quantity):
     len_quant = len(quantities)
     return 2 + len_quant * idx_V + idx_quant
 
-
-out_path = "../result/concentration/2D/"
-plot_path = "../plot/concentration"
+curdir = dirname(__file__)
+out_path = join(curdir, "../data/FEM/concentration/old/2D")
+plot_path = join(curdir, "../img")
 
 # Vg_plot = (0.001, 0.15)
 Vg_plot = (0.15,)

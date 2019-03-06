@@ -3,6 +3,9 @@ import numpy
 import matplotlib.pyplot as plt
 import os, os.path
 
+from os.path import join, dirname, exists
+curdir = dirname(__file__)
+
 
 pixels = (512, 512)
 
@@ -25,15 +28,15 @@ def get_col_index(Vg, quantity):
     return 2 + len_quant * idx_V + idx_quant
 
 
-out_path = "../result/concentration/2D/"
-plot_path = "../plot/concentration"
+out_path = join(curdir, "../data/FEM/concentration/old/2D")
+plot_path = join(curdir, "../img")
 
 # Vg_plot = (0.001, 0.15)
 Vg_plot = (0.15,)
 
 plt.style.use("science")
 
-for conc in [0.001]:
+for conc in [0.0001]:
     file_name = os.path.join(out_path, file_template.format(conc))
     data = get_data(file_name)  # already in nm
     X = data[:, 0].reshape(*pixels); Y = data[:, 1].reshape(*pixels)
@@ -53,9 +56,11 @@ for conc in [0.001]:
                 vmax = 0
             else:
                 vmax = None
+            print(D.min(), D.max())
             mesh = plot_data(ax, X, Y, D,
-                             vmin=-0.04,
-                             vmax=0)
+                             vmin=D.min(),
+                             vmax=D.max()
+            )
             if quant in ("zflux_cp", "zflux_cn"):
                 mesh.set_cmap("jet_r")
             ax.set_title("{0} mol/L-{1} V-{2} ({3})".format(conc,
@@ -68,10 +73,10 @@ for conc in [0.001]:
             add_graphene(ax, R_p=10)
             fig.colorbar(mesh, fraction=0.03)
             fig.tight_layout()
-            outfile = os.path.join(plot_path,
-                                     "{0}-{1}-{2}.svg".format(conc,
-                                                              Vg,
-                                                              quant))
+            outfile = join(plot_path,
+                           "{0}-{1}-{2}.svg".format(conc,
+                                                    Vg,
+                                                    quant))
             print(outfile)
             fig.savefig(outfile)
             

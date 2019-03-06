@@ -51,7 +51,7 @@ if __name__ == "__main__":
                          # fmt="o",
                          # alpha=0.5, label=name)
     plt.ylim(-0.1, 0.9)
-    plt.xlim(-1.25, 1.25)
+    plt.xlim(0, 1.25)
     plt.xlabel("$V_{\\mathrm{G}}$ (V)")
     plt.ylabel("Rectification")
     plt.legend()

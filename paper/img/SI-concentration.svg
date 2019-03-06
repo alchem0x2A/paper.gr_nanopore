@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="149.3342mm"
+   width="150.15802mm"
    height="63.374584mm"
-   viewBox="0 0 149.3342 63.374584"
+   viewBox="0 0 150.15802 63.374584"
    version="1.1"
    id="svg19850"
-   inkscape:version="0.92.3 (68fc966a96, 2018-08-01)"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="SI-concentration.svg">
   <defs
      id="defs19844"
@@ -28,17 +28,17 @@
     <path
        style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
        id="m98dccdb8b6"
-       d="M 0,0 V 3.5"
+       d="m 0,0 v 3.5"
        inkscape:connector-curvature="0" />
     <path
        style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
        id="mb532c55bcd"
-       d="M 0,0 H -3.5"
+       d="m 0,0 h -3.5"
        inkscape:connector-curvature="0" />
     <path
        style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
        id="md399dbcfc0"
-       d="M 0,0 H 3.5"
+       d="m 0,0 h 3.5"
        inkscape:connector-curvature="0" />
     <clipPath
        id="pfa07825438"
@@ -70,17 +70,17 @@
     <path
        style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
        id="mc7bec11ed3"
-       d="M 0,0 V 3.5"
+       d="m 0,0 v 3.5"
        inkscape:connector-curvature="0" />
     <path
        style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
        id="m474e6b29dd"
-       d="M 0,0 H -3.5"
+       d="m 0,0 h -3.5"
        inkscape:connector-curvature="0" />
     <path
        style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
        id="m60f5490676"
-       d="M 0,0 H 3.5"
+       d="m 0,0 h 3.5"
        inkscape:connector-curvature="0" />
     <clipPath
        id="pfd3439586a"
@@ -104,6 +104,26 @@
          height="71.370003"
          style="stroke-linecap:butt;stroke-linejoin:round" />
     </clipPath>
+    <path
+       style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+       id="path22322-0"
+       d="m 0,0 v 3.5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+       id="path4690"
+       d="m 0,0 v 3.5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+       id="path22361-3"
+       d="m 0,0 h -3.5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+       id="path4946"
+       d="m 0,0 h -3.5"
+       inkscape:connector-curvature="0" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -112,9 +132,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="443.45368"
-     inkscape:cy="91.175449"
+     inkscape:zoom="2.0127116"
+     inkscape:cx="274.37659"
+     inkscape:cy="234.35453"
      inkscape:document-units="mm"
      inkscape:current-layer="text_17"
      showgrid="false"
@@ -122,10 +142,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2560"
-     inkscape:window-height="1315"
-     inkscape:window-x="368"
-     inkscape:window-y="135"
+     inkscape:window-width="2281"
+     inkscape:window-height="1203"
+     inkscape:window-x="410"
+     inkscape:window-y="145"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata19847">
@@ -143,7 +163,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(3.4355691,-50.228279)">
+     transform="translate(3.4355691,-50.228279)"
+     style="stroke-linecap:butt;stroke-linejoin:round">
     <g
        id="figure_1"
        transform="matrix(0.35277778,0,0,0.35277778,77.053625,50.927106)"
@@ -154,7 +175,7 @@
         <path
            id="path21540"
            style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
-           d="M 0,174.75102 H 195.15117 V 0 H 0 Z"
+           d="m 0,174.75102 h 195.15117 v -174.75102 h -195.15117 z"
            inkscape:connector-curvature="0" />
       </g>
       <g
@@ -166,7 +187,7 @@
           <path
              id="path21543"
              style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
-             d="M 39.088672,139.55766 H 160.01117 V 18.635156 H 39.088672 Z"
+             d="m 39.088672,139.55766 h 120.922498 v -120.922504 h -120.922498 z"
              inkscape:connector-curvature="0" />
         </g>
         <image
@@ -194,7 +215,7 @@
           <path
              id="path21550"
              style="fill:#fafafa;stroke-linecap:butt;stroke-linejoin:round"
-             d="M 69.319297,81.016051 H -21.372578 V 77.176762 H 69.319297 Z"
+             d="m 69.319297,81.016051 h -90.691875 v -3.839289 h 90.691875 z"
              clip-path="url(#pfa07825438)"
              inkscape:connector-curvature="0" />
         </g>
@@ -224,7 +245,7 @@
           <path
              id="path21559"
              style="fill:#7c7c7c;stroke-linecap:butt;stroke-linejoin:round"
-             d="m 129.78055,80.109132 h 90.69187 V 78.08368 h -90.69187 z"
+             d="m 129.78055,80.109132 h 90.69187 v -2.025452 h -90.69187 z"
              clip-path="url(#pfa07825438)"
              inkscape:connector-curvature="0" />
         </g>
@@ -234,7 +255,7 @@
           <path
              id="path21562"
              style="fill:#7c7c7c;stroke-linecap:butt;stroke-linejoin:round"
-             d="M 69.319297,80.109132 H -21.372578 V 78.08368 h 90.691875 z"
+             d="m 69.319297,80.109132 h -90.691875 v -2.025452 h 90.691875 z"
              clip-path="url(#pfa07825438)"
              inkscape:connector-curvature="0" />
         </g>
@@ -259,490 +280,12 @@
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="matplotlib.axis_1"
-           style="stroke-linecap:butt;stroke-linejoin:round">
-          <g
-             id="xtick_1"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_1"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <defs
-                 id="defs21572">
-                <path
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   id="path21859"
-                   d="M 0,0 V 3.5"
-                   inkscape:connector-curvature="0" />
-              </defs>
-              <g
-                 id="g21576"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21574"
-                   y="139.55766"
-                   xlink:href="#m98dccdb8b6"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_1"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21579"
-                 y="151.93773"
-                 x="39.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-20</text>
-            </g>
-          </g>
-          <g
-             id="xtick_2"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_2"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21585"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21583"
-                   y="139.55766"
-                   xlink:href="#m98dccdb8b6"
-                   x="69.319298"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_2"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21588"
-                 y="151.93773"
-                 x="69.319298"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-10</text>
-            </g>
-          </g>
-          <g
-             id="xtick_3"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_3"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21594"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21592"
-                   y="139.55766"
-                   xlink:href="#m98dccdb8b6"
-                   x="99.549919"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_3"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21597"
-                 y="151.93773"
-                 x="99.549919"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">0</text>
-            </g>
-          </g>
-          <g
-             id="xtick_4"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_4"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21603"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21601"
-                   y="139.55766"
-                   xlink:href="#m98dccdb8b6"
-                   x="129.78055"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_4"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21606"
-                 y="151.93773"
-                 x="129.78055"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">10</text>
-            </g>
-          </g>
-          <g
-             id="xtick_5"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_5"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21612"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21610"
-                   y="139.55766"
-                   xlink:href="#m98dccdb8b6"
-                   x="160.01117"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_5"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21615"
-                 y="151.93773"
-                 x="160.01117"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">20</text>
-            </g>
-          </g>
-          <g
-             id="text_6"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <!-- $r$ (nm) -->
-            <g
-               id="g21625"
-               transform="translate(89.537422,165.97602)"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21623"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <tspan
-                   id="tspan21619"
-                   y="-0.53125"
-                   x="0"
-                   style="font-style:italic;font-size:7.5px;font-family:Arial;stroke-linecap:butt;stroke-linejoin:round">r</tspan>
-                <tspan
-                   id="tspan21621"
-                   y="-0.53125"
-                   x="2.4975591 4.5812988 7.0788569 11.25 17.497559"
-                   style="font-size:7.5px;font-family:Helvetica;stroke-linecap:butt;stroke-linejoin:round"> (nm)</tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g
-           id="matplotlib.axis_2"
-           style="stroke-linecap:butt;stroke-linejoin:round">
-          <g
-             id="ytick_1"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_6"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <defs
-                 id="defs21630">
-                <path
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   id="path21898"
-                   d="M 0,0 H -3.5"
-                   inkscape:connector-curvature="0" />
-              </defs>
-              <g
-                 id="g21634"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21632"
-                   y="139.55766"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_7"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21637"
-                 y="142.2477"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-20</text>
-            </g>
-          </g>
-          <g
-             id="ytick_2"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_7"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21643"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21641"
-                   y="124.44234"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_8"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21646"
-                 y="127.13239"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-15</text>
-            </g>
-          </g>
-          <g
-             id="ytick_3"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_8"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21652"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21650"
-                   y="109.32703"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_9"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21655"
-                 y="112.01707"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-10</text>
-            </g>
-          </g>
-          <g
-             id="ytick_4"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_9"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21661"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21659"
-                   y="94.211716"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_10"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21664"
-                 y="96.901756"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-5</text>
-            </g>
-          </g>
-          <g
-             id="ytick_5"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_10"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21670"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21668"
-                   y="79.096405"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_11"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21673"
-                 y="81.786446"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">0</text>
-            </g>
-          </g>
-          <g
-             id="ytick_6"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_11"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21679"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21677"
-                   y="63.981094"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_12"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21682"
-                 y="66.671135"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">5</text>
-            </g>
-          </g>
-          <g
-             id="ytick_7"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_12"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21688"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21686"
-                   y="48.86578"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_13"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21691"
-                 y="51.55582"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">10</text>
-            </g>
-          </g>
-          <g
-             id="ytick_8"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_13"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21697"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21695"
-                   y="33.750469"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_14"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21700"
-                 y="36.44051"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">15</text>
-            </g>
-          </g>
-          <g
-             id="ytick_9"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_14"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g21706"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use21704"
-                   y="18.635157"
-                   xlink:href="#mb532c55bcd"
-                   x="39.088673"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_15"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21709"
-                 y="21.325195"
-                 x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">20</text>
-            </g>
-          </g>
-          <g
-             id="text_16"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <!-- $z$ (nm) -->
-            <g
-               id="g21719"
-               transform="rotate(-90,51.210703,38.535703)"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text21717"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <tspan
-                   id="tspan21713"
-                   y="-0.53125"
-                   x="0"
-                   style="font-style:italic;font-size:7.5px;font-family:Arial;stroke-linecap:butt;stroke-linejoin:round">z</tspan>
-                <tspan
-                   id="tspan21715"
-                   y="-0.53125"
-                   x="3.75 5.8337402 8.3312988 12.502441 18.75"
-                   style="font-size:7.5px;font-family:Helvetica;stroke-linecap:butt;stroke-linejoin:round"> (nm)</tspan>
-              </text>
-            </g>
-          </g>
-        </g>
-        <g
            id="patch_11"
            style="stroke-linecap:butt;stroke-linejoin:round">
           <path
              id="path21723"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 39.088672,139.55766 V 18.635156"
+             d="m 39.088672,139.55766 v -120.922504"
              inkscape:connector-curvature="0" />
         </g>
         <g
@@ -751,7 +294,7 @@
           <path
              id="path21726"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 160.01117,139.55766 V 18.635156"
+             d="m 160.01117,139.55766 v -120.922504"
              inkscape:connector-curvature="0" />
         </g>
         <g
@@ -760,7 +303,7 @@
           <path
              id="path21729"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 39.088672,139.55766 H 160.01117"
+             d="m 39.088672,139.55766 h 120.922498"
              inkscape:connector-curvature="0" />
         </g>
         <g
@@ -769,7 +312,7 @@
           <path
              id="path21732"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 39.088672,18.635156 H 160.01117"
+             d="m 39.088672,18.635156 h 120.922498"
              inkscape:connector-curvature="0" />
         </g>
         <g
@@ -778,37 +321,33 @@
           <text
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             x="-149.85562"
-             y="12.267228"
+             x="-60.004032"
+             y="30.898809"
              id="text22473"><tspan
                sodipodi:role="line"
                id="tspan22471"
-               style="stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
-               x="-149.85562"
-               y="12.267228"><tspan
+               style="baseline-shift:baseline;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
+               x="-60.004032"
+               y="30.898809"><tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan22475">C</tspan><tspan
+   id="tspan28481">c</tspan><tspan
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan22477">+</tspan> (mol/m<tspan
-   style="font-size:64.99999762%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan22479">3</tspan>)</tspan></text>
+   id="tspan28497">+</tspan> (μM)</tspan></text>
           <text
              id="text22489"
-             y="12.267228"
-             x="72.144379"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             y="30.898809"
+             x="164.55383"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
-               y="12.267228"
-               x="72.144379"
-               style="stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
+               y="30.898809"
+               x="164.55383"
+               style="font-size:10px;baseline-shift:baseline;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:round"
                id="tspan22487"
                sodipodi:role="line"><tspan
    id="tspan22481"
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round">C<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
-   id="tspan22491">-</tspan></tspan> (mol/m<tspan
-   id="tspan22485"
-   style="font-size:64.99999762%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round">3</tspan>)</tspan></text>
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:Arial;-inkscape-font-specification:'Arial Italic';baseline-shift:baseline;stroke-linecap:butt;stroke-linejoin:round">c</tspan><tspan
+   id="tspan28503"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">-</tspan> (mM)</tspan></text>
           <text
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -832,6 +371,374 @@
                id="tspan22501"
                sodipodi:role="line">b</tspan></text>
         </g>
+        <g
+           transform="matrix(1.1042599,0,0,1.1042599,-4.0971559,-1.8803198)"
+           id="matplotlib.axis_1-6-7"
+           style="stroke-linecap:butt;stroke-linejoin:round">
+          <g
+             id="xtick_1-6-9"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_1-3-3"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <defs
+                 id="defs22062-8">
+                <path
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   id="path4818"
+                   d="m 0,0 v 3.5"
+                   inkscape:connector-curvature="0" />
+              </defs>
+              <g
+                 id="g22066-2"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22064-4"
+                   y="128.10197"
+                   xlink:href="#mc7bec11ed3"
+                   x="39.088673"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_1-4-8"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22069-3"
+                 y="140.48204"
+                 x="39.088673"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-2</text>
+            </g>
+          </g>
+          <g
+             id="xtick_2-4-9"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_2-2-0"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22075-5"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22073-2"
+                   y="128.10197"
+                   xlink:href="#mc7bec11ed3"
+                   x="66.447174"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_2-9-2"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22078-7"
+                 y="140.48204"
+                 x="66.447174"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-1</text>
+            </g>
+          </g>
+          <g
+             id="xtick_3-2-3"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_3-8-7"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22084-9"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22082-0"
+                   y="128.10197"
+                   xlink:href="#mc7bec11ed3"
+                   x="93.805672"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_3-9-2"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22087-3"
+                 y="140.48204"
+                 x="93.805672"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">0</text>
+            </g>
+          </g>
+          <g
+             id="xtick_4-2-9"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_4-5-9"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22093-7"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22091-0"
+                   y="128.10197"
+                   xlink:href="#mc7bec11ed3"
+                   x="121.16417"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_4-6-3"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22096-9"
+                 y="140.48204"
+                 x="121.16417"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">1</text>
+            </g>
+          </g>
+          <g
+             id="xtick_5-7-8"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_5-2-6"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22102-5"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22100-7"
+                   y="128.10197"
+                   xlink:href="#mc7bec11ed3"
+                   x="148.52267"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_5-8-6"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22105-2"
+                 y="140.48204"
+                 x="148.52267"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">2</text>
+            </g>
+          </g>
+          <g
+             id="text_6-0-7"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <!-- $r$ (nm) -->
+            <g
+               id="g22115-0"
+               transform="translate(83.793172,154.52033)"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22113-3"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <tspan
+                   style="font-size:9.05583858px;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan28509"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28511">r</tspan>
+/<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28513">r</tspan>
+</tspan>
+                <tspan
+                   id="tspan28517"
+                   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="matrix(1.0988742,0,0,1.0988742,-4.141762,-1.7590855)"
+           id="matplotlib.axis_2-0-9"
+           style="stroke-linecap:butt;stroke-linejoin:round">
+          <g
+             id="ytick_1-8-1"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_6-2-7"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <defs
+                 id="defs22120-2">
+                <path
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   id="path5074"
+                   d="m 0,0 h -3.5"
+                   inkscape:connector-curvature="0" />
+              </defs>
+              <g
+                 id="g22124-6"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22122-5"
+                   y="128.10197"
+                   xlink:href="#m474e6b29dd"
+                   x="39.088673"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_7-5-5"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22127-8"
+                 y="130.79201"
+                 x="32.088673"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-2</text>
+            </g>
+          </g>
+          <g
+             id="ytick_2-8-1"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_7-0-4"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22133-7"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22131-1"
+                   y="100.74347"
+                   xlink:href="#m474e6b29dd"
+                   x="39.088673"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_8-3-3"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22136-8"
+                 y="103.43351"
+                 x="32.088673"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-1</text>
+            </g>
+          </g>
+          <g
+             id="ytick_3-2-4"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_8-3-8"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22142-0"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22140-4"
+                   y="73.384972"
+                   xlink:href="#m474e6b29dd"
+                   x="39.088673"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_9-3-6"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22145-0"
+                 y="76.075005"
+                 x="32.088673"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">0</text>
+            </g>
+          </g>
+          <g
+             id="ytick_4-2-3"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_9-1-2"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22151-6"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22149-9"
+                   y="46.02647"
+                   xlink:href="#m474e6b29dd"
+                   x="39.088673"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_10-9-4"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22154-1"
+                 y="48.716507"
+                 x="32.088673"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">1</text>
+            </g>
+          </g>
+          <g
+             id="ytick_5-1-3"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <g
+               id="line2d_10-6-7"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <g
+                 id="g22160-8"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <use
+                   id="use22158-8"
+                   y="18.667969"
+                   xlink:href="#m474e6b29dd"
+                   x="39.088673"
+                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
+                   width="100%"
+                   height="100%" />
+              </g>
+            </g>
+            <g
+               id="text_11-3-3"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22163-8"
+                 y="21.358007"
+                 x="32.088673"
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">2</text>
+            </g>
+          </g>
+          <g
+             id="text_12-9-1"
+             style="stroke-linecap:butt;stroke-linejoin:round">
+            <!-- $z$ (nm) -->
+            <g
+               id="g22173-5"
+               transform="rotate(-90,48.354985,35.679985)"
+               style="stroke-linecap:butt;stroke-linejoin:round">
+              <text
+                 id="text22171-3"
+                 style="stroke-linecap:butt;stroke-linejoin:round">
+                <tspan
+                   style="font-size:9.10022259px;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan28519"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28521">z</tspan>
+/<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28523">r</tspan>
+</tspan>
+                <tspan
+                   id="tspan28527"
+                   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
       </g>
       <g
          id="axes_2"
@@ -842,7 +749,7 @@
           <path
              id="path21739"
              style="fill:#ffffff;stroke:#ffffff;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:miter"
-             d="M 166.58305,118.52766 V 118.2196 39.973213 39.665156 h 3.94312 v 0.308057 78.246387 0.30806 z"
+             d="m 166.58305,118.52766 v -0.30806 -78.246387 -0.308057 h 3.94312 v 0.308057 78.246387 0.30806 z"
              clip-path="url(#p221d917262)"
              inkscape:connector-curvature="0" />
         </g>
@@ -872,7 +779,7 @@
                 <path
                    style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
                    id="path21976"
-                   d="M 0,0 H 3.5"
+                   d="m 0,0 h 3.5"
                    inkscape:connector-curvature="0" />
               </defs>
               <g
@@ -1079,7 +986,7 @@
           <path
              id="path21811"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:miter"
-             d="M 166.58305,118.52766 V 118.2196 39.973213 39.665156 h 3.94312 v 0.308057 78.246387 0.30806 z"
+             d="m 166.58305,118.52766 v -0.30806 -78.246387 -0.308057 h 3.94312 v 0.308057 78.246387 0.30806 z"
              inkscape:connector-curvature="0" />
         </g>
       </g>
@@ -1094,7 +1001,7 @@
         <path
            id="path22030"
            style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
-           d="M 0,163.29533 H 195.17578 V 0 H 0 Z"
+           d="m 0,163.29533 h 195.17578 v -163.29533 h -195.17578 z"
            inkscape:connector-curvature="0" />
       </g>
       <g
@@ -1106,7 +1013,7 @@
           <path
              id="path22033"
              style="fill:none;stroke-linecap:butt;stroke-linejoin:round"
-             d="M 39.088672,128.10197 H 148.52267 V 18.667969 H 39.088672 Z"
+             d="m 39.088672,128.10197 h 109.433998 v -109.434001 h -109.433998 z"
              inkscape:connector-curvature="0" />
         </g>
         <image
@@ -1212,7 +1119,7 @@
                 <path
                    style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
                    id="path22322"
-                   d="M 0,0 V 3.5"
+                   d="m 0,0 v 3.5"
                    inkscape:connector-curvature="0" />
               </defs>
               <g
@@ -1235,7 +1142,7 @@
                  id="text22069"
                  y="140.48204"
                  x="39.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-20</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-2</text>
             </g>
           </g>
           <g
@@ -1264,7 +1171,7 @@
                  id="text22078"
                  y="140.48204"
                  x="66.447174"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-10</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">-1</text>
             </g>
           </g>
           <g
@@ -1322,7 +1229,7 @@
                  id="text22096"
                  y="140.48204"
                  x="121.16417"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">10</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">1</text>
             </g>
           </g>
           <g
@@ -1351,7 +1258,7 @@
                  id="text22105"
                  y="140.48204"
                  x="148.52267"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">20</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:middle;stroke-linecap:butt;stroke-linejoin:round">2</text>
             </g>
           </g>
           <g
@@ -1366,15 +1273,17 @@
                  id="text22113"
                  style="stroke-linecap:butt;stroke-linejoin:round">
                 <tspan
-                   id="tspan22109"
-                   y="-0.53125"
-                   x="0"
-                   style="font-style:italic;font-size:7.5px;font-family:Arial;stroke-linecap:butt;stroke-linejoin:round">r</tspan>
-                <tspan
-                   id="tspan22111"
-                   y="-0.53125"
-                   x="2.4975591 4.5812988 7.0788569 11.25 17.497559"
-                   style="font-size:7.5px;font-family:Helvetica;stroke-linecap:butt;stroke-linejoin:round"> (nm)</tspan>
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.08991623px;font-family:Arial;-inkscape-font-specification:Arial;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan28461"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28463">r</tspan>
+/<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28465">r</tspan>
+<tspan
+   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28467">G</tspan>
+</tspan>
               </text>
             </g>
           </g>
@@ -1393,7 +1302,7 @@
                 <path
                    style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
                    id="path22361"
-                   d="M 0,0 H -3.5"
+                   d="m 0,0 h -3.5"
                    inkscape:connector-curvature="0" />
               </defs>
               <g
@@ -1416,7 +1325,7 @@
                  id="text22127"
                  y="130.79201"
                  x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-20</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-2</text>
             </g>
           </g>
           <g
@@ -1445,7 +1354,7 @@
                  id="text22136"
                  y="103.43351"
                  x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-10</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">-1</text>
             </g>
           </g>
           <g
@@ -1503,7 +1412,7 @@
                  id="text22154"
                  y="48.716507"
                  x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">10</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">1</text>
             </g>
           </g>
           <g
@@ -1532,7 +1441,7 @@
                  id="text22163"
                  y="21.358007"
                  x="32.088673"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">20</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:end;stroke-linecap:butt;stroke-linejoin:round">2</text>
             </g>
           </g>
           <g
@@ -1547,15 +1456,17 @@
                  id="text22171"
                  style="stroke-linecap:butt;stroke-linejoin:round">
                 <tspan
-                   id="tspan22167"
-                   y="-0.53125"
-                   x="0"
-                   style="font-style:italic;font-size:7.5px;font-family:Arial;stroke-linecap:butt;stroke-linejoin:round">z</tspan>
+                   style="font-size:9.08991623px;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan28469"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28471">z</tspan>
+/<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan28473">r</tspan>
+</tspan>
                 <tspan
-                   id="tspan22169"
-                   y="-0.53125"
-                   x="3.75 5.8337402 8.3312988 12.502441 18.75"
-                   style="font-size:7.5px;font-family:Helvetica;stroke-linecap:butt;stroke-linejoin:round"> (nm)</tspan>
+                   id="tspan28477"
+                   style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
               </text>
             </g>
           </g>
@@ -1566,7 +1477,7 @@
           <path
              id="path22177"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 39.088672,128.10197 V 18.667969"
+             d="m 39.088672,128.10197 v -109.434001"
              inkscape:connector-curvature="0" />
         </g>
         <g
@@ -1575,7 +1486,7 @@
           <path
              id="path22180"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 148.52267,128.10197 V 18.667969"
+             d="m 148.52267,128.10197 v -109.434001"
              inkscape:connector-curvature="0" />
         </g>
         <g
@@ -1584,7 +1495,7 @@
           <path
              id="path22183"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 39.088672,128.10197 H 148.52267"
+             d="m 39.088672,128.10197 h 109.433998"
              inkscape:connector-curvature="0" />
         </g>
         <g
@@ -1593,7 +1504,7 @@
           <path
              id="path22186"
              style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:square;stroke-linejoin:miter"
-             d="M 39.088672,18.667969 H 148.52267"
+             d="m 39.088672,18.667969 h 109.433998"
              inkscape:connector-curvature="0" />
         </g>
       </g>
@@ -1626,43 +1537,6 @@
            id="matplotlib.axis_4-4"
            style="stroke-linecap:butt;stroke-linejoin:round">
           <g
-             id="ytick_6-5"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_11-7"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <defs
-                 id="defs22199">
-                <path
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   id="path22415"
-                   d="M 0,0 H 3.5"
-                   inkscape:connector-curvature="0" />
-              </defs>
-              <g
-                 id="g22203"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use22201"
-                   y="100.87626"
-                   xlink:href="#m60f5490676"
-                   x="158.03867"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_14-6"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text22206"
-                 y="103.56629"
-                 x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0025</text>
-            </g>
-          </g>
-          <g
              id="ytick_7-7"
              style="stroke-linecap:butt;stroke-linejoin:round">
             <g
@@ -1688,36 +1562,11 @@
                  id="text22215"
                  y="94.804955"
                  x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0050</text>
-            </g>
-          </g>
-          <g
-             id="ytick_8-2"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_13-1"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g22221"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use22219"
-                   y="83.353569"
-                   xlink:href="#m60f5490676"
-                   x="158.03867"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_16-1"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text22224"
-                 y="86.04361"
-                 x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0075</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">
+                <tspan
+                   style="font-size:6.81743717px;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan5119">5</tspan>
+              </text>
             </g>
           </g>
           <g
@@ -1746,36 +1595,11 @@
                  id="text22233"
                  y="77.282265"
                  x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0100</text>
-            </g>
-          </g>
-          <g
-             id="ytick_10-4"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_15-4"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g22239"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use22237"
-                   y="65.830887"
-                   xlink:href="#m60f5490676"
-                   x="158.03867"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_18-3"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text22242"
-                 y="68.520927"
-                 x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0125</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">
+                <tspan
+                   style="font-size:6.81743717px;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan5117">10</tspan>
+              </text>
             </g>
           </g>
           <g
@@ -1804,36 +1628,11 @@
                  id="text22251"
                  y="59.759583"
                  x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0150</text>
-            </g>
-          </g>
-          <g
-             id="ytick_12-9"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <g
-               id="line2d_17-9"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <g
-                 id="g22257"
-                 style="stroke-linecap:butt;stroke-linejoin:round">
-                <use
-                   id="use22255"
-                   y="48.308201"
-                   xlink:href="#m60f5490676"
-                   x="158.03867"
-                   style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round"
-                   width="100%"
-                   height="100%" />
-              </g>
-            </g>
-            <g
-               id="text_20-4"
-               style="stroke-linecap:butt;stroke-linejoin:round">
-              <text
-                 id="text22260"
-                 y="50.998241"
-                 x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0175</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">
+                <tspan
+                   style="font-size:6.81743717px;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan5115">15</tspan>
+              </text>
             </g>
           </g>
           <g
@@ -1862,7 +1661,11 @@
                  id="text22269"
                  y="42.2369"
                  x="165.03867"
-                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">0.0200</text>
+                 style="font-style:normal;font-weight:500;font-size:7.5px;font-family:Helvetica;text-anchor:start;stroke-linecap:butt;stroke-linejoin:round">
+                <tspan
+                   style="font-size:6.81743717px;stroke-linecap:butt;stroke-linejoin:round"
+                   id="tspan5113">20</tspan>
+              </text>
             </g>
           </g>
         </g>

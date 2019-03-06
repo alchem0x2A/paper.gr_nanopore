@@ -10,6 +10,7 @@
 \renewcommand{\theequation}{S\arabic{equation}}
 \SectionNumbersOn
 \usepackage{xr-hyper}
+\usepackage{xcolor}
 \externaldocument[main-]{paper}
 
 % \usepackage{lineno}
@@ -345,8 +346,6 @@ understanding of graphene's transport resistance.
 
 
 
-
-
 \section{KCl Debye length and conductivity}
 \label{sec:debye}
 Table \ref{tab:debye} gives an overview about the measured
@@ -403,7 +402,290 @@ PG sample is intrinsic without gating, is justified.
   \label{fig:charge-dens}
 \end{figure}
 
+\section{Effect of pore size distribution}
+\label{sec:pore-dist}
+
+One practical issue with large-area nanoporous graphene samples is
+that the unavoidable large pores will act as preferred pathways for
+the transported species and strongly attenuates the salt rejection
+effect. In this section we provide a detailed discussion about the
+influence of pore size distribution on the salt rejection through the
+PG-PCTE membrane. As seen from main text \Fig{} \ref{main-fig:1}c
+inset, the average distance between individual nanopores is larger
+than the largest Debye length studied here ($\sim{}$ 30 nm for 1 mM 1:1
+salt solution), we can assume that the ionic transport pathways
+through different nanopores do not influence each other and the total
+ionic flux $\boldsymbol{J}_{\mathrm{PG}}$ is the summation of fluxes
+through individual pores $\boldsymbol{J}_{i}$:
+\begin{equation}
+\label{eq:J-total}
+\boldsymbol{J}_{\mathrm{PG}} = \sum_{i} \boldsymbol{J}_{i} = \sum_{r_{i}} x_{r_{i}} \boldsymbol{J}_{r_{i}}
+\end{equation}
+where $r_{i}$ is the radius of individual pores,
+$\boldsymbol{J}_{r_{i}}$ and $x_{r_{i}}$ are the flux of individual
+pore and the distribution probability when
+$r_{\mathrm{G}} = r_{i}$. The salt rejection factor
+$\xi$ through graphene is then expressed as:
+\begin{equation}
+  \label{eq:xi-pore}
+  \begin{aligned}
+    \xi &= 1 - \frac{\sum_{r_{i}} \boldsymbol{J}_{r_{i}} x_{r_{i}}}
+           {\sum_{r_{i}} \boldsymbol{J}_{r_{i}}(V_{\mathrm{G}} = 0) x_{r_{i}}} \\
+           &= 1 - \frac{\sum_{r_{i}} \hat{J}_{r_{i}} r_{i}^{2} x_{r_{i}}}
+           {\sum_{r_{i}} \hat{J}_{r_{i}}^{0} r_{i}^{2} x_{r_{i}}} \\
+           % &approx 1 - \sum_{r_{i}} \frac{\hat{J}_{r_{i}}}{\hat{J}_{r_{i}}^{0}}
+           % \frac{r_{i}^{2} x_{r_{i}}} {\sum_{r_{i}} r_{i}^{2} x_{r_{i}}} \\
+           &\approx \sum_{r_{i}} \left(1 -  \frac{\hat{J}_{r_{i}}}{\hat{J}_{r_{i}}^{0}}\right) w_{r_{i}} \\
+           &= \sum_{r_{i}} \xi_{r_{i}} w_{r_{i}}
+  \end{aligned}
+\end{equation}
+where $\hat{J}$ and $\hat{J}^{0}$ are the flux normalized by pore area
+when $V_{\mathrm{G}} = 0$ and $V_{\mathrm{G}} \neq 0$, respectively,
+$w_{r_{i}} = x_{r_{i}} r_{i}^{2} / sum_{r_{i}} x_{r_{i}} r_{i}^{2}$ is
+the contribution to the salt rejection from individual pore rejection
+rate $\xi_{r_{i}}$. The linear combination between $\xi_{r_{i}}$ and
+$\xi$ comes from the assumption that $\hat{J}^{0}$ is independent of
+the pore size from the simple Ficknian diffusion.
+
+To get an insight of the influence of the pore size distribution on
+the salt rejection, we combine Equation \ref{eq:xi-pore} with main
+text \Fig{} \ref{main-fig:5}b for the salt rejection of a 1:1
+electrolyte to get the pore-distribution-related salt rejection, where
+the pore distribution is taken from the SEM image of real samples (for
+instance main text \Fig{} \ref{main-fig:1}c inset). \Fig{}
+\ref{fig:simple-rect-pore}a shows the contribution $w$ and $\xi$ as
+a function of $r_{\mathrm{G}}$ for individual pores when
+$V_{\mathrm{G}}$ = 1.25 V. As can be seen, the majority of pores fall
+within the regime of $\lambda_{\mathrm{D}} / r_{\mathrm{G}} > 1$,
+corresponding to $\xi(r_{\mathrm{G}}) > 0.6$. As a result, considering
+the pore distribution reduces the value of $\xi$ to $\sim{}$80\% to
+that of a single 20 nm-diameter nanopore (\Fig{}
+\ref{fig:simple-rect-pore}b), which is indeed close to the highest
+$\xi$ values experimentally observed (for 1mM NaCl system). Such high
+salt rejection even after considering the pore size distribution, can
+be explained by the non-linear nature of $\xi$ with $r_{\mathrm{G}}$
+and $V_{\mathrm{G}}$. As seen in main text Fig{} \ref{main-fig:5}b,
+for large $V_{\mathrm{G}}$ and $\lambda_{\mathrm{D}} / r_{\mathrm{G}}$
+regions, $\xi$ reaches a ``plateau'' with its value close to 1. For
+the fabricated PG samples, most pores are within such region when
+$V_{\mathrm{G}}$ = 1.25 V and $c_{0}$ = 0.1 mM, which gives a minor
+change of $\xi$ dispite the wide span of pore sizes. In other words,
+although nanopres as large as 60 nm exist in the system, considerably
+high salt rejection more than 80\% can still be achieved.
+
+\begin{figure}[htbp]
+  \centering
+   \includegraphics[width=0.9\linewidth]{img/SI-simple-pore-dist.pdf}
+   \caption{Salt rejection after considering the pore size
+     distribution. \textbf{a}. $w$ (left axis) and $\xi$ (right axis)
+     as a function of $r_{\mathrm{G}}$ for the experimental pore size
+     distribution with $c_{0}$ = 0.1 mM and $V_{\mathrm{G}}$ = 1.25 V.
+     \textbf{b}. Salt rejection ratio $\xi$ as a function of $V_{\mathrm{G}}$ of a
+     0.1mM 1:1 salt from a 20 nm-diameter nanopore (blue line) and
+     from the experimental pore size distribution (orange line), by
+     applying Equation \ref{eq:xi-pore} to main text \Fig{}
+     \ref{main-fig:5}b.}
+  \label{fig:simple-rect-pore}
+\end{figure}
+
+To include the pore size distribution effect for all the salts
+studied, we performed FEM analysis for the salt rejection through
+single nanopore of different salts with $r_{\mathrm{G}}$ ranges from
+2.5 nm to 35 nm, while keeping $c_{0}$ constant at 0.1 mM. As shown in
+\Fig{} \ref{fig:xi-salts-pore}, the behavior of $\xi$ vary with the
+type of salt. As expected, the overall $\xi$ for monovalent salts
+(KCl, NaCl, LiCl) is larger than multivalent salts due to the longer
+Debye length. Moreover, $\xi$ of monovalent salts varies less with the
+pore size compared with multivalent salts. This can be explained by
+the non-linear dependency of $\xi$ on
+$\lambda_{\mathrm{D}} / r_{\mathrm{G}}$ as discussed above. Combine
+the FEM-simulated $\xi$ values with the experimental pore size
+distribution, we obtain main text \Fig{} \ref{main-fig:6}.
+
+\begin{figure}[htbp]
+  \centering
+   \includegraphics[width=0.75\linewidth]{img/SI-xi-salt-pore-size.pdf}
+  \caption{FEM-simulated salt rejction ratio $\xi$ as a function of
+    $V_{\mathrm{G}}$ through single nanopores for different salts with
+    varied pore radius. All salts have concentration $c_{0}$ = 0.1 mM.}
+  \label{fig:xi-salts-pore}
+\end{figure}
+
+
 \pagebreak
+
+\section{Further discussion about the ionic pathway near the graphene pore}
+\label{sec:conc}
+
+In this section we provide a more detailed discussion about the
+different ionic pathways through the graphene nanopore upon gating in
+main text \Fig{} \ref{main-fig:4}b. As disccused in the main text, the
+ionic migration is contributed by both diffusion (caused by
+concentration gradient) and electrostatic drift (caused by electric
+field).  The effect of salt rejection can be viewed as follows: when
+$V_{\mathrm{G}}$ = 0, the flux $\boldsymbol{J}_{\mathrm{G}}$ is solely
+contributed by the concentration gradient, while after applying a
+positive $V_{\mathrm{G}}$, distinct pathways for cations /
+anions are created and the drift flux balances the diffusion.
+
+Applying a positive $V_{\mathrm{G}}$ changes the surface distribution
+of the cations / anions. To see this, we plot the concentrations of
+cation ($c_{+}$) and anion ($c_{-}$) near a graphene nanopore with
+$r_{\mathrm{G}}$ = 10 nm, $c_{0}$ = 0.1 mM and $\psi_{\mathrm{G}}$ =
+0.15 V, as shown in \Fig{} \ref{fig:conc}a and \ref{fig:conc}b,
+respectively. The cations are depleted from the graphene surface,
+while the anions are accumulated due to positive
+$\psi_{\mathrm{G}}$. The anion concentration at the graphene surface
+is enhanced $\sim{}$35 times compared with the bulk concentration in
+HCR. The thickness of the depletion / accumulation layer is affected
+by the bulk concentration. Here we show this by comparing the radial
+distribution of $c_{+}$ and $c_{-}$ along the $z = 0$ line within the
+graphene pore. \Fig{} \ref{fig:conc-r} shows such radial ionic
+concentration distribution at different $c_{0}$ and $V_{\mathrm{G}}$
+levels. When $c_{0}$ = 0.1 mM, $\lambda_{\mathrm{D}}$ is larger than
+$r_{\mathrm{G}}$, and the external gate voltage $V_{\mathrm{G}}$ has
+control over both $c_{-}$ and $c_{+}$ within the graphene nanopore
+(\Fig{} \ref{fig:conc-r}a and \ref{fig:conc-r}c). On the other
+hand, when $c_{0}$ = 100 mM, $\lambda_{\mathrm{D}}$ is much smaller
+than $r_{\mathrm{G}}$, and the concentration is only affected by
+$V_{\mathrm{G}}$ close to the pore edge (\Fig{} \ref{fig:conc-r}b
+and \ref{fig:conc-r}d). Therefore by increasing $c_{0}$ (and
+equivalently reducing $\lambda_{\mathrm{D}}$), $V_{\mathrm{G}}$ loses
+control over the transport in the center of the pore and leads to a
+lower $\xi$ value. Due to the existence of graphene quantum
+capacitance, the surface potential $\psi_{\mathrm{G}}$ is essentially
+smaller than $V_{\mathrm{G}}$, and the maximum surface anion
+concentration ($c_{0}$ = 100 mM, $V_{\mathrm{G}}$ = 1.25 V) is
+$\sim{}$3 M, much smaller than the saturated surface adsorption
+density (at the order of 10$^{2}$ M
+\cite{bard_electrochemical_1980}). Therefore we expect the surface
+enhancement of the anions under the FEM conditions to be realistic and
+the influence of the anion concentration on the diffusivity is minimal
+\cite{Tang_1999_I}.
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-concentration.pdf}
+  \caption{Cation concentration $c_{+}$ (\textbf{a}.) and anion
+    concentration $c_{-}$ (\textbf{b}.) near the graphene nanopore
+    with $r_{\mathrm{G}}$ = 10 nm, $c_{0}$ = 0.1 mM, and
+    $\psi_{\mathrm{G}}$ = 0.15 V, for a KCl solution at 0.1
+    mM. Depletion of cation and accumulation of anion can be observed
+    near the graphene surface.}
+  \label{fig:conc}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\linewidth]{img/SI-conc-r.pdf}
+  \caption{Radial distribution of ions along the line $z=0$ within a
+    graphene nanopore with $r_{\mathrm{G}}$ = 10 nm: (\textbf{a}.)
+    $c_{+}$ at $c_{0}$ = 0.1 mM, (\textbf{b}.) $c_{+}$ at $c_{0}$ =
+    100 mM, (\textbf{c}.) $c_{-}$ at $c_{0}$ = 0.1 mM and
+    (\textbf{d}.) $c_{-}$ at $c_{0}$ = 100 mM. The lines with varied
+    colors indicate the difference of $V_{\mathrm{G}}$ applied.}
+  \label{fig:conc-r}
+\end{figure}
+
+Next we analyze the diffusion and drift contributions to the ionic
+transport. As shown in \Fig{} \ref{fig:potential}, the
+electrochemical potential energy $\mu_{i}$ is decomposed into the
+electric potential energy $z_{i} c_{i} \psi_{i}$ (\Fig{}
+\ref{fig:potential}a and \ref{fig:potential}b) and the chemical
+potential energy $k_{\mathrm{B}}T \ln x_{i}$ (\Fig{}
+\ref{fig:potential}c and \ref{fig:potential}d) near a graphene
+nanopore with $r_{\mathrm{G}}$ = 10 nm and $\psi_{\mathrm{G}}$ = 0.15
+V. The transport of cations is dominated by its chemical potential and
+the diffusion is prominent in the center of the pore. On the other
+hand, the electric and diffusive potential energies are similar with
+opposite signs and counterbalance each other. This explains the
+relatively smaller electrochemical potential of anions in main text
+\Fig{} \ref{main-fig:4}b. As a result, different pathways for cations
+and anions emerge that cations preferably pass through the pore
+center, while anions mainly pass near the pore edge, as shown in
+\Fig{} \ref{fig:flux}.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-electrochemical-decomposite.pdf}
+  \caption{Decomposition of electrochemical potential near a nanopore
+    corresponding to main text \Fig \ref{main-fig:4}. \textbf{a}. The electrostatic
+    (drift) contribution to the electrochemical potential for cation
+    (left) and anion (right) and \textbf{b}. The concentration (diffusion)
+    contribution to the electrochemical potential for cation (left)
+    and anion (right). The relative small order of magnitude for anion
+    electrochemical potential is caused by the balance between the
+    diffusion and drift for anion.}
+  \label{fig:potential}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-flux.png}
+  \caption{z-component fluxes of cation ($J_{z+}$, \textbf{a}.)  and
+    anion ($J_{z-}$ \textbf{b}.) near the graphene nanopore
+    corresponding to \Fig{} \ref{main-fig:4}b in main text. The
+    pathways for the different ions can be spatially distinguished:
+    the flux of cation passes mostly through the center of the
+    graphene nanopore while the anion passes mainly through the
+    edge. The analysis is in consistent with the gradient of chemical
+    potential as shown in the main text \Fig{} \ref{main-fig:4}b.}
+  \label{fig:flux}
+\end{figure}
+
+We note that when the surface potential $\psi_{\mathrm{G}}$ of
+graphene further increases, the salt rejection may be weakened, or
+even enhanced salt transport is observed. To see this we artificially
+increase the $\psi_{\mathrm{G}}$ up to over 1 V when not considering
+the limiting effect of graphene quantum capacitance. As seen in \Fig{}
+\ref{fig:reverse}, for each salt concentration $c_{0}$, the averaged
+total flux $J_{z}$ does not further decrease when $\psi_{\mathrm{G}}$
+is larger than a critical potential $V_{\mathrm{c}}$. At low $c_{0}$,
+further increasing $\psi_{\mathrm{G}}$ over $V_{\mathrm{c}}$ may even
+enhance the flux, leading to a negative $\xi$. The reserve of the salt
+rejection at higher $V_{\mathrm{G}}$ values is caused by the enhanced
+anion flux around the pore edge, while the cation flux saturates
+(\Fig{} \ref{fig:large-V}). Such flux enhancement resemble that in an
+ionic transistor \cite{Nam_2009,Cheng_2018} when ionic current rises
+by applying gate voltage. Nevertheless, such regime may not be easy to
+be observed experimentally as the $V_{\mathrm{G}}$ applied may already
+exceed the electrochemical window of water, due to the quantum
+capacitance of graphene.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{img/SI-rect-reverse.pdf}
+  \caption{Average total flux $J_{z}$ in the nanopore as
+    a function of $\psi_{\mathrm{G}}$ at different concentrations. The
+    range of $\psi_{\mathrm{G}}$ is larger than the experimentally
+    achievable value. The rectification of flux becomes weaker after a
+    certain level of $\psi_{\mathrm{G}}$ is reached. Further
+    increasing the surface potential of graphene may even enhance the
+    transportation of ions, which is similar to the cases of ionic
+    transistors.}
+  \label{fig:reverse}
+\end{figure}
+
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{img/SI-flux-larger.png}
+  \caption{Spatial distribution of $J_{z}$ at $z = 0$ as a function
+    of $r$ in a nanopore with $r_{\mathrm{G}}$ = 20 nm, at different
+    levels of $\psi_{\mathrm{G}}$ (larger than experimentally
+    achievable values) for cation (\textbf{a}.) and anion
+    (\textbf{b}.). The cation flux becomes nearly saturated with
+    increasing $\psi_{\mathrm{G}}$, while the flow of anion near the
+    pore edge becomes much larger. The drastic increase of
+    pore-bounded anion flux is caused by the accumulation of anions
+    near the graphene surface, and in turn causes the increasing of
+    total flux as seen in \Fig \ref{fig:reverse}.}
+  \label{fig:large-V}
+\end{figure}
+\clearpage{}
+
+
 \section{Further details of the numerical simulation }
 \label{sec:numer}
 
@@ -530,79 +812,6 @@ $N_{\mathrm{b}}=100$ in our simulations.
     $N_{\mathrm{b}}$ than $N_{\mathrm{div}}$.}
   \label{fig:mesh}
 \end{figure}
-
-\section{Further numerical simulation results}
-\label{sec:simu-res}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{img/SI-concentration.png}
-  \caption{Cation concentration $c_{+}$ (\textbf{a}.) and anion
-    concentration $c_{-}$ (\textbf{b}.) near the graphene nanopore for
-    KCl solution at 0.1 mM. Depletion of cation and accumulation of
-    anion can be observed near the graphene surface.}
-  \label{fig:conc}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{img/SI-electrochemical-decomposite.pdf}
-  \caption{Decomposition of electrochemical potential near a nanopore
-    corresponding to \Fig 4 in main text. \textbf{a}. The electrostatic
-    (drift) contribution to the electrochemical potential for cation
-    (left) and anion (right) and \textbf{b}. The concentration (diffusion)
-    contribution to the electrochemical potential for cation (left)
-    and anion (right). The relative small order of magnitude for anion
-    electrochemical potential is caused by the balance between the
-    diffusion and drift for anion.}
-  \label{fig:potential}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{img/SI-flux.png}
-  \caption{z-component flux $\boldsymbol{J}_{z}$ of cation
-    (\textbf{a}.)  and anion (\textbf{b}.) near the graphene nanopore
-    corresponding to Figure 4b in main text. The pathways for the
-    different ions can be spatially distinguished: the flux of cation
-    passes mostly through the center of the graphene nanopore while
-    the anion passes mainly through the edge. The analysis is in
-    consistent with the gradient of chemical potential as shown in the
-    main text \Fig 4b.}
-  \label{fig:flux}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.5\linewidth]{img/SI-rect-reverse.pdf}
-  \caption{Average total flux $\boldsymbol{J}_{z}$ in the nanopore as
-    a function of $\psi_{\mathrm{G}}$ at different concentrations. The
-    range of $\psi_{\mathrm{G}}$ is larger than the experimentally
-    achievable value. The rectification of flux becomes weaker after a
-    certain level of $\psi_{\mathrm{G}}$ is reached. Further
-    increasing the surface potential of graphene may even enhance the
-    transportation of ions, which is similar to the cases of ionic
-    transistors.}
-  \label{fig:reverse}
-\end{figure}
-
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\linewidth]{img/SI-flux-larger.png}
-  \caption{Spatial distribution of $\boldsymbol{J}_{z}$ as a function
-    of $r$ in a 20 nm nanopore at different levels of
-    $\psi_{\mathrm{G}}$ (larger than experimentally achievable values)
-    for cation (\textbf{a}.) and anion (\textbf{b}.). The cation flux
-    becomes nearly saturated with increasing $\psi_{\mathrm{G}}$,
-    while the flow of anion near the pore edge becomes much
-    larger. The drastic increase of pore-bounded anion flux is caused
-    by the accumulation of anions near the graphene surface, and in
-    turn causes the increasing of total flux as seen in \Fig
-    \ref{fig:reverse}.}
-  \label{fig:large-V}
-\end{figure}
-\clearpage{}
 
 \section{Conductivity and Debye length for all salts}
 \label{sec:salts}

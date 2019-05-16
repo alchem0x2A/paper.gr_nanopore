@@ -38,11 +38,12 @@ doc:
 
 
 diff:
+	GIT_VER=a17292873
 	cp ./paper.tex ./paper.tex.bak
-	git checkout 6f1f33 ./paper.tex #old version
+	git checkout $(GIT_VER) ./paper.tex #old version
 	cp paper.tex paper_old.tex
 	cp ./SI.tex ./SI.tex.bak	
-	git checkout 6f1f33 ./SI.tex
+	git checkout $(GIT_VER) ./SI.tex
 	cp SI.tex SI_old.tex
 	git checkout HEAD ./paper.tex
 	git checkout HEAD ./SI.tex

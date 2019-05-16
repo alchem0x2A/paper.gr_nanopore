@@ -402,118 +402,6 @@ PG sample is intrinsic without gating, is justified.
   \label{fig:charge-dens}
 \end{figure}
 
-\section{Effect of pore size distribution}
-\label{sec:pore-dist}
-
-One practical issue with large-area nanoporous graphene samples is
-that the unavoidable large pores will act as preferred pathways for
-the transported species and strongly attenuates the salt rejection
-effect. In this section we provide a detailed discussion about the
-influence of pore size distribution on the salt rejection through the
-PG-PCTE membrane. As seen from main text \Fig{} \ref{main-fig:1}c
-inset, the average distance between individual nanopores is larger
-than the largest Debye length studied here ($\sim{}$ 30 nm for 1 mM 1:1
-salt solution), we can assume that the ionic transport pathways
-through different nanopores do not influence each other and the total
-ionic flux $\boldsymbol{J}_{\mathrm{PG}}$ is the summation of fluxes
-through individual pores $\boldsymbol{J}_{i}$:
-\begin{equation}
-\label{eq:J-total}
-\boldsymbol{J}_{\mathrm{PG}} = \sum_{i} \boldsymbol{J}_{i} = \sum_{r_{i}} x_{r_{i}} \boldsymbol{J}_{r_{i}}
-\end{equation}
-where $r_{i}$ is the radius of individual pores,
-$\boldsymbol{J}_{r_{i}}$ and $x_{r_{i}}$ are the flux of individual
-pore and the distribution probability when
-$r_{\mathrm{G}} = r_{i}$. The salt rejection factor
-$\xi$ through graphene is then expressed as:
-\begin{equation}
-  \label{eq:xi-pore}
-  \begin{aligned}
-    \xi &= 1 - \frac{\sum_{r_{i}} \boldsymbol{J}_{r_{i}} x_{r_{i}}}
-           {\sum_{r_{i}} \boldsymbol{J}_{r_{i}}(V_{\mathrm{G}} = 0) x_{r_{i}}} \\
-           &= 1 - \frac{\sum_{r_{i}} \hat{J}_{r_{i}} r_{i}^{2} x_{r_{i}}}
-           {\sum_{r_{i}} \hat{J}_{r_{i}}^{0} r_{i}^{2} x_{r_{i}}} \\
-           % &approx 1 - \sum_{r_{i}} \frac{\hat{J}_{r_{i}}}{\hat{J}_{r_{i}}^{0}}
-           % \frac{r_{i}^{2} x_{r_{i}}} {\sum_{r_{i}} r_{i}^{2} x_{r_{i}}} \\
-           &\approx \sum_{r_{i}} \left(1 -  \frac{\hat{J}_{r_{i}}}{\hat{J}_{r_{i}}^{0}}\right) w_{r_{i}} \\
-           &= \sum_{r_{i}} \xi_{r_{i}} w_{r_{i}}
-  \end{aligned}
-\end{equation}
-where $\hat{J}$ and $\hat{J}^{0}$ are the flux normalized by pore area
-when $V_{\mathrm{G}} = 0$ and $V_{\mathrm{G}} \neq 0$, respectively,
-$w_{r_{i}} = x_{r_{i}} r_{i}^{2} / sum_{r_{i}} x_{r_{i}} r_{i}^{2}$ is
-the contribution to the salt rejection from individual pore rejection
-rate $\xi_{r_{i}}$. The linear combination between $\xi_{r_{i}}$ and
-$\xi$ comes from the assumption that $\hat{J}^{0}$ is independent of
-the pore size from the simple Ficknian diffusion.
-
-To get an insight of the influence of the pore size distribution on
-the salt rejection, we combine Equation \ref{eq:xi-pore} with main
-text \Fig{} \ref{main-fig:5}b for the salt rejection of a 1:1
-electrolyte to get the pore-distribution-related salt rejection, where
-the pore distribution is taken from the SEM image of real samples (for
-instance main text \Fig{} \ref{main-fig:1}c inset). \Fig{}
-\ref{fig:simple-rect-pore}a shows the contribution $w$ and $\xi$ as
-a function of $r_{\mathrm{G}}$ for individual pores when
-$V_{\mathrm{G}}$ = 1.25 V. As can be seen, the majority of pores fall
-within the regime of $\lambda_{\mathrm{D}} / r_{\mathrm{G}} > 1$,
-corresponding to $\xi(r_{\mathrm{G}}) > 0.6$. As a result, considering
-the pore distribution reduces the value of $\xi$ to $\sim{}$80\% to
-that of a single 20 nm-diameter nanopore (\Fig{}
-\ref{fig:simple-rect-pore}b), which is indeed close to the highest
-$\xi$ values experimentally observed (for 1mM NaCl system). Such high
-salt rejection even after considering the pore size distribution, can
-be explained by the non-linear nature of $\xi$ with $r_{\mathrm{G}}$
-and $V_{\mathrm{G}}$. As seen in main text Fig{} \ref{main-fig:5}b,
-for large $V_{\mathrm{G}}$ and $\lambda_{\mathrm{D}} / r_{\mathrm{G}}$
-regions, $\xi$ reaches a ``plateau'' with its value close to 1. For
-the fabricated PG samples, most pores are within such region when
-$V_{\mathrm{G}}$ = 1.25 V and $c_{0}$ = 0.1 mM, which gives a minor
-change of $\xi$ dispite the wide span of pore sizes. In other words,
-although nanopres as large as 60 nm exist in the system, considerably
-high salt rejection more than 80\% can still be achieved.
-
-\begin{figure}[htbp]
-  \centering
-   \includegraphics[width=0.9\linewidth]{img/SI-simple-pore-dist.pdf}
-   \caption{Salt rejection after considering the pore size
-     distribution. \textbf{a}. $w$ (left axis) and $\xi$ (right axis)
-     as a function of $r_{\mathrm{G}}$ for the experimental pore size
-     distribution with $c_{0}$ = 0.1 mM and $V_{\mathrm{G}}$ = 1.25 V.
-     \textbf{b}. Salt rejection ratio $\xi$ as a function of $V_{\mathrm{G}}$ of a
-     0.1mM 1:1 salt from a 20 nm-diameter nanopore (blue line) and
-     from the experimental pore size distribution (orange line), by
-     applying Equation \ref{eq:xi-pore} to main text \Fig{}
-     \ref{main-fig:5}b.}
-  \label{fig:simple-rect-pore}
-\end{figure}
-
-To include the pore size distribution effect for all the salts
-studied, we performed FEM analysis for the salt rejection through
-single nanopore of different salts with $r_{\mathrm{G}}$ ranges from
-2.5 nm to 35 nm, while keeping $c_{0}$ constant at 0.1 mM. As shown in
-\Fig{} \ref{fig:xi-salts-pore}, the behavior of $\xi$ vary with the
-type of salt. As expected, the overall $\xi$ for monovalent salts
-(KCl, NaCl, LiCl) is larger than multivalent salts due to the longer
-Debye length. Moreover, $\xi$ of monovalent salts varies less with the
-pore size compared with multivalent salts. This can be explained by
-the non-linear dependency of $\xi$ on
-$\lambda_{\mathrm{D}} / r_{\mathrm{G}}$ as discussed above. Combine
-the FEM-simulated $\xi$ values with the experimental pore size
-distribution, we obtain main text \Fig{} \ref{main-fig:6}.
-
-\begin{figure}[htbp]
-  \centering
-   \includegraphics[width=0.75\linewidth]{img/SI-xi-salt-pore-size.pdf}
-  \caption{FEM-simulated salt rejction ratio $\xi$ as a function of
-    $V_{\mathrm{G}}$ through single nanopores for different salts with
-    varied pore radius. All salts have concentration $c_{0}$ = 0.1 mM.}
-  \label{fig:xi-salts-pore}
-\end{figure}
-
-
-\pagebreak
-
 \section{Further discussion about the ionic pathway near the graphene pore}
 \label{sec:conc}
 
@@ -684,6 +572,120 @@ capacitance of graphene.
   \label{fig:large-V}
 \end{figure}
 \clearpage{}
+
+\section{Effect of pore size distribution}
+\label{sec:pore-dist}
+
+One practical issue with large-area nanoporous graphene samples is
+that the unavoidable large pores will act as preferred pathways for
+the transported species and strongly attenuates the salt rejection
+effect. In this section we provide a detailed discussion about the
+influence of pore size distribution on the salt rejection through the
+PG-PCTE membrane. As seen from main text \Fig{} \ref{main-fig:1}c
+inset, the average distance between individual nanopores is larger
+than the largest Debye length studied here ($\sim{}$ 30 nm for 1 mM 1:1
+salt solution), we can assume that the ionic transport pathways
+through different nanopores do not influence each other and the total
+ionic flux $\boldsymbol{J}_{\mathrm{PG}}$ is the summation of fluxes
+through individual pores $\boldsymbol{J}_{i}$:
+\begin{equation}
+\label{eq:J-total}
+\boldsymbol{J}_{\mathrm{PG}} = \sum_{i} \boldsymbol{J}_{i} = \sum_{r_{i}} x_{r_{i}} \boldsymbol{J}_{r_{i}}
+\end{equation}
+where $r_{i}$ is the radius of individual pores,
+$\boldsymbol{J}_{r_{i}}$ and $x_{r_{i}}$ are the flux of individual
+pore and the distribution probability when
+$r_{\mathrm{G}} = r_{i}$. The salt rejection factor
+$\xi$ through graphene is then expressed as:
+\begin{equation}
+  \label{eq:xi-pore}
+  \begin{aligned}
+    \xi &= 1 - \frac{\sum_{r_{i}} \boldsymbol{J}_{r_{i}} x_{r_{i}}}
+           {\sum_{r_{i}} \boldsymbol{J}_{r_{i}}(V_{\mathrm{G}} = 0) x_{r_{i}}} \\
+           &= 1 - \frac{\sum_{r_{i}} \hat{J}_{r_{i}} r_{i}^{2} x_{r_{i}}}
+           {\sum_{r_{i}} \hat{J}_{r_{i}}^{0} r_{i}^{2} x_{r_{i}}} \\
+           % &approx 1 - \sum_{r_{i}} \frac{\hat{J}_{r_{i}}}{\hat{J}_{r_{i}}^{0}}
+           % \frac{r_{i}^{2} x_{r_{i}}} {\sum_{r_{i}} r_{i}^{2} x_{r_{i}}} \\
+           &\approx \sum_{r_{i}} \left(1 -  \frac{\hat{J}_{r_{i}}}{\hat{J}_{r_{i}}^{0}}\right) w_{r_{i}} \\
+           &= \sum_{r_{i}} \xi_{r_{i}} w_{r_{i}}
+  \end{aligned}
+\end{equation}
+where $\hat{J}$ and $\hat{J}^{0}$ are the flux normalized by pore area
+when $V_{\mathrm{G}} = 0$ and $V_{\mathrm{G}} \neq 0$, respectively,
+$w_{r_{i}} = x_{r_{i}} r_{i}^{2} / sum_{r_{i}} x_{r_{i}} r_{i}^{2}$ is
+the contribution to the salt rejection from individual pore rejection
+rate $\xi_{r_{i}}$. The linear combination between $\xi_{r_{i}}$ and
+$\xi$ comes from the assumption that $\hat{J}^{0}$ is independent of
+the pore size from the simple Ficknian diffusion.
+
+To get an insight of the influence of the pore size distribution on
+the salt rejection, we combine Equation \ref{eq:xi-pore} with main
+text \Fig{} \ref{main-fig:5}b for the salt rejection of a 1:1
+electrolyte to get the pore-distribution-related salt rejection, where
+the pore distribution is taken from the SEM image of real samples (for
+instance main text \Fig{} \ref{main-fig:1}c inset). \Fig{}
+\ref{fig:simple-rect-pore}a shows the contribution $w$ and $\xi$ as
+a function of $r_{\mathrm{G}}$ for individual pores when
+$V_{\mathrm{G}}$ = 1.25 V. As can be seen, the majority of pores fall
+within the regime of $\lambda_{\mathrm{D}} / r_{\mathrm{G}} > 1$,
+corresponding to $\xi(r_{\mathrm{G}}) > 0.6$. As a result, considering
+the pore distribution reduces the value of $\xi$ to $\sim{}$80\% to
+that of a single 20 nm-diameter nanopore (\Fig{}
+\ref{fig:simple-rect-pore}b), which is indeed close to the highest
+$\xi$ values experimentally observed (for 1mM NaCl system). Such high
+salt rejection even after considering the pore size distribution, can
+be explained by the non-linear nature of $\xi$ with $r_{\mathrm{G}}$
+and $V_{\mathrm{G}}$. As seen in main text Fig{} \ref{main-fig:5}b,
+for large $V_{\mathrm{G}}$ and $\lambda_{\mathrm{D}} / r_{\mathrm{G}}$
+regions, $\xi$ reaches a ``plateau'' with its value close to 1. For
+the fabricated PG samples, most pores are within such region when
+$V_{\mathrm{G}}$ = 1.25 V and $c_{0}$ = 0.1 mM, which gives a minor
+change of $\xi$ dispite the wide span of pore sizes. In other words,
+although nanopres as large as 60 nm exist in the system, considerably
+high salt rejection more than 80\% can still be achieved.
+
+\begin{figure}[htbp]
+  \centering
+   \includegraphics[width=0.9\linewidth]{img/SI-simple-pore-dist.pdf}
+   \caption{Salt rejection after considering the pore size
+     distribution. \textbf{a}. $w$ (left axis) and $\xi$ (right axis)
+     as a function of $r_{\mathrm{G}}$ for the experimental pore size
+     distribution with $c_{0}$ = 0.1 mM and $V_{\mathrm{G}}$ = 1.25 V.
+     \textbf{b}. Salt rejection ratio $\xi$ as a function of $V_{\mathrm{G}}$ of a
+     0.1mM 1:1 salt from a 20 nm-diameter nanopore (blue line) and
+     from the experimental pore size distribution (orange line), by
+     applying Equation \ref{eq:xi-pore} to main text \Fig{}
+     \ref{main-fig:5}b.}
+  \label{fig:simple-rect-pore}
+\end{figure}
+
+To include the pore size distribution effect for all the salts
+studied, we performed FEM analysis for the salt rejection through
+single nanopore of different salts with $r_{\mathrm{G}}$ ranges from
+2.5 nm to 35 nm, while keeping $c_{0}$ constant at 0.1 mM. As shown in
+\Fig{} \ref{fig:xi-salts-pore}, the behavior of $\xi$ vary with the
+type of salt. As expected, the overall $\xi$ for monovalent salts
+(KCl, NaCl, LiCl) is larger than multivalent salts due to the longer
+Debye length. Moreover, $\xi$ of monovalent salts varies less with the
+pore size compared with multivalent salts. This can be explained by
+the non-linear dependency of $\xi$ on
+$\lambda_{\mathrm{D}} / r_{\mathrm{G}}$ as discussed above. Combine
+the FEM-simulated $\xi$ values with the experimental pore size
+distribution, we obtain main text \Fig{} \ref{main-fig:6}.
+
+\begin{figure}[htbp]
+  \centering
+   \includegraphics[width=0.75\linewidth]{img/SI-xi-salt-pore-size.pdf}
+  \caption{FEM-simulated salt rejction ratio $\xi$ as a function of
+    $V_{\mathrm{G}}$ through single nanopores for different salts with
+    varied pore radius. All salts have concentration $c_{0}$ = 0.1 mM.}
+  \label{fig:xi-salts-pore}
+\end{figure}
+
+
+\pagebreak
+
+
 
 
 \section{Further details of the numerical simulation }

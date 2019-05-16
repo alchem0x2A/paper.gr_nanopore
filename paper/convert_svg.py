@@ -32,7 +32,7 @@ def convert_pdf(infile, outdir="./img"):
         return
     outfile = os.path.join(os.path.abspath(outdir), base_name)
     # outfile = outfile.replace(".svg", ".pdf")
-    outfile = outfile.replace(".svg", ".ps")
+    outfile = outfile.replace(".svg", ".png")
     infile = os.path.abspath(infile)
     #outfile = outfile.replace(".svg", ".png")
     print(outfile)
@@ -40,7 +40,8 @@ def convert_pdf(infile, outdir="./img"):
     params = ["--without-gui", "--export-area-page",
     ]
     io = ["--file={}".format(infile),
-          "--export-ps={}".format(outfile)]
+          "--export-dpi=600",
+          "--export-png={}".format(outfile)]
     success = subprocess.call([program, *params, *io])
     if success != 0:
         warnings.warn(TColors.FAIL + "File {} cannot be converted!".format(infile) + TColors.ENDC)
@@ -50,9 +51,9 @@ def convert_pdf(infile, outdir="./img"):
               +TColors.ENDC)
 
     #SECOND round ps to pdf using ps2pdf
-    program = "ps2pdf"
+    program = "convert"
     infile = outfile
-    outfile = infile.replace(".ps", ".pdf")
+    outfile = infile.replace(".png", ".pdf")
     io = [infile, outfile]
     success = subprocess.call([program, *io])
     if success != 0:

@@ -38,7 +38,7 @@ doc:
 
 
 diff:
-	GIT_VER=a17292873
+	GIT_VER=73a28c1b0
 	cp ./paper.tex ./paper.tex.bak
 	git checkout $(GIT_VER) ./paper.tex #old version
 	cp paper.tex paper_old.tex

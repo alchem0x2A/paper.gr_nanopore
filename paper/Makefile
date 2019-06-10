@@ -17,6 +17,9 @@ all: main SI
 
 convert:
 	python convert_svg.py
+
+combined:
+	latexmk $(LATEXMK_TAG) combined.tex
 main:
 	pdflatex $(PDFLATEX_TAG) $(SI_FILE)
 	latexmk $(LATEXMK_TAG) $(TEX_FILE)
@@ -53,6 +56,16 @@ diff:
 	latexdiff $(DIFF_TAG) SI_old.tex SI.tex > SI_change.tex
 	latexmk $(LATEXMK_TAG) paper_change.tex
 	latexmk $(LATEXMK_TAG) SI_change.tex
+
+diff_comb:
+	GIT_VER=73a28c1b0	
+	cp ./combined.tex ./combined.tex.bak
+	git checkout $(GIT_VER) ./combined.tex #old version
+	cp combined.tex combined_old.tex	
+	git checkout HEAD ./combined.tex
+	cp ./combined.tex.bak combined.tex #restore to current mode
+	latexdiff $(DIFF_TAG) combined_old.tex combined.tex > combined_change.tex
+	latexmk $(LATEXMK_TAG) combined_change.tex
 
 transfer:
 	cp $(TEX_FILE) $(SI_FILE) $(BIB_FILE) $(REMOTE) 

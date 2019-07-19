@@ -13,7 +13,7 @@ DIFF_TAG= --exclude-textcmd="section,subsection" --config="PICTUREENV=(?:figure|
 
 
 
-all: combined
+all: main SI diff
 
 convert:
 	python convert_svg.py
@@ -41,7 +41,7 @@ doc:
 
 
 diff:
-	GIT_VER=73a28c1b0
+	GIT_VER=2893226
 	cp ./paper.tex ./paper.tex.bak
 	git checkout $(GIT_VER) ./paper.tex #old version
 	cp paper.tex paper_old.tex

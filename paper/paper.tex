@@ -117,9 +117,17 @@ challenging, { limiting the effective separation or demanding
   leak-sealing mechanism such as interfacial polymerization}
 \cite{Suk_2014,Rollings_2016,O_Hern_2012,Wang_2017}. Moreover, a small
 portion of excessively large pores or tears can significantly diminish
-salt rejection. Therefore, it is critical to develop methodology that
-allow appreciable selectivity of nanoporous 2D membrane even with
-large pore size. Very recently, a number of reports have explored the
+salt rejection. Regarding these issues, we have previously developed a
+highly-scalable technique to fabricate uniformly-distributed nanopores
+(sub-20 to 50 nm) over wafer-scale graphene samples
+\cite{Choi_2018}. A major step towards its real-world desalination and
+separation applications, would be to develop methodology that allow
+appreciable selectivity of nanoporous 2D membrane with pore size even
+larger than the hydration radii.
+% Therefore, it is critical to develop methodology that
+% allow appreciable selectivity of nanoporous 2D membrane even with
+% large pore size.
+A number of recent reports have explored the
 effect of surface charges on the selectivity of ion transport through
 graphene nanopores, as a consequence of the electrostatic interactions
 between solvated ions and the charged functional groups attached on
@@ -134,10 +142,10 @@ of fundamental understanding of the interactions between the charged
 
 In this report, we
 investigate electrolyte permeation through graphene nanopores that are
-significantly larger than the hydrated radii. We model the surface
-potential by taking into account of the elementary electronic
+significantly larger than the hydration radii. We model the surface
+potential by taking into account the elementary electronic
 properties of graphene and demonstrate that a high degree of salt
-rejection can be achieved by electrostatic gating.
+rejection could be achieved by both pore sizing and electrostatic gating.
 
 \section{Results and discussions}
 \label{sec:res}
@@ -288,15 +296,15 @@ asymmetric dependence of $\xi$ with respect to $V_{\mathrm{G}}$, with
 a higher degree of salt rejection for $V_{\mathrm{G}}>0$. where
 positive carriers (holes) are induced in graphene. We notice that an
 increase of $\xi$, or a decrease of diffusive flux through PG with
-$V_{\mathrm{G}}$, showing an inverse trend compared with those
+$V_{\mathrm{G}}$, shows an inverse trend compared with those
 observed in ionic field effect transistors (IFETs) in which the
 diffusive flux increases with the gate voltage
 \cite{Nam_2009,Cheng_2018}. A further increase of the KCl
-concentration $c_{0}$ influences the attainable degree of salt
+concentration $c_{0}$ influences the obtainable degree of salt
 rejection. 
 {
-We note that the small negative $\xi$ values (corresponding to reduced transport resistance) at $V_{\mathrm{G}} \sim{}$ -0.5 V
-may be caused by (i) the charge neutral point (CNP) of graphene is not exactly at $V_{\mathrm{G}}$ = 0, and (ii) experimental uncertainty.
+We note the small negative $\xi$ values (corresponding to reduced transport resistance) at $V_{\mathrm{G}} \sim{}$ -0.5 V
+likely caused by (i) offset of the charge neutral point (CNP) of graphene from $V_{\mathrm{G}}$ = 0, and (ii) experimental uncertainty.
 Nevetherless, significant salt rejection is observed when $V_{\mathrm{G}}>$ 0.5 V.
 }
 The $\xi$ values measured at $V_{\mathrm{G}}$ = 1.25 V,
@@ -379,7 +387,7 @@ to be 1.4$\times$10$^{11}$ \textit{e}$\cdot$cm$^{-2}$, corresponding
 to a work function difference of 48 meV from graphene's Dirac point
 (details see Supplementary Section \ref{SI-sec:charge-dens}), much
 smaller than the $\Delta \phi_{\mathrm{G}}$ induced by gating.
-Therefore we adapt the simplification that the charge neutrality point
+Therefore we adopt the simplification that the charge neutrality point
 of graphene coincides with the Dirac point at $V_{\mathrm{G}}$ =
 0. The elementary electronic properties of graphene give:
 \begin{equation}
@@ -389,12 +397,14 @@ of graphene coincides with the Dirac point at $V_{\mathrm{G}}$ =
 \end{equation}
 where $\hbar$ is the reduced Planck constant, and
 $v_{\mathrm{F}}=1.1\times10^{6}$ m$\cdot$s$^{-1}$ is the Fermi
-velocity of graphene (more details find Supplementary Section
-\ref{SI-sec:charge-dens}).  Note that the PG film fabricated
-experimentally is double-layer turbostratic (randomly aligned)
-graphene, in which we assume the
-$\Delta \phi_{\mathrm{G}} - \sigma_{\mathrm{G}}$ dependence follows
-Eq. \eqref{eq:delta-phiG}. The theory proposed here was solved
+velocity of graphene.  Note that the PG film fabricated experimentally
+is double-layer turbostratic (randomly aligned) graphene, in which we
+assume the $\Delta \phi_{\mathrm{G}} - \sigma_{\mathrm{G}}$ dependence
+follows Eq. \eqref{eq:delta-phiG}. The influence of polymer residue on
+the surface of graphene is not considered in the current theory due
+to: (i) insulating polymer residues do not respond to the gate voltage
+and (ii) the thickness of the polymer residue is minimal after the
+thermal annealing process. The theory proposed here was solved
 self-consistently by discretizing
 Eqs. \eqref{eq:pnp}-\eqref{eq:poisson} using the finite-element method
 (FEM), in which the graphene surface potential is coupled with
@@ -420,7 +430,7 @@ $V_{\mathrm{G}}$ considering the ionic diffusion through a single 20
 nm-diameter nanopore drilled on a sheet of semi-infinite double layer
 graphene that separates HCR containing KCl solution at $c_{0}$ = 0.1
 mM, and LCR at $c_{0}/10$ in axisymmetric coordinates (details see
-Supplementary Section \ref{SI-fig:scheme}). Indeed, the interplay
+Supplementary Section \ref{SI-sec:numer}). Indeed, the interplay
 between graphene quantum capacitance and the EDL significantly reduces
 the graphene surface potential $\psi_{\mathrm{G}}$ to $\sim$0.3 V at
 $V_{\mathrm{G}}$ = 1.25 V, corresponding a surface charge density

@@ -60,54 +60,6 @@
          offset="0"
          id="stop9485" />
     </linearGradient>
-    <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker9199"
-       style="overflow:visible;stroke-linecap:butt;stroke-linejoin:round"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path9197"
-         d="m 0,0 5,-5 -17.5,5 17.5,5 z"
-         style="fill:#362d2d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible;stroke-linecap:butt;stroke-linejoin:round"
-       id="marker9091"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Mend"
-       inkscape:collect="always">
-      <path
-         inkscape:connector-curvature="0"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-         d="m 0,0 5,-5 -17.5,5 17.5,5 z"
-         id="path9089" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker9019"
-       style="overflow:visible;stroke-linecap:butt;stroke-linejoin:round"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path9017"
-         d="m 0,0 5,-5 -17.5,5 17.5,5 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
     <clipPath
        style="stroke-linecap:butt;stroke-linejoin:round"
        id="p12338177fc-0">
@@ -5357,19 +5309,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="147.2871"
-     inkscape:cy="84.80144"
+     inkscape:zoom="0.64000001"
+     inkscape:cx="216.79838"
+     inkscape:cy="140.41087"
      inkscape:document-units="mm"
-     inkscape:current-layer="g7415"
+     inkscape:current-layer="figure_1-50"
      showgrid="false"
      inkscape:snap-nodes="true"
      fit-margin-left="0.3"
      fit-margin-top="0.5"
      fit-margin-right="0.3"
      fit-margin-bottom="0.5"
-     inkscape:window-width="2560"
-     inkscape:window-height="1309"
+     inkscape:window-width="1280"
+     inkscape:window-height="687"
      inkscape:window-x="0"
      inkscape:window-y="1"
      inkscape:window-maximized="1" />
@@ -5381,7 +5333,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5709,6 +5661,7 @@
 <tspan
    id="tspan9542"
    style="font-size:64.99999762%;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round">G</tspan>
+
  (V)</tspan>
                   </text>
                 </g>
@@ -9450,7 +9403,7 @@
         <g
            style="stroke-linecap:butt;stroke-linejoin:round"
            id="axes_2-4"
-           transform="translate(-2.1652194,4.3304388)">
+           transform="matrix(1.2475695,0,0,1.2475695,-43.768362,-25.960799)">
           <g
              style="stroke-linecap:butt;stroke-linejoin:round"
              id="matplotlib.axis_3-8" />
@@ -9538,7 +9491,7 @@
               <path
                  id="path20463"
                  style="fill:#ffffff;stroke:#ffffff;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:miter"
-                 d="m 164.96947,121.53984 v -0.43296 -109.973912 -0.432968 h 5.542 v 0.432968 109.973912 0.43296 z"
+                 d="M 164.96947,121.53984 V 121.10688 11.132968 10.7 h 5.542 v 0.432968 109.973912 0.43296 z"
                  clip-path="url(#pf68b8802f6-7)"
                  inkscape:connector-curvature="0" />
               <image
@@ -9557,7 +9510,7 @@
                    id="defs20469">
                   <path
                      inkscape:connector-curvature="0"
-                     d="m 0,0 h 3.5"
+                     d="M 0,0 H 3.5"
                      id="path7077"
                      style="stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:round" />
                 </defs>
@@ -9641,20 +9594,20 @@
               <path
                  id="path20517"
                  style="fill:none;stroke:#000000;stroke-width:0.85000002;stroke-linecap:butt;stroke-linejoin:miter"
-                 d="m 164.96947,121.53984 v -0.43296 -109.973912 -0.432968 h 5.542 v 0.432968 109.973912 0.43296 z"
+                 d="M 164.96947,121.53984 V 121.10688 11.132968 10.7 h 5.542 v 0.432968 109.973912 0.43296 z"
                  inkscape:connector-curvature="0" />
             </g>
           </g>
         </g>
         <text
            id="text23143"
-           y="64.009956"
-           x="165.63345"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.21739769px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54130483px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           y="48.493549"
+           x="165.57216"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.0042057px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.67531538px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             y="64.009956"
-             x="165.63345"
-             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.93913794px;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.54130483px;stroke-linecap:butt;stroke-linejoin:round"
+             y="48.493549"
+             x="165.57216"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.90462685px;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:0.67531538px;stroke-linecap:butt;stroke-linejoin:round"
              id="tspan23141"
              sodipodi:role="line">ξ</tspan></text>
       </g>
@@ -9701,17 +9654,17 @@
         </g>
       </g>
       <image
-         sodipodi:absref="/Users/tiantian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/./nano_TOC.png"
+         sodipodi:absref="/Users/ttian/polybox/Research/5-Graphene-nanopore/gr_nanopore_comsol/paper/img/./nano_TOC.png"
          xlink:href="./nano_TOC.png"
-         clip-path="url(#clipPath8723)"
-         transform="rotate(0.37425847,81.010615,-0.26458337)"
-         width="82.695457"
-         height="61.763168"
-         preserveAspectRatio="none"
-         style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
-         id="image8718"
+         y="-206.98228"
          x="-76.627716"
-         y="-206.98228" />
+         id="image8718"
+         style="stroke-linecap:butt;stroke-linejoin:round;image-rendering:optimizeQuality"
+         preserveAspectRatio="none"
+         height="61.763168"
+         width="82.695457"
+         transform="rotate(0.37425847,81.010615,-0.26458337)"
+         clip-path="url(#clipPath8723)" />
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m -67.297171,-179.26281 h -6.86966 v 40.12444 h 21.339799 v -10.16102"
@@ -9783,26 +9736,6 @@
            y="-157.91965">V<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:arial;-inkscape-font-specification:arial;baseline-shift:sub;stroke-linecap:butt;stroke-linejoin:round"
    id="tspan8979">G</tspan></tspan></text>
-      <g
-         id="g9354"
-         transform="translate(0.77514649,-1.1368816)"
-         style="stroke-linecap:butt;stroke-linejoin:round">
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9019)"
-           d="m -14.53232,-177.05546 v 16.07794"
-           id="path9015"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path9087"
-           d="m -12.151068,-177.05546 v 16.07794"
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9091)" />
-        <path
-           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9199)"
-           d="m -9.7698185,-177.05546 v 16.07794"
-           id="path9195"
-           inkscape:connector-curvature="0" />
-      </g>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:arial;-inkscape-font-specification:'arial Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#070707;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
@@ -9825,39 +9758,6 @@
            style="fill:#362d2d;fill-opacity:1;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round;"
            id="tspan9444"
            sodipodi:role="line">Low Concentration</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:arial;-inkscape-font-specification:'arial Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="-12.193711"
-         y="-156.30029"
-         id="text9450"><tspan
-           sodipodi:role="line"
-           id="tspan9448"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
-           x="-12.193711"
-           y="-156.30029">Ionic flux rejection</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:arial;-inkscape-font-specification:'arial Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="-31.048738"
-         y="-181.44035"
-         id="text9454"><tspan
-           sodipodi:role="line"
-           id="tspan9452"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
-           x="-31.048738"
-           y="-181.44035">Porous Graphene</tspan></text>
-      <text
-         id="text9458"
-         y="-154.51244"
-         x="-52.534702"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:arial;-inkscape-font-specification:'arial Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="-154.51244"
-           x="-52.534702"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:arial;-inkscape-font-specification:arial;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:round"
-           id="tspan9456"
-           sodipodi:role="line">PCTE Pore</tspan></text>
       <text
          id="text9462"
          y="-209.50363"

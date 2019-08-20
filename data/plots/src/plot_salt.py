@@ -142,9 +142,10 @@ z_n = numpy.array([1, 1, 1, 1, 2, 2, 3])
 I = (z_p ** 2 * c_p + z_n ** 2 * c_n) / 2.0
 eps = 78;
 LD = (eps * epsilon_0 * k * 300 / (2 * N_A * e ** 2 * I)) ** 0.5 / 1e-9
+print(LD)
 
 from scipy.stats import linregress
-regres = linregress(LD, [rect[s][1] for s in salts])
+regres = linregress(LD, [rect[s][-1] for s in salts])
 k = regres.slope; b = regres.intercept; r = regres.rvalue
 print(k, b, r)
 
@@ -152,13 +153,13 @@ plt.figure(figsize=(2.5, 2.5))
 # plt.plot(LD, [rect[s][0] for s in salts], "o", label="Exp", alpha=0.8)
 plt.errorbar(LD, [rect[s][0] for s in salts],  yerr=[rect[s][1] for s in salts], fmt="o", alpha=0.8, label="Exp")
 plt.plot(LD, [rect[s][-1] for s in salts], "D", label="FEM", alpha=0.8)
-# xx = numpy.linspace(3, 35)
-# yy = k * xx  + b
-# plt.plot(xx, yy, "--")
+xx = numpy.linspace(10, 35)
+yy = k * xx  + b
+plt.plot(xx, yy, "--")
 # plt.xscale("log")
 plt.xlabel("LD")
-plt.xlim(10, 33)
-plt.ylim(-0.1, 0.8)
+plt.xlim(12, 33)
+plt.ylim(-0.08, 0.8)
 plt.legend()
 plt.tight_layout()
 plt.savefig(os.path.join(plot_path, "rect_comparison.svg"))

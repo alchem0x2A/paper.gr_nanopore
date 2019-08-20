@@ -20,6 +20,10 @@
   <defs
      id="defs19458"
      style="stroke-linecap:butt;stroke-linejoin:round">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7978"
+       is_visible="true" />
     <style
        id="style20532"
        type="text/css">
@@ -6471,15 +6475,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.95195736"
-     inkscape:cx="600.10138"
-     inkscape:cy="346.99803"
+     inkscape:zoom="2.692542"
+     inkscape:cx="548.14824"
+     inkscape:cy="112.8732"
      inkscape:document-units="mm"
-     inkscape:current-layer="matplotlib.axis_1"
+     inkscape:current-layer="figure_1-95"
      showgrid="false"
-     inkscape:window-width="2080"
-     inkscape:window-height="1384"
-     inkscape:window-x="287"
+     inkscape:window-width="1152"
+     inkscape:window-height="612"
+     inkscape:window-x="4"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:measure-start="453.321,114.299"
@@ -11966,6 +11970,29 @@
                 </g>
               </g>
             </g>
+            <path
+               style="fill:none;stroke:#ff7900;stroke-width:0.77901837;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.88235295;stroke-miterlimit:4;stroke-dasharray:4.6741102, 1.55803672999999998;stroke-dashoffset:0"
+               d="M 25.477227,136.37152 169.29,13.286614"
+               id="path7976"
+               inkscape:connector-curvature="0"
+               inkscape:path-effect="#path-effect7978"
+               inkscape:original-d="M 25.477227,136.37152 169.29,13.286614"
+               sodipodi:nodetypes="cc" />
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:23.55603218px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5889008;stroke-linecap:butt;stroke-linejoin:round"
+               x="50.982727"
+               y="125.05782"
+               id="text7982"><tspan
+                 sodipodi:role="line"
+                 id="tspan7980"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.06680965px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.5889008;stroke-linecap:butt;stroke-linejoin:round"
+                 x="50.982727"
+                 y="125.05782"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan7984">R</tspan><tspan
+   style="font-size:64.99999762%;baseline-shift:super;stroke-linecap:butt;stroke-linejoin:round"
+   id="tspan7986">2 </tspan>= 0.99</tspan></text>
           </g>
         </g>
         <text
